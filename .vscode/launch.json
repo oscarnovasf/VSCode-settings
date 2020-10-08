@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "type": "Chrome",
+      "request": "launch",
+      "name": "Chrome [Local]",
+      "url": "http://localhost",
+      "webRoot": "${workspaceFolder}"
+    },
+
+    {
+      "name": "XDebug [Local]",
+      "type": "php",
+      "request": "launch",
+      "port": 9000,
+      "stopOnEntry": false,
+      "xdebugSettings": {
+        "max_children": 128,
+        "max_data": 1024,
+        "max_depth": 3,
+        "show_hidden": 1
+      },
+      "log": false,
+    },
+  ]
+}

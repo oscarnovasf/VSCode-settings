@@ -1,0 +1,140 @@
+{
+  /* CONFIGURACIONES GENERALES DEL EDITOR */
+  "css.validate": true,
+
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "editor.tabSize": 2,
+  "editor.autoIndent": "full",
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [80],
+
+  "explorer.openEditors.visible": 0,
+
+  "workbench.colorTheme": "Monokai Dimmed",
+
+  "files.associations": {
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php",
+    "*.twig": "html",
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+
+  /* SASS */
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.excludeList": [
+    ".vscode/**",
+    "css/**"
+  ],
+  "liveSassCompile.settings.showOutputWindow": false,
+
+  /* SVG */
+  "svgviewer.enableautopreview": true,
+
+  /* PHP Code Sniffer */
+  "phpcs.enable": true,
+  "phpcs.standard": "Drupal,DrupalPractice",
+
+  /* PHP Validation */
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+
+  /* PHP Intellisense */
+  "php.suggest.basic": false,
+
+  /* PHP DocBlocks */
+  "php-docblocker.gap": true,
+  "php-docblocker.useShortNames": true,
+  "php-docblocker.author": {
+    "name": "Óscar Novás",
+    "email": "hola@oscarnovas.com"
+  },
+
+  /* Empty Indent */
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  "emptyIndent.exclude": [
+    ".md"
+  ],
+
+  /* GIT */
+  "git.showPushSuccessNotification": true,
+  "git.autofetch": true,
+
+  /* TO-DO TREE */
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "foreground": "#008000",
+      "iconColour": "#008000"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "type": "line",
+      "foreground": "#FF0000",
+      "iconColour": "#FF0000"
+    },
+    "CHANGES": {
+      "icon": "info",
+      "type": "line",
+      "foreground": "#FFA500",
+      "iconColour": "#FFA500"
+    },
+    "INFO": {
+      "icon": "info",
+      "type": "line",
+      "foreground": "#FFFF00",
+      "iconColour": "#FFFF00"
+    }
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "CHANGES",
+    "INFO",
+  ]
+}

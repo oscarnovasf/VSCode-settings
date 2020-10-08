@@ -1,0 +1,122 @@
+{
+  "drupal_use_BubbleableMetadata": {
+    "scope": "php",
+    "prefix": "use_BubbleableMetadata",
+    "body": [
+      "use Drupal\\Core\\Render\\BubbleableMetadata;",
+      "$0"
+    ],
+    "description": "Añadir use para BubbleableMetadata"
+  },
+
+  "drupal_use_ConfigFormBase": {
+    "scope": "php",
+    "prefix": "use_ConfigFormBase",
+    "body": [
+      "use Drupal\\Core\\Form\\ConfigFormBase;",
+      "$0"
+    ],
+    "description": "Añadir use para ConfigFormBase"
+  },
+
+  "drupal_use_DrupalDateTime": {
+    "scope": "php",
+    "prefix": "use_DrupalDateTime",
+    "body": [
+      "use Drupal\\Core\\Datetime\\DrupalDateTime;",
+      "$0"
+    ],
+    "description": "Añadir use para DrupalDateTime"
+  },
+
+  "drupal_use_EntityInterface": {
+    "scope": "php",
+    "prefix": "use_EntityInterface",
+    "body": [
+      "use Drupal\\Core\\Entity\\EntityInterface;",
+      "$0"
+    ],
+    "description": "Añadir use para EntityInterface"
+  },
+
+  "drupal_use_FormBase": {
+    "scope": "php",
+    "prefix": "use_FormBase",
+    "body": [
+      "use Drupal\\Core\\Form\\FormBase;",
+      "$0"
+    ],
+    "description": "Añadir use para FormBase"
+  },
+
+  "drupal_use_FormStateInterface": {
+    "scope": "php",
+    "prefix": "use_FormStateInterface",
+    "body": [
+      "use Drupal\\Core\\Form\\FormStateInterface;",
+      "$0"
+    ],
+    "description": "Añadir use para FormStateInterface"
+  },
+
+  "drupal_use_Markup": {
+    "scope": "php",
+    "prefix": "use_Markup",
+    "body": [
+      "use Drupal\\Core\\Render\\Markup;",
+      "$0"
+    ],
+    "description": "Añadir use para Markup"
+  },
+
+  "drupal_use_Node": {
+    "scope": "php",
+    "prefix": "use_Node",
+    "body": [
+      "use Drupal\\node\\Entity\\Node;",
+      "$0"
+    ],
+    "description": "Añadir use para Node"
+  },
+
+  "drupal_use_RedirectResponse": {
+    "scope": "php",
+    "prefix": "use_RedirectResponse",
+    "body": [
+      "use Symfony\\Component\\HttpFoundation\\RedirectResponse;",
+      "$0"
+    ],
+    "description": "Añadir use para RedirectResponse"
+  },
+
+  "drupal_use_RouteMatchInterface": {
+    "scope": "php",
+    "prefix": "use_RouteMatchInterface",
+    "body": [
+      "use Drupal\\Core\\Routing\\RouteMatchInterface;",
+      "$0"
+    ],
+    "description": "Añadir use para RouteMatchInterface"
+  },
+
+  "drupal_use_User": {
+    "scope": "php",
+    "prefix": "use_User",
+    "body": [
+      "use Drupal\\user\\Entity\\User;",
+      "$0"
+    ],
+    "description": "Añadir use para User"
+  },
+
+  "drupal_use_Url": {
+    "scope": "php",
+    "prefix": "use_Url",
+    "body": [
+      "use Drupal\\Core\\Url;",
+      "$0"
+    ],
+    "description": "Añadir use para Url"
+  },
+
+}

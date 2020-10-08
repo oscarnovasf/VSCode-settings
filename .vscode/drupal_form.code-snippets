@@ -1,0 +1,170 @@
+{
+  "drupal_form_checkbox": {
+    "scope": "php",
+    "prefix": "form_type_checkbox",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'checkbox',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Checkbox"
+  },
+
+  "drupal_form_details": {
+    "scope": "php",
+    "prefix": "form_type_details",
+    "body": [
+      "$$form['${1:details}'] = [",
+      "\t'#type' => 'textfield',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#description' => '${3:default}',",
+      "\t'#open' => ${4|TRUE,FALSE|},",
+      "\t'#group' => ${5:group_name},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Details"
+  },
+
+  "drupal_form_email": {
+    "scope": "php",
+    "prefix": "form_type_email",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'email',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Email"
+  },
+
+  "drupal_form_number": {
+    "scope": "php",
+    "prefix": "form_type_number",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'number',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#attributes' => [",
+      "\t\t'min' => ${4:number},",
+      "\t\t'max' => ${5:number},",
+      "\t\t'step' => ${6:1},",
+      "\t],",
+      "\t'#step' => ${6:1},",
+      "\t'#scale' => ${7:number},",
+      "\t'#required' => ${8|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Number"
+  },
+
+  "drupal_form_radios": {
+    "scope": "php",
+    "prefix": "form_type_radios",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'radios',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#options' => [${5:array}]",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Radios"
+  },
+
+  "drupal_form_select": {
+    "scope": "php",
+    "prefix": "form_type_select",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'select',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#options' => [${5:array}]",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Select"
+  },
+
+  "drupal_form_tel": {
+    "scope": "php",
+    "prefix": "form_type_tel",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'tel',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Telephone"
+  },
+
+  "drupal_form_textfield": {
+    "scope": "php",
+    "prefix": "form_type_textfield",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'textfield',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi TextField"
+  },
+
+  "drupal_form_textformat": {
+    "scope": "php",
+    "prefix": "form_type_textformat",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'text_format',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#format' => '${3:full_html}',",
+      "\t'#default_value' => '${4:default}',",
+      "\t'#required' => ${5|TRUE,FALSE|},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi TextFormat"
+  },
+
+  "drupal_form_vertical_tabs": {
+    "scope": "php",
+    "prefix": "form_type_vertical_tabs",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'vertical_tabs',",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "Drupal 8|9: FormApi Vertical Tabs"
+  }
+
+}
