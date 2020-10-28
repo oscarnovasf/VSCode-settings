@@ -4,7 +4,7 @@
     "prefix": "use_BubbleableMetadata",
     "body": [
       "use Drupal\\Core\\Render\\BubbleableMetadata;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para BubbleableMetadata"
   },
@@ -14,7 +14,7 @@
     "prefix": "use_ConfigFormBase",
     "body": [
       "use Drupal\\Core\\Form\\ConfigFormBase;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para ConfigFormBase"
   },
@@ -24,7 +24,7 @@
     "prefix": "use_DrupalDateTime",
     "body": [
       "use Drupal\\Core\\Datetime\\DrupalDateTime;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para DrupalDateTime"
   },
@@ -34,7 +34,7 @@
     "prefix": "use_EntityInterface",
     "body": [
       "use Drupal\\Core\\Entity\\EntityInterface;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para EntityInterface"
   },
@@ -44,7 +44,7 @@
     "prefix": "use_FormBase",
     "body": [
       "use Drupal\\Core\\Form\\FormBase;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para FormBase"
   },
@@ -54,7 +54,7 @@
     "prefix": "use_FormStateInterface",
     "body": [
       "use Drupal\\Core\\Form\\FormStateInterface;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para FormStateInterface"
   },
@@ -64,7 +64,7 @@
     "prefix": "use_Markup",
     "body": [
       "use Drupal\\Core\\Render\\Markup;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para Markup"
   },
@@ -74,9 +74,19 @@
     "prefix": "use_Node",
     "body": [
       "use Drupal\\node\\Entity\\Node;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para Node"
+  },
+
+  "drupal_use_Paragraph": {
+    "scope": "php",
+    "prefix": "use_Paragraph",
+    "body": [
+      "use Drupal\\paragraphs\\Entity\\Paragraph;",
+      "$0",
+    ],
+    "description": "Añadir use para Paragraph"
   },
 
   "drupal_use_RedirectResponse": {
@@ -84,7 +94,7 @@
     "prefix": "use_RedirectResponse",
     "body": [
       "use Symfony\\Component\\HttpFoundation\\RedirectResponse;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para RedirectResponse"
   },
@@ -94,9 +104,19 @@
     "prefix": "use_RouteMatchInterface",
     "body": [
       "use Drupal\\Core\\Routing\\RouteMatchInterface;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para RouteMatchInterface"
+  },
+
+  "drupal_use_Term": {
+    "scope": "php",
+    "prefix": "use_Term",
+    "body": [
+      "use Drupal\\taxonomy\\Entity\\Term;",
+      "$0",
+    ],
+    "description": "Añadir use para Term"
   },
 
   "drupal_use_User": {
@@ -104,7 +124,7 @@
     "prefix": "use_User",
     "body": [
       "use Drupal\\user\\Entity\\User;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para User"
   },
@@ -114,7 +134,7 @@
     "prefix": "use_Url",
     "body": [
       "use Drupal\\Core\\Url;",
-      "$0"
+      "$0",
     ],
     "description": "Añadir use para Url"
   },

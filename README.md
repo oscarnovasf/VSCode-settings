@@ -17,6 +17,7 @@ Archivos de configuración para VSCode
 
   * [Bootstrap v4 Snippets](https://marketplace.visualstudio.com/items?itemName=Zaczero.bootstrap-v4-snippets)
   * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+  * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * [Drupal 8 Snippets](https://marketplace.visualstudio.com/items?itemName=dssiqueira.drupal-8-snippets)
   * [Drupal 8 Twig Snippets](https://marketplace.visualstudio.com/items?itemName=tsega.drupal-8-twig-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
@@ -51,7 +52,7 @@ Archivos de configuración para VSCode
     "atajos" que facilitan la programación en Drupal 8.
 
 ## Autor(es)
-- Óscar Novás - [OscarNovas.com](https://oscarnovas.com)
+- Óscar Novás - [OscarNovas.com][mi-web]
 
 ## Créditos
 Aquí puedes comprobar la lista de [contribuyentes][contributors]
@@ -62,16 +63,18 @@ Aquí puedes comprobar la lista de [cambios][changelog] efectuados hasta el
 momento.
 
 ---
-⌨️ con ❤️ por [Óscar Novás](https://oscarnovas.com) 😊
+⌨️ con ❤️ por [Óscar Novás][mi-web] 😊
 
-[version]: v0.0.1
-[version-badge]: https://img.shields.io/badge/version-0.0.1-blue.svg
+[mi-web]: https://oscarnovas.com "for developers"
+
+[version]: v0.0.2
+[version-badge]: https://img.shields.io/badge/version-0.0.2-blue.svg
 
 [license]: LICENSE.md
-[license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config
+[license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
 
-[changelog]: CHANGELOG.md
-[contributors]: https://github.com/oscarnovasf/vscode_config/contributors
+[changelog]: CHANGELOG.md "Histórico de cambios"
+[contributors]: https://github.com/oscarnovasf/vscode_config/contributors "Ver contribuyentes"
 
 [donate-badge]: https://img.shields.io/badge/Donate-PayPal-green.svg
-[donate-url]: https://paypal.me/oscarnovasf
+[donate-url]: https://paypal.me/oscarnovasf "Haz una donación"

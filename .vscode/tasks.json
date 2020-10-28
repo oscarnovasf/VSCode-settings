@@ -12,6 +12,16 @@
       "label": "Descargar develop",
       "type": "shell",
       "command": "git pull origin develop"
-    }
+    },
+    {
+      "label": "Docker-Compose (UP)",
+      "type": "shell",
+      "command": "docker-compose up"
+    },
+    {
+      "label": "Docker-Compose (STOP)",
+      "type": "shell",
+      "command": "docker-compose stop"
+    },
   ]
 }

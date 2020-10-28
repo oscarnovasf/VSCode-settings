@@ -8,11 +8,27 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Checkbox"
+  },
+
+  "drupal_form_date": {
+    "scope": "php",
+    "prefix": "form_type_date",
+    "body": [
+      "$$form['${1:details}'] = [",
+      "\t'#type' => 'date',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#description' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
+    ],
+    "description": "Drupal 8|9: FormApi Date"
   },
 
   "drupal_form_details": {
@@ -25,9 +41,8 @@
       "\t'#description' => '${3:default}',",
       "\t'#open' => ${4|TRUE,FALSE|},",
       "\t'#group' => ${5:group_name},",
-      "}",
-      "",
-      "$0"
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Details"
   },
@@ -41,9 +56,9 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Email"
   },
@@ -64,9 +79,9 @@
       "\t'#step' => ${6:1},",
       "\t'#scale' => ${7:number},",
       "\t'#required' => ${8|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${9|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Number"
   },
@@ -80,10 +95,10 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "\t'#options' => [${5:array}]",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "\t'#options' => [${6:array}],",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Radios"
   },
@@ -97,10 +112,10 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "\t'#options' => [${5:array}]",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "\t'#options' => [${6:array}],",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Select"
   },
@@ -114,9 +129,9 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Telephone"
   },
@@ -130,9 +145,9 @@
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#default_value' => '${3:default}',",
       "\t'#required' => ${4|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi TextField"
   },
@@ -147,9 +162,9 @@
       "\t'#format' => '${3:full_html}',",
       "\t'#default_value' => '${4:default}',",
       "\t'#required' => ${5|TRUE,FALSE|},",
-      "}",
-      "",
-      "$0"
+      "\t'#access' => ${6|TRUE,FALSE|},",
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi TextFormat"
   },
@@ -160,9 +175,8 @@
     "body": [
       "$$form['${1:textfield}'] = [",
       "\t'#type' => 'vertical_tabs',",
-      "}",
-      "",
-      "$0"
+      "];",
+      "$0",
     ],
     "description": "Drupal 8|9: FormApi Vertical Tabs"
   }
