@@ -48,8 +48,7 @@ Archivos de configuración para VSCode
     que se conecten con tus servidores.
   * En el *settings.json* deberás cambiar el nombre y correo en el apartado de
     configuración del ***PHP DocBlocks***.
-  * Se incluyen algunos archivos con extensión *.code-snippets* con algunos
-    "atajos" que facilitan la programación en Drupal 8.
+  * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
 
 ## Autor(es)
 - Óscar Novás - [OscarNovas.com][mi-web]
@@ -67,8 +66,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.0.2
-[version-badge]: https://img.shields.io/badge/version-0.0.2-blue.svg
+[version]: v0.0.3
+[version-badge]: https://img.shields.io/badge/version-0.0.3-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

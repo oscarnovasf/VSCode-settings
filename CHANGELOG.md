@@ -1,6 +1,16 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.0.3] - 2020-11-09
+> Revisión
+### Añadidos
+* Archivo ***phpcs.xml** con algunas excepciones para la codificación en
+  Drupal que a mí me son de utilidad.
+
+### Cambios
+* Se han ampliado algunos valores de los snippets de formulario.
+* Añadidos varios servidores para el módulo sftp.
+
 ## [v0.0.2] - 2020-10-28
 > Revisión
 ### Añadidos

@@ -36,11 +36,11 @@
     "prefix": "form_type_details",
     "body": [
       "$$form['${1:details}'] = [",
-      "\t'#type' => 'textfield',",
+      "\t'#type' => 'details',",
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#description' => '${3:default}',",
       "\t'#open' => ${4|TRUE,FALSE|},",
-      "\t'#group' => ${5:group_name},",
+      "\t'#group' => '${5:group_name}',",
       "];",
       "$0",
     ],
@@ -61,6 +61,21 @@
       "$0",
     ],
     "description": "Drupal 8|9: FormApi Email"
+  },
+
+  "drupal_form_fieldset": {
+    "scope": "php",
+    "prefix": "form_type_fieldset",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'fieldset',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#collapsible' => ${3|TRUE,FALSE|},",
+      "\t'#collapsed' => ${4|TRUE,FALSE|},",
+      "];",
+      "$0",
+    ],
+    "description": "Drupal 8|9: FormApi FieldSet"
   },
 
   "drupal_form_number": {
@@ -84,6 +99,22 @@
       "$0",
     ],
     "description": "Drupal 8|9: FormApi Number"
+  },
+
+  "drupal_form_password": {
+    "scope": "php",
+    "prefix": "form_type_password",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'password',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];",
+      "$0",
+    ],
+    "description": "Drupal 8|9: FormApi Password"
   },
 
   "drupal_form_radios": {
@@ -114,6 +145,8 @@
       "\t'#required' => ${4|TRUE,FALSE|},",
       "\t'#access' => ${5|TRUE,FALSE|},",
       "\t'#options' => [${6:array}],",
+      "\t'#empty_option' => $$this->t('${7:-- None --}'),",
+      "\t'#empty_value' => [${8:_none}],",
       "];",
       "$0",
     ],
@@ -134,6 +167,24 @@
       "$0",
     ],
     "description": "Drupal 8|9: FormApi Telephone"
+  },
+
+  "drupal_form_textarea": {
+    "scope": "php",
+    "prefix": "form_type_tel",
+    "body": [
+      "$$form['${1:textfield}'] = [",
+      "\t'#type' => 'textarea',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#rows' => '${4:4}',",
+      "\t'#cols' => '${5:25}',",
+      "\t'#required' => ${6|TRUE,FALSE|},",
+      "\t'#access' => ${7|TRUE,FALSE|},",
+      "];",
+      "$0",
+    ],
+    "description": "Drupal 8|9: FormApi Textarea"
   },
 
   "drupal_form_textfield": {
