@@ -66,8 +66,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.0.3
-[version-badge]: https://img.shields.io/badge/version-0.0.3-blue.svg
+[version]: v0.0.4
+[version-badge]: https://img.shields.io/badge/version-0.0.4-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
