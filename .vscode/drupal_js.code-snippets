@@ -1,0 +1,44 @@
+{
+  "Drupal: jQuery Wrapper": {
+    "scope": "javascript",
+    "prefix": "js_wrapper",
+    "body": [
+      "(function ($, Drupal, drupalSettings) {",
+      "\t$0",
+      "}(jQuery, Drupal, drupalSettings));"
+    ],
+    "description": "Añade el cuerpo del JS sin el behavior."
+  },
+
+  "Drupal Behavior": {
+    "scope": "javascript",
+    "prefix": "js_bhv",
+    "body": [
+      "Drupal.behaviors.${1:behaviorName} = {",
+      "\tattach: function (context, settings) {",
+      "\t\t$0",
+      "\t}",
+      "};"
+    ],
+    "description": "Añadir Drupal JS behavior."
+  },
+
+  "Drupal: jQuery Wrapper y Behavior": {
+    "scope": "javascript",
+    "prefix": "js_wrapper_bhv",
+    "body": [
+      "(function ($, Drupal, drupalSettings) {",
+      "",
+      "\t'use strict';",
+      "",
+      "\tDrupal.behaviors.${1:behaviorName} = {",
+      "\t\tattach: function (context, settings) {",
+      "\t\t\t$0",
+      "\t\t}",
+      "\t};",
+      "}(jQuery, Drupal, drupalSettings));"
+    ],
+    "description": "Añade el cuerpo del JS con el behavior."
+  }
+
+}

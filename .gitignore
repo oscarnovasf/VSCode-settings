@@ -1,1 +1,10 @@
+# Eliminar estos comentarios para que git ignore los archivos con contraseñas
+# de nuestros servidores FTP.
+
+# .vscode/sftp.json
+
+# Archivos de desarrollo
+node_modules/*
+
+# Archivos propios de VSCode.
 debug.log

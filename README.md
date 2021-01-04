@@ -24,8 +24,10 @@ Archivos de configuración para VSCode
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+  * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+  * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
@@ -34,12 +36,14 @@ Archivos de configuración para VSCode
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
   * [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
+  * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
+  * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) (opcional)
 
 * ### Instalación manual
 
@@ -49,6 +53,13 @@ Archivos de configuración para VSCode
   * En el *settings.json* deberás cambiar el nombre y correo en el apartado de
     configuración del ***PHP DocBlocks***.
   * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
+  * Copiar los archivos ***.gitignore*** y ***.gitattributes*** en la carpeta
+    raíz de tu proyecto.
+  * Eliminar los comentarios del archivo .gitignore.
+
+* ### Instalación de PHPCs
+
+  >Para instalar PHPCs puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/usar-la-guia-de-estilo-de-drupal-con-phpcs-y-visual-code)
 
 ## Autor(es)
 - Óscar Novás - [OscarNovas.com][mi-web]
@@ -66,8 +77,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.0.4
-[version-badge]: https://img.shields.io/badge/version-0.0.4-blue.svg
+[version]: v0.1.0
+[version-badge]: https://img.shields.io/badge/version-0.1.0-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

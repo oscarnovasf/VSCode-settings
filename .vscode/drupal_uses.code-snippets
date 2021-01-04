@@ -3,8 +3,7 @@
     "scope": "php",
     "prefix": "use_BubbleableMetadata",
     "body": [
-      "use Drupal\\Core\\Render\\BubbleableMetadata;",
-      "$0",
+      "use Drupal\\Core\\Render\\BubbleableMetadata;$0",
     ],
     "description": "Añadir use para BubbleableMetadata"
   },
@@ -13,18 +12,25 @@
     "scope": "php",
     "prefix": "use_ConfigFormBase",
     "body": [
-      "use Drupal\\Core\\Form\\ConfigFormBase;",
-      "$0",
+      "use Drupal\\Core\\Form\\ConfigFormBase;$0",
     ],
     "description": "Añadir use para ConfigFormBase"
+  },
+
+  "drupal_use_ContainerInterface": {
+    "scope": "php",
+    "prefix": "use_ContainerInterface",
+    "body": [
+      "use Symfony\\Component\\DependencyInjection\\ContainerInterface;$0",
+    ],
+    "description": "Añadir use para ContainerInterface"
   },
 
   "drupal_use_DrupalDateTime": {
     "scope": "php",
     "prefix": "use_DrupalDateTime",
     "body": [
-      "use Drupal\\Core\\Datetime\\DrupalDateTime;",
-      "$0",
+      "use Drupal\\Core\\Datetime\\DrupalDateTime;$0",
     ],
     "description": "Añadir use para DrupalDateTime"
   },
@@ -33,8 +39,7 @@
     "scope": "php",
     "prefix": "use_EntityInterface",
     "body": [
-      "use Drupal\\Core\\Entity\\EntityInterface;",
-      "$0",
+      "use Drupal\\Core\\Entity\\EntityInterface;$0",
     ],
     "description": "Añadir use para EntityInterface"
   },
@@ -43,8 +48,7 @@
     "scope": "php",
     "prefix": "use_FormBase",
     "body": [
-      "use Drupal\\Core\\Form\\FormBase;",
-      "$0",
+      "use Drupal\\Core\\Form\\FormBase;$0",
     ],
     "description": "Añadir use para FormBase"
   },
@@ -53,8 +57,7 @@
     "scope": "php",
     "prefix": "use_FormStateInterface",
     "body": [
-      "use Drupal\\Core\\Form\\FormStateInterface;",
-      "$0",
+      "use Drupal\\Core\\Form\\FormStateInterface;$0",
     ],
     "description": "Añadir use para FormStateInterface"
   },
@@ -63,8 +66,7 @@
     "scope": "php",
     "prefix": "use_Markup",
     "body": [
-      "use Drupal\\Core\\Render\\Markup;",
-      "$0",
+      "use Drupal\\Core\\Render\\Markup;$0",
     ],
     "description": "Añadir use para Markup"
   },
@@ -73,8 +75,7 @@
     "scope": "php",
     "prefix": "use_Node",
     "body": [
-      "use Drupal\\node\\Entity\\Node;",
-      "$0",
+      "use Drupal\\node\\Entity\\Node;$0",
     ],
     "description": "Añadir use para Node"
   },
@@ -83,8 +84,7 @@
     "scope": "php",
     "prefix": "use_Paragraph",
     "body": [
-      "use Drupal\\paragraphs\\Entity\\Paragraph;",
-      "$0",
+      "use Drupal\\paragraphs\\Entity\\Paragraph;$0",
     ],
     "description": "Añadir use para Paragraph"
   },
@@ -93,8 +93,7 @@
     "scope": "php",
     "prefix": "use_RedirectResponse",
     "body": [
-      "use Symfony\\Component\\HttpFoundation\\RedirectResponse;",
-      "$0",
+      "use Symfony\\Component\\HttpFoundation\\RedirectResponse;$0",
     ],
     "description": "Añadir use para RedirectResponse"
   },
@@ -103,18 +102,25 @@
     "scope": "php",
     "prefix": "use_RouteMatchInterface",
     "body": [
-      "use Drupal\\Core\\Routing\\RouteMatchInterface;",
-      "$0",
+      "use Drupal\\Core\\Routing\\RouteMatchInterface;$0",
     ],
     "description": "Añadir use para RouteMatchInterface"
+  },
+
+  "drupal_use_StringTranslationTrait": {
+    "scope": "php",
+    "prefix": "use_StringTranslationTrait",
+    "body": [
+      "use Drupal\\Core\\StringTranslation\\StringTranslationTrait;$0",
+    ],
+    "description": "Añadir use para StringTranslationTrait"
   },
 
   "drupal_use_Term": {
     "scope": "php",
     "prefix": "use_Term",
     "body": [
-      "use Drupal\\taxonomy\\Entity\\Term;",
-      "$0",
+      "use Drupal\\taxonomy\\Entity\\Term;$0",
     ],
     "description": "Añadir use para Term"
   },
@@ -123,8 +129,7 @@
     "scope": "php",
     "prefix": "use_User",
     "body": [
-      "use Drupal\\user\\Entity\\User;",
-      "$0",
+      "use Drupal\\user\\Entity\\User;$0",
     ],
     "description": "Añadir use para User"
   },
@@ -133,8 +138,7 @@
     "scope": "php",
     "prefix": "use_Url",
     "body": [
-      "use Drupal\\Core\\Url;",
-      "$0",
+      "use Drupal\\Core\\Url;$0",
     ],
     "description": "Añadir use para Url"
   },
