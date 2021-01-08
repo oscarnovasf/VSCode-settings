@@ -14,6 +14,22 @@
     "description": "Drupal 8|9: FormApi Checkbox"
   },
 
+  "drupal_form_container": {
+    "scope": "php",
+    "prefix": "form_type_container",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'container',",
+      "\t'#prefix' => $$this->t('${2:prefix}'),",
+      "\t'#suffix' => '${3:suffix}',",
+      "\t'#attributes' => [",
+      "\t\t'class' => [${4:container}],",
+      "\t]",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Container"
+  },
+
   "drupal_form_date": {
     "scope": "php",
     "prefix": "form_type_date",
@@ -71,6 +87,17 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi FieldSet"
+  },
+
+  "drupal_form_markup": {
+    "scope": "php",
+    "prefix": "form_type_markup",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#markup' => '${2:prefix}',",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Markup"
   },
 
   "drupal_form_number": {
@@ -161,7 +188,7 @@
 
   "drupal_form_textarea": {
     "scope": "php",
-    "prefix": "form_type_tel",
+    "prefix": "form_type_textarea",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'textarea',",

@@ -3,25 +3,228 @@
   // for the documentation about the tasks.json format
   "version": "2.0.0",
   "tasks": [
+
+    /* *************************************************************************
+     * TAREAS PARA ACTUALIZAR LOS SNIPPETS.
+     **************************************************************************/
+
     {
-      "label": "Descargar master",
+      "label": "Actualizar snippets (Formularios)",
       "type": "shell",
-      "command": "git pull origin master"
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_form.code-snippets -o .vscode/drupal_form.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
     },
+
     {
-      "label": "Descargar develop",
+      "label": "Actualizar snippets (JavaScript)",
       "type": "shell",
-      "command": "git pull origin develop"
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_js.code-snippets -o .vscode/drupal_js.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
     },
+
+    {
+      "label": "Actualizar snippets (Uses)",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_uses.code-snippets -o .vscode/drupal_uses.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar TODOS los snippets",
+      "type": "shell",
+      "command": "ls -l .vscode",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+      "dependsOn": [
+        "Actualizar snippets (Formularios)",
+        "Actualizar snippets (JavaScript)",
+        "Actualizar snippets (Uses)",
+      ]
+    },
+
+    /* *************************************************************************
+     * TAREAS PARA ACTUALIZAR LA CONFIGURACIÓN.
+     **************************************************************************/
+
+    {
+      "label": "Actualizar launch.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/launch.json -o .vscode/launch.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar settings.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/settings.json -o .vscode/settings.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar tasks.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar phpcs.xml",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpcs.xml -o phpcs.xml",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar TODAS las configuraciones",
+      "dependsOn": [
+        "Actualizar launch.json",
+        "Actualizar settings.json",
+        "Actualizar tasks.json",
+        "Actualizar phpcs.xml",
+      ]
+    },
+
+    /* *************************************************************************
+     * TAREAS PARA ACTUALIZAR / DESCARGAR LIBRERÍAS.
+     **************************************************************************/
+
+    {
+      "label": "Descargar FileFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o src/lib/general/FileFunctions.php && grep -l module_template src/lib/general/FileFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Descargar FtpFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FtpFunctions.php -o src/lib/general/FtpFunctions.php && grep -l module_template src/lib/general/FtpFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Descargar ParamsFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ParamsFunctions.php -o src/lib/general/ParamsFunctions.php && grep -l module_template src/lib/general/ParamsFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Descargar ResponseFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ResponseFunctions.php -o src/lib/general/ResponseFunctions.php && grep -l module_template src/lib/general/ResponseFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Descargar StringFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/StringFunctions.php -o src/lib/general/StringFunctions.php && grep -l module_template src/lib/general/StringFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Descargar ValidateFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ValidateFunctions.php -o src/lib/general/ValidateFunctions.php && grep -l module_template src/lib/general/ValidateFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    /* *************************************************************************
+     * TAREAS PARA DOCKER COMPOSE.
+     **************************************************************************/
+
     {
       "label": "Docker-Compose (UP)",
       "type": "shell",
-      "command": "docker-compose up"
+      "command": "docker-compose up",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "docker-compose",
+        "clear": true
+      },
     },
+
     {
       "label": "Docker-Compose (STOP)",
       "type": "shell",
-      "command": "docker-compose stop"
+      "command": "docker-compose stop",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "docker-compose",
+        "clear": true
+      }
     },
   ]
 }

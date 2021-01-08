@@ -4,7 +4,7 @@
 # .vscode/sftp.json
 
 # Archivos de desarrollo
-node_modules/*
+/node_modules
 
 # Archivos propios de VSCode.
 debug.log

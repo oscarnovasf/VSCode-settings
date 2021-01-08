@@ -1,0 +1,19 @@
+{
+  "name": "module_template_name",
+  "version": "0.0.0",
+  "description": "",
+  "main": "module_template.info.yml",
+  "scripts": {
+    "Release (github)": "standard-version && git push --follow-tags origin master",
+    "Release (local)": "standard-version"
+  },
+  "keywords": [
+    "Drupal",
+    "Standard version"
+  ],
+  "author": "Óscar Novás",
+  "license": "GNU",
+  "devDependencies": {
+    "standard-version": "^9.1.0"
+  }
+}

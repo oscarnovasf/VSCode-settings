@@ -1,6 +1,24 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.1.1] - 2021-01-08
+> Revisión
+### Añadidos
+* Nuevas tareas en ***tasks.json*** para descargar o actualizar la configuración
+  desde GitHub.
+* Nuevas tareas en ***tasks.json*** para descargar o actualizar mis librerías
+  desde GitHub.
+* Nuevos snippets en ***drupal_form.code-snippets***.
+* Nuevas exclusiones en el archivo ***sftp.json***.
+* Añadido ***package.json** para usar standard-version.
+
+### Corrección de errores
+* Problema de duplicado en los snippets de formularios.
+
+### Eliminados
+* Se han quitado las tareas de git por no ser necesarias en VSCode.
+
+---
 ## [v0.1.0] - 2021-01-04
 > Revisión
 ### Añadidos
