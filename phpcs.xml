@@ -9,6 +9,9 @@
   <exclude-pattern>*/config/*</exclude-pattern>
   <exclude-pattern>*/css/*</exclude-pattern>
   <exclude-pattern>*/js/*</exclude-pattern>
+  <exclude-pattern>*/node_modules/*</exclude-pattern>
+  <exclude-pattern>*/documentation/*</exclude-pattern>
+  <exclude-pattern>*/.tmp-doc/*</exclude-pattern>
   <exclude-pattern>README.md</exclude-pattern>
   <exclude-pattern>LICENSE.md</exclude-pattern>
   <exclude-pattern>CHANGELOG.md</exclude-pattern>

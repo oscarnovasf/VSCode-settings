@@ -87,6 +87,7 @@
   /* PHP DocBlocks */
   "php-docblocker.gap": true,
   "php-docblocker.useShortNames": true,
+  "php-docblocker.returnVoid" : false,
   "php-docblocker.author": {
     "name": "Óscar Novás",
     "email": "hola@oscarnovas.com"
@@ -105,6 +106,8 @@
   "git.autofetch": true,
 
   /* TO-DO TREE */
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.tree.showScanModeButton": false,
   "todo-tree.highlights.customHighlight": {
     "TODO": {
       "icon": "check",

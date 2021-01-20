@@ -3,8 +3,12 @@
 
 # .vscode/sftp.json
 
-# Archivos de desarrollo
-/node_modules
+# Archivos de desarrollo.
+node_modules
 
 # Archivos propios de VSCode.
 debug.log
+
+# Archivos de documentación (phpdox).
+.tmp-doc
+documentation

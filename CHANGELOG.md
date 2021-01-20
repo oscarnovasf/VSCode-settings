@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.2.0] - 2021-01-20
+> Revisión
+### Añadidos
+* Nuevos snippets en ***drupal_form.code-snippets***.
+* Configuración para generar documentación técnica (**phpdox** y **phploc**).
+
+### Cambios
+* Ampliación de módulos importantes y mejora de la configuración para XDebug.
+* Mejora en la configuración de PHP DocBlocker.
+
+---
 ## [v0.1.1] - 2021-01-08
 > Revisión
 ### Añadidos

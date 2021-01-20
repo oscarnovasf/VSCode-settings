@@ -171,6 +171,23 @@
     "description": "Drupal 8|9: FormApi Select"
   },
 
+  "drupal_form_submit": {
+    "scope": "php",
+    "prefix": "form_type_submit",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'submit',",
+      "\t'#value' => $$this->t('${2:title}'),",
+      "\t'#attributes' => [",
+      "\t\t'class' => [",
+      "\t\t\t'btn-primary,'",
+      "\t\t]",
+      "\t],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Submit"
+  },
+
   "drupal_form_tel": {
     "scope": "php",
     "prefix": "form_type_tel",

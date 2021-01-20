@@ -114,12 +114,25 @@
     },
 
     {
+      "label": "Actualizar phpdox.xml",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpdox.xml -o phpdox.xml && grep -l module_template phpdox.xml|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
       "label": "Actualizar TODAS las configuraciones",
       "dependsOn": [
         "Actualizar launch.json",
         "Actualizar settings.json",
         "Actualizar tasks.json",
         "Actualizar phpcs.xml",
+        "Actualizar phpdox.xml"
       ]
     },
 
