@@ -1,0 +1,13 @@
+{
+  "types": [
+    {"type": "feat", "section": "Nueva funcionalidad"},
+    {"type": "fix", "section": "Reparación de errores"},
+    {"type": "chore", "hidden": true},
+    {"type": "docs", "hidden": true},
+    {"type": "style", "hidden": true},
+    {"type": "refactor", "hidden": true},
+    {"type": "perf", "hidden": true},
+    {"type": "test", "hidden": true}
+  ],
+  "header": "# Histórico de cambios\n>Todos los cambios notables de este proyecto se documentarán en este archivo.\n"
+}

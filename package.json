@@ -4,12 +4,16 @@
   "description": "",
   "main": "module_template.info.yml",
   "scripts": {
-    "Release (github)": "standard-version && git push --follow-tags origin master",
-    "Release (local)": "standard-version"
+    "release:github": "standard-version && git push --follow-tags origin master",
+    "release:local": "standard-version"
   },
   "keywords": [
     "Drupal",
-    "Standard version"
+    "phpdox",
+    "phpcs",
+    "phploc",
+    "sftp",
+    "standard-version"
   ],
   "author": "Óscar Novás",
   "license": "GNU",

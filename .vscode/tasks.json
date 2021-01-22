@@ -126,13 +126,26 @@
     },
 
     {
+      "label": "Actualizar .versionrc",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
       "label": "Actualizar TODAS las configuraciones",
       "dependsOn": [
         "Actualizar launch.json",
         "Actualizar settings.json",
         "Actualizar tasks.json",
         "Actualizar phpcs.xml",
-        "Actualizar phpdox.xml"
+        "Actualizar phpdox.xml",
+        "Actualizar .versionrc"
       ]
     },
 

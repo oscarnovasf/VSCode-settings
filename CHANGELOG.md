@@ -1,6 +1,19 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.2.1] - 2021-
+> Revisión
+### Añadidos
+* Archivo ***.versionrc*** para la generación personalizada del CHANGELOG.md
+  con standard-version.
+
+### Cambios
+* Cambiado en ***phpdox.xml*** el tipo de archivo generado a HTML en lugar de
+  XHTML.
+* Cambiado el nombre de las tareas relacionadas con standard-version en el
+  archivo ***package.json***
+
+---
 ## [v0.2.0] - 2021-01-20
 > Revisión
 ### Añadidos
