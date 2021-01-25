@@ -77,6 +77,12 @@
   "phpcs.enable": true,
   "phpcs.standard": "Drupal,DrupalPractice",
 
+  /* PHP Mess Detector */
+  "phpmd.enabled": true,
+  "phpmd.verbose": false,
+  "phpmd.command": "C:\\Users\\Oscar\\AppData\\Roaming\\Composer\\vendor\\bin\\phpmd.bat",
+  "phpmd.rules": "${workspaceFolder}\\phpmd.xml",
+
   /* PHP Validation */
   "php.validate.enable": true,
   "php.validate.run": "onType",
@@ -139,5 +145,10 @@
     "FIXME",
     "CHANGES",
     "INFO",
-  ]
+  ],
+
+  /* CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES */
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
 }

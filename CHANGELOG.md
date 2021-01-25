@@ -1,7 +1,18 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
-## [v0.2.1] - 2021-
+## [v0.2.2] - 2021-01-25
+> Revisión
+### Añadidos
+* Configuración específica para resolver un problema con el lenguaje
+  Markdown y los saltos de línea.
+* Nuevos scripts en ***package.json*** para trabajar con standard-version.
+* Configuración para usar ***phpmd*** en la documentación.
+* Añadida a ***settings.json** la configuración para el módulo PHP Mess 
+  Detector.
+
+---
+## [v0.2.1] - 2021-01-22
 > Revisión
 ### Añadidos
 * Archivo ***.versionrc*** para la generación personalizada del CHANGELOG.md

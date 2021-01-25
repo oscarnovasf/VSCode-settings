@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+
 <ruleset name="onovas">
   <description>PHP CodeSniffer: Configuración personalizada.</description>
   <file>.</file>

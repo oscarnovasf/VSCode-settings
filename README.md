@@ -35,6 +35,7 @@ Archivos de configuración para VSCode
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
   * [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
+  * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
@@ -62,9 +63,9 @@ Archivos de configuración para VSCode
 
   >Para instalar PHPCs puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/usar-la-guia-de-estilo-de-drupal-con-phpcs-y-visual-code)
 
-* ### Instalación de PHPDOX
+* ### Instalación de PHPDOX y PHPMD
 
-  >Para instalar PHPDOX puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/generando-documentacion-tecnica)
+  >Para instalar PHPDOX y PHPMD puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/generando-documentacion-tecnica)
 
 ## Autor(es)
 - Óscar Novás - [OscarNovas.com][mi-web]
@@ -82,8 +83,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.2.1
-[version-badge]: https://img.shields.io/badge/version-0.2.1-blue.svg
+[version]: v0.2.2
+[version-badge]: https://img.shields.io/badge/version-0.2.2-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

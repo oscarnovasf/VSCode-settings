@@ -5,7 +5,10 @@
   "main": "module_template.info.yml",
   "scripts": {
     "release:github": "standard-version && git push --follow-tags origin master",
-    "release:local": "standard-version"
+    "release:local": "standard-version",
+    "release:local:minor": "standard-version --release-as minor",
+    "release:local:patch": "standard-version --release-as patch",
+    "release:local:major": "standard-version --release-as major"
   },
   "keywords": [
     "Drupal",
