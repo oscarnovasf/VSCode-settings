@@ -1,15 +1,11 @@
 {
-  /* CONFIGURACIONES GENERALES DEL EDITOR */
+  /* ***************************************************************************
+   * CONFIGURACIÓN GENERAL DEL EDITOR
+   * **************************************************************************/
+
   "css.validate": true,
 
-  "html.format.enable": true,
-  "html.format.wrapLineLength": 80,
-
   "diffEditor.ignoreTrimWhitespace": false,
-
-  "telemetry.enableTelemetry": false,
-
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
   "editor.tabSize": 2,
   "editor.autoIndent": "full",
@@ -23,9 +19,11 @@
   "editor.fontSize": 14,
   "editor.rulers": [80],
 
-  "explorer.openEditors.visible": 0,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
 
-  "workbench.colorTheme": "Monokai Dimmed",
+  "explorer.openEditors.visible": 0,
 
   "files.associations": {
     "*.inc": "php",
@@ -42,11 +40,32 @@
   "files.eol": "\n",
   "files.autoSave": "onFocusChange",
 
-  "emmet.includeLanguages": {
-    "twig": "html"
-  },
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
 
-  /* SASS */
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "workbench.colorTheme": "Monokai Dimmed",
+
+  /* ***************************************************************************
+   * CONFIGURACIÓN DE MÓDULOS Y PLUGINS
+   * **************************************************************************/
+
+  /* Empty Indent */
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  "emptyIndent.exclude": [
+    ".md"
+  ],
+
+  /* GIT */
+  "git.showPushSuccessNotification": true,
+  "git.autofetch": true,
+
+  /* LIVE SASS */
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -70,12 +89,21 @@
   ],
   "liveSassCompile.settings.showOutputWindow": false,
 
-  /* SVG */
-  "svgviewer.enableautopreview": true,
-
   /* PHP Code Sniffer */
   "phpcs.enable": true,
   "phpcs.standard": "Drupal,DrupalPractice",
+
+  /* PHP DocBlocks */
+  "php-docblocker.gap": true,
+  "php-docblocker.useShortNames": true,
+  "php-docblocker.returnVoid" : false,
+  "php-docblocker.author": {
+    "name": "Óscar Novás",
+    "email": "hola@oscarnovas.com"
+  },
+
+  /* PHP Intellisense */
+  "php.suggest.basic": false,
 
   /* PHP Mess Detector */
   "phpmd.enabled": true,
@@ -87,29 +115,24 @@
   "php.validate.enable": true,
   "php.validate.run": "onType",
 
-  /* PHP Intellisense */
-  "php.suggest.basic": false,
-
-  /* PHP DocBlocks */
-  "php-docblocker.gap": true,
-  "php-docblocker.useShortNames": true,
-  "php-docblocker.returnVoid" : false,
-  "php-docblocker.author": {
-    "name": "Óscar Novás",
-    "email": "hola@oscarnovas.com"
-  },
-
-  /* Empty Indent */
-  "emptyIndent.removeIndent": true,
-  "emptyIndent.highlightIndent": false,
-  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
-  "emptyIndent.exclude": [
-    ".md"
+  /* Shell Launcher */
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "GIT Bash"
+    },
+    {
+      "shell": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
+    },
+    {
+      "shell": "%windir%\\system32\\cmd.exe",
+      "label": "CMD"
+    }
   ],
 
-  /* GIT */
-  "git.showPushSuccessNotification": true,
-  "git.autofetch": true,
+  /* SVG */
+  "svgviewer.enableautopreview": true,
 
   /* TO-DO TREE */
   "todo-tree.highlights.enabled": true,
@@ -147,8 +170,12 @@
     "INFO",
   ],
 
-  /* CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES */
+  /* ***************************************************************************
+   * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES
+   * **************************************************************************/
+
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   }
+
 }

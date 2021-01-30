@@ -167,6 +167,18 @@
      **************************************************************************/
 
     {
+      "label": "Descargar DateTimeFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DateTimeFunctions.php -o src/lib/general/DateTimeFunctions.php && grep -l module_template src/lib/general/DateTimeFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
       "label": "Descargar FileFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o src/lib/general/FileFunctions.php && grep -l module_template src/lib/general/FileFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",

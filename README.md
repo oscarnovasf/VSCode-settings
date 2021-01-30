@@ -40,6 +40,7 @@ Archivos de configuración para VSCode
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
+  * [Shell launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
@@ -83,8 +84,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.2.2
-[version-badge]: https://img.shields.io/badge/version-0.2.2-blue.svg
+[version]: v0.2.3
+[version-badge]: https://img.shields.io/badge/version-0.2.3-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

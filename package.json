@@ -6,6 +6,7 @@
   "scripts": {
     "release:github": "standard-version && git push --follow-tags origin master",
     "release:local": "standard-version",
+    "release:local:first": "standard-version -- --first-release",
     "release:local:minor": "standard-version --release-as minor",
     "release:local:patch": "standard-version --release-as patch",
     "release:local:major": "standard-version --release-as major"

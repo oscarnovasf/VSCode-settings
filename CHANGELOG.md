@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.2.3] - 2021-01-30
+> Revisión
+### Añadidos
+* Configuración para usar ***Shell Launcher*** (bajo Windows).
+* Añadida tarea para descargar una nueva librería (DateTimeFunctions).
+* Nueva tarea npm para crear una primera versión con standard-version.
+
+### Cambios
+* Modificación en el orden de las configuraciones de ***settings.json***.
+
+---
 ## [v0.2.2] - 2021-01-25
 > Revisión
 ### Añadidos
