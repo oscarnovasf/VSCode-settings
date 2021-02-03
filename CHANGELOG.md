@@ -1,11 +1,35 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.0] - 2021-02-03
+> Revisión
+### Añadidos
+* Exclusiones de directorios en ***phpmd.xml***.
+* Nuevos snippets para los formularios.
+* Añadidas nuevas excepciones a ***.gitignore***.
+* Añadido archivo ***extensions.json** para ayudar a descargar todos los 
+  módulos que yo uso.
+* Añadida configuración para ***Better Comments***.
+* Añadida configuración para poder usar el "Cmder" que viene con Laragon.
+
+### Cambios
+* Mejora de la información del ***README.md***.
+* Se han simplificado los nombres de los snippets de formularios.
+* Aunque se mantienen las tareas para Docker, se ha decidido dejarlas
+  comentadas.
+
+### Corrección de errores
+* Algunos snippets de formularios estaban mal formateados.
+* Eliminadas algunas extensiones que ya no existen en el repositorio de VSCode.
+* Reparación de algunas tareas en ***tasks.json** que no funcionaban
+  correctamente.
+
+---
 ## [v0.2.3] - 2021-01-30
 > Revisión
 ### Añadidos
 * Configuración para usar ***Shell Launcher*** (bajo Windows).
-* Añadida tarea para descargar una nueva librería (DateTimeFunctions).
+* Añadida tarea para descargar una nueva librería (*DateTimeFunctions*).
 * Nueva tarea npm para crear una primera versión con standard-version.
 
 ### Cambios
@@ -19,7 +43,7 @@
   Markdown y los saltos de línea.
 * Nuevos scripts en ***package.json*** para trabajar con standard-version.
 * Configuración para usar ***phpmd*** en la documentación.
-* Añadida a ***settings.json** la configuración para el módulo PHP Mess 
+* Añadida a ***settings.json** la configuración para el módulo PHP Mess
   Detector.
 
 ---

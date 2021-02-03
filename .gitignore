@@ -5,6 +5,7 @@
 
 # Archivos de desarrollo.
 node_modules
+vendor
 
 # Archivos propios de VSCode.
 debug.log

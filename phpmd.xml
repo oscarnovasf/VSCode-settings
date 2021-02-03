@@ -29,4 +29,20 @@
   <rule ref="rulesets/unusedcode.xml/UnusedPrivateField" />
   <rule ref="rulesets/unusedcode.xml/UnusedPrivateMethod" />
 
+  <!-- EXCLUSIONES DE FICHEROS Y DIRECTORIOS -->
+
+  <!-- unix path -->
+  <exclude-pattern>*vendor/*</exclude-pattern>
+  <exclude-pattern>*node_modules/*</exclude-pattern>
+  <exclude-pattern>*documentacion/*</exclude-pattern>
+  <exclude-pattern>*.tmp-doc/*</exclude-pattern>
+  <exclude-pattern>*.vscode/*</exclude-pattern>
+
+  <!-- windows path -->
+  <exclude-pattern>*vendor\*</exclude-pattern>
+  <exclude-pattern>*node_modules\*</exclude-pattern>
+  <exclude-pattern>*documentacion\*</exclude-pattern>
+  <exclude-pattern>*.tmp-doc\*</exclude-pattern>
+  <exclude-pattern>*.vscode\*</exclude-pattern>
+
 </ruleset>

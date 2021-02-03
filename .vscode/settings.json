@@ -53,10 +53,42 @@
    * CONFIGURACIÓN DE MÓDULOS Y PLUGINS
    * **************************************************************************/
 
+  /* Better Comments */
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF0000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#FFFF00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
   /* Empty Indent */
   "emptyIndent.removeIndent": true,
   "emptyIndent.highlightIndent": false,
-  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
   "emptyIndent.exclude": [
     ".md"
   ],
@@ -119,6 +151,7 @@
   "shellLauncher.shells.windows": [
     {
       "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["-l"],
       "label": "GIT Bash"
     },
     {
@@ -128,6 +161,11 @@
     {
       "shell": "%windir%\\system32\\cmd.exe",
       "label": "CMD"
+    },
+    {
+      "shell": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+      "args": ["${workspaceFolder}"],
+      "label": "Cmder"
     }
   ],
 

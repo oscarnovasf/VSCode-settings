@@ -15,6 +15,7 @@ Archivos de configuración para VSCode
   Esta configuración hace uso de una serie de plugins y módulos de uso muy
   recomendado si trabajas con Drupal:
 
+  * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   * [Bootstrap v4 Snippets](https://marketplace.visualstudio.com/items?itemName=Zaczero.bootstrap-v4-snippets)
   * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
@@ -38,8 +39,8 @@ Archivos de configuración para VSCode
   * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
+  * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
-  * [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
   * [Shell launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
@@ -48,17 +49,29 @@ Archivos de configuración para VSCode
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) (opcional)
 
+  ---
+
+  >Para facilitar su instalación se ha incluído un archivo ***extensions.json***
+  >dentro de la carpeta .vscode.
+
+  ---
+
 * ### Instalación manual
 
   * Copiar el directorio ***.vscode*** en la carpeta raíz de tu proyecto.
-  * Una vez copiada deberás cambiar los valores del archivo *sftp.json* para
-    que se conecten con tus servidores.
-  * En el *settings.json* deberás cambiar el nombre y correo en el apartado de
-    configuración del ***PHP DocBlocks***.
+    > * Una vez copiada deberás cambiar los valores del archivo ***sftp.json***
+        para que se conecten con tus servidores.
+    > * En el *settings.json* deberás cambiar el nombre y correo en el apartado
+        de configuración del ***PHP DocBlocks***.
   * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
+  * Copiar el archivo ***phpmd.xml*** en la carpeta raíz de tu proyecto.
+  * Copiar el archivo ***phpdox.xml*** en la carpeta raíz de tu proyecto.
+    > * Crear una carpeta ***.tmp-doc*** en la raíz de tu proyecto.
+  * Copiar el archivo ***package.json*** en la carpeta raíz de tu proyecto.
   * Copiar los archivos ***.gitignore*** y ***.gitattributes*** en la carpeta
     raíz de tu proyecto.
-  * Eliminar los comentarios del archivo .gitignore.
+    > * Eliminar los comentarios del archivo ***.gitignore*** y añadir lo que
+        necesites.
 
 * ### Instalación de PHPCs
 
@@ -84,8 +97,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.2.3
-[version-badge]: https://img.shields.io/badge/version-0.2.3-blue.svg
+[version]: v0.3.0
+[version-badge]: https://img.shields.io/badge/version-0.3.0-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

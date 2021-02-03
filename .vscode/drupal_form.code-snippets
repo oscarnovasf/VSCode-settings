@@ -1,7 +1,18 @@
 {
+  "drupal_form_actions": {
+    "scope": "php",
+    "prefix": "form_actions",
+    "body": [
+      "$$form['${1:actions}'] = [",
+      "\t'#type' => 'actions',",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Action"
+  },
+
   "drupal_form_checkbox": {
     "scope": "php",
-    "prefix": "form_type_checkbox",
+    "prefix": "form_checkbox",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'checkbox',",
@@ -16,7 +27,7 @@
 
   "drupal_form_container": {
     "scope": "php",
-    "prefix": "form_type_container",
+    "prefix": "form_container",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'container',",
@@ -32,7 +43,7 @@
 
   "drupal_form_date": {
     "scope": "php",
-    "prefix": "form_type_date",
+    "prefix": "form_date",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'date',",
@@ -47,7 +58,7 @@
 
   "drupal_form_details": {
     "scope": "php",
-    "prefix": "form_type_details",
+    "prefix": "form_details",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'details',",
@@ -62,7 +73,7 @@
 
   "drupal_form_email": {
     "scope": "php",
-    "prefix": "form_type_email",
+    "prefix": "form_email",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'email',",
@@ -77,7 +88,7 @@
 
   "drupal_form_fieldset": {
     "scope": "php",
-    "prefix": "form_type_fieldset",
+    "prefix": "form_fieldset",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'fieldset',",
@@ -91,7 +102,7 @@
 
   "drupal_form_markup": {
     "scope": "php",
-    "prefix": "form_type_markup",
+    "prefix": "form_markup",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#markup' => '${2:prefix}',",
@@ -102,7 +113,7 @@
 
   "drupal_form_number": {
     "scope": "php",
-    "prefix": "form_type_number",
+    "prefix": "form_number",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'number',",
@@ -124,7 +135,7 @@
 
   "drupal_form_password": {
     "scope": "php",
-    "prefix": "form_type_password",
+    "prefix": "form_password",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'password',",
@@ -139,7 +150,7 @@
 
   "drupal_form_radios": {
     "scope": "php",
-    "prefix": "form_type_radios",
+    "prefix": "form_radios",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'radios',",
@@ -155,7 +166,7 @@
 
   "drupal_form_select": {
     "scope": "php",
-    "prefix": "form_type_select",
+    "prefix": "form_select",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'select',",
@@ -165,7 +176,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "\t'#options' => [${6:array}],",
       "\t'#empty_option' => $$this->t('${7:-- None --}'),",
-      "\t'#empty_value' => [${8:_none}],",
+      "\t'#empty_value' => '${8:_none}',",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Select"
@@ -173,15 +184,15 @@
 
   "drupal_form_submit": {
     "scope": "php",
-    "prefix": "form_type_submit",
+    "prefix": "form_submit",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'submit',",
       "\t'#value' => $$this->t('${2:title}'),",
       "\t'#attributes' => [",
       "\t\t'class' => [",
-      "\t\t\t'btn-primary,'",
-      "\t\t]",
+      "\t\t\t'btn-primary',",
+      "\t\t],",
       "\t],",
       "];$0",
     ],
@@ -190,7 +201,7 @@
 
   "drupal_form_tel": {
     "scope": "php",
-    "prefix": "form_type_tel",
+    "prefix": "form_tel",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'tel',",
@@ -205,7 +216,7 @@
 
   "drupal_form_textarea": {
     "scope": "php",
-    "prefix": "form_type_textarea",
+    "prefix": "form_textarea",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'textarea',",
@@ -222,7 +233,7 @@
 
   "drupal_form_textfield": {
     "scope": "php",
-    "prefix": "form_type_textfield",
+    "prefix": "form_textfield",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'textfield',",
@@ -237,7 +248,7 @@
 
   "drupal_form_textformat": {
     "scope": "php",
-    "prefix": "form_type_textformat",
+    "prefix": "form_textformat",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'text_format',",
@@ -253,7 +264,7 @@
 
   "drupal_form_vertical_tabs": {
     "scope": "php",
-    "prefix": "form_type_vertical_tabs",
+    "prefix": "form_vertical_tabs",
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'vertical_tabs',",
