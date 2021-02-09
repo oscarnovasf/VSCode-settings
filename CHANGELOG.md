@@ -1,13 +1,22 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.1] - 2021-02-09
+> Revisión
+### Añadidos
+* Nuevas configuraciones para la versión ^1.53.0 de VSCode.
+* Añadidas exclusiones de directorios para que no se muestren en el 
+  explorador aquellos que no son necesarios.
+* Añadida tarea para descargar la librería Mailing en ***tasks.json***.
+
+---
 ## [v0.3.0] - 2021-02-03
 > Revisión
 ### Añadidos
 * Exclusiones de directorios en ***phpmd.xml***.
 * Nuevos snippets para los formularios.
 * Añadidas nuevas excepciones a ***.gitignore***.
-* Añadido archivo ***extensions.json** para ayudar a descargar todos los 
+* Añadido archivo ***extensions.json** para ayudar a descargar todos los
   módulos que yo uso.
 * Añadida configuración para ***Better Comments***.
 * Añadida configuración para poder usar el "Cmder" que viene con Laragon.

@@ -7,17 +7,17 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
 
-  "editor.tabSize": 2,
   "editor.autoIndent": "full",
-  "editor.insertSpaces": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
-  "editor.renderWhitespace": "boundary",
-  "editor.wordWrapColumn": 80,
-  "editor.wordWrap": "off",
   "editor.detectIndentation": true,
   "editor.fontSize": 14,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
 
   "emmet.includeLanguages": {
     "twig": "html"
@@ -35,10 +35,17 @@
     "*.php": "php",
     "*.twig": "html",
   },
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "files.eol": "\n",
   "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.exclude": {
+    ".github/": true,
+    ".tmp-doc/": true,
+    "node_modules/": true,
+    "package-lock.json": true,
+    "debug.log": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
 
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
@@ -48,14 +55,17 @@
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
   "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.wrapTabs": true,
 
   /* ***************************************************************************
    * CONFIGURACIÓN DE MÓDULOS Y PLUGINS
    * **************************************************************************/
 
   /* Better Comments */
-  "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
+  "better-comments.multilineComments": true,
   "better-comments.tags": [
     {
       "tag": "!",
@@ -87,17 +97,25 @@
   ],
 
   /* Empty Indent */
-  "emptyIndent.removeIndent": true,
-  "emptyIndent.highlightIndent": false,
   "emptyIndent.exclude": [
     ".md"
   ],
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.removeIndent": true,
 
   /* GIT */
   "git.showPushSuccessNotification": true,
   "git.autofetch": true,
 
   /* LIVE SASS */
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "liveSassCompile.settings.excludeList": [
+    ".vscode/**",
+    "css/**"
+  ],
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -110,15 +128,7 @@
       "savePath": "/css"
     }
   ],
-  "liveSassCompile.settings.autoprefix": [
-    "> 1%",
-    "last 2 versions"
-  ],
   "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.excludeList": [
-    ".vscode/**",
-    "css/**"
-  ],
   "liveSassCompile.settings.showOutputWindow": false,
 
   /* PHP Code Sniffer */
@@ -126,22 +136,22 @@
   "phpcs.standard": "Drupal,DrupalPractice",
 
   /* PHP DocBlocks */
-  "php-docblocker.gap": true,
-  "php-docblocker.useShortNames": true,
-  "php-docblocker.returnVoid" : false,
   "php-docblocker.author": {
     "name": "Óscar Novás",
     "email": "hola@oscarnovas.com"
   },
+  "php-docblocker.gap": true,
+  "php-docblocker.returnVoid" : false,
+  "php-docblocker.useShortNames": true,
 
   /* PHP Intellisense */
   "php.suggest.basic": false,
 
   /* PHP Mess Detector */
-  "phpmd.enabled": true,
-  "phpmd.verbose": false,
   "phpmd.command": "C:\\Users\\Oscar\\AppData\\Roaming\\Composer\\vendor\\bin\\phpmd.bat",
+  "phpmd.enabled": true,
   "phpmd.rules": "${workspaceFolder}\\phpmd.xml",
+  "phpmd.verbose": false,
 
   /* PHP Validation */
   "php.validate.enable": true,
@@ -173,8 +183,13 @@
   "svgviewer.enableautopreview": true,
 
   /* TO-DO TREE */
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "CHANGES",
+    "INFO",
+  ],
   "todo-tree.highlights.enabled": true,
-  "todo-tree.tree.showScanModeButton": false,
   "todo-tree.highlights.customHighlight": {
     "TODO": {
       "icon": "check",
@@ -201,12 +216,7 @@
       "iconColour": "#FFFF00"
     }
   },
-  "todo-tree.general.tags": [
-    "TODO",
-    "FIXME",
-    "CHANGES",
-    "INFO",
-  ],
+  "todo-tree.tree.showScanModeButton": false,
 
   /* ***************************************************************************
    * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES

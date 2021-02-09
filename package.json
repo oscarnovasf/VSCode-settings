@@ -1,16 +1,8 @@
 {
   "name": "module_template",
   "version": "0.0.0",
+
   "description": "",
-  "main": "module_template.info.yml",
-  "scripts": {
-    "release:github": "standard-version && git push --follow-tags origin master",
-    "release:local": "standard-version",
-    "release:local:first": "standard-version -- --first-release",
-    "release:local:minor": "standard-version --release-as minor",
-    "release:local:patch": "standard-version --release-as patch",
-    "release:local:major": "standard-version --release-as major"
-  },
   "keywords": [
     "Drupal",
     "phpdox",
@@ -19,9 +11,26 @@
     "sftp",
     "standard-version"
   ],
-  "author": "Óscar Novás",
+
   "license": "GNU",
+
+  "author": {
+    "name": "Óscar Novás",
+    "email": "hola@oscarnovas.com",
+    "url": "https://oscarnovas.com"
+  },
+
+  "scripts": {
+    "release:github": "standard-version && git push --follow-tags origin master",
+    "release:local": "standard-version",
+    "release:local:first": "standard-version -- --first-release",
+    "release:local:minor": "standard-version -- --release-as minor",
+    "release:local:patch": "standard-version -- --release-as patch",
+    "release:local:major": "standard-version -- --release-as major"
+  },
+
   "devDependencies": {
     "standard-version": "^9.1.0"
   }
+
 }

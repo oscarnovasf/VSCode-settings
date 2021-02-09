@@ -230,6 +230,21 @@
     },
 
     {
+      "label": "Descargar Mailing.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/Mailing.php -o src/lib/Mailing.php && grep -l module_template src/lib/Mailing.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+      "dependsOn": [
+        "Descargar ResponseFunctions.php",
+      ],
+    },
+
+    {
       "label": "Descargar ParamsFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ParamsFunctions.php -o src/lib/general/ParamsFunctions.php && grep -l module_template src/lib/general/ParamsFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
