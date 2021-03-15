@@ -36,6 +36,7 @@
     "*.twig": "html",
   },
   "files.autoSave": "onFocusChange",
+  "files.encoding": "utf8",
   "files.eol": "\n",
   "files.exclude": {
     ".github/": true,
@@ -153,9 +154,15 @@
   "phpmd.rules": "${workspaceFolder}\\phpmd.xml",
   "phpmd.verbose": false,
 
+  /* PHP Server */
+  "phpserver.port":8888,
+
   /* PHP Validation */
   "php.validate.enable": true,
   "php.validate.run": "onType",
+
+  /* ShellCheck */
+  "shellcheck.enable": true,
 
   /* Shell Launcher */
   "shellLauncher.shells.windows": [
@@ -178,6 +185,12 @@
       "label": "Cmder"
     }
   ],
+
+  /* ShellCheck */
+  "shellcheck.ignorePatterns": {
+    "**/.git/*.sh": true
+  },
+  "shellcheck.run": "onType",
 
   /* SVG */
   "svgviewer.enableautopreview": true,

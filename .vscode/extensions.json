@@ -7,6 +7,7 @@
    */
   "recommendations": [
     "mrmlnc.vscode-apache",
+    "brapifra.phpserver",
     "aaron-bond.better-comments",
     "zaczero.bootstrap-v4-snippets",
     "msjsdiag.debugger-for-chrome",
@@ -36,6 +37,7 @@
     "mechatroner.rainbow-csv",
     "liximomo.sftp",
     "tyriar.shell-launcher",
+    "timonwong.shellcheck",
     "ms-ceintl.vscode-language-pack-es",
     "cssho.vscode-svgviewer",
     "cnshenj.vscode-task-manager",

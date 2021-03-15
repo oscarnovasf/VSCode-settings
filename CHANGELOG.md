@@ -1,6 +1,13 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.2] - 2021-03-15
+> Revisión
+### Añadidos
+* Nuevo módulo recomendado ***PHP Server***.
+* Nuevo módulo recomendado ***ShellCheck***.
+
+---
 ## [v0.3.1] - 2021-02-09
 > Revisión
 ### Añadidos

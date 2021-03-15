@@ -38,10 +38,12 @@ Archivos de configuración para VSCode
   * [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
   * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+  * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Shell launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
+  * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
@@ -97,8 +99,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.3.1
-[version-badge]: https://img.shields.io/badge/version-0.3.1-blue.svg
+[version]: v0.3.2
+[version-badge]: https://img.shields.io/badge/version-0.3.2-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
