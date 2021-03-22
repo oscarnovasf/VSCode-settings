@@ -97,6 +97,17 @@
     }
   ],
 
+  /* Bracket Pair Colorizer 2 */
+  "bracket-pair-colorizer-2.colors": [
+    "#FAFAFA",
+    "#9F51B6",
+    "#F7C244",
+    "#F07850"
+  ],
+
+  /* Color Highlight */
+  "color-highlight.markerType": "dot-before",
+
   /* Empty Indent */
   "emptyIndent.exclude": [
     ".md"
@@ -155,7 +166,7 @@
   "phpmd.verbose": false,
 
   /* PHP Server */
-  "phpserver.port":8888,
+  "phpserver.port": 8888,
 
   /* PHP Validation */
   "php.validate.enable": true,
@@ -201,6 +212,12 @@
     "FIXME",
     "CHANGES",
     "INFO",
+  ],
+  "todo-tree.filtering.excludeGlobs":[
+    "**/node_modules/**",
+    "**/.tmp-doc",
+    "**/documentation/**",
+    "**/vendor/**"
   ],
   "todo-tree.highlights.enabled": true,
   "todo-tree.highlights.customHighlight": {

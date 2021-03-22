@@ -7,6 +7,9 @@
    */
   "recommendations": [
     "mrmlnc.vscode-apache",
+    "alefragnani.bookmarks",
+    "coenraads.bracket-pair-colorizer-2",
+    "naumovs.color-highlight",
     "brapifra.phpserver",
     "aaron-bond.better-comments",
     "zaczero.bootstrap-v4-snippets",

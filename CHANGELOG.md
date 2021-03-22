@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.3] - 2021-03-22
+> Revisión
+### Añadidos
+* Extensión Bookmarks.
+* Extensión Bracket Pair Colorizer 2 (y configuración).
+* Extensión Color Highlight (y configuración).
+
+### Cambios
+* Modificacion de la configuración del módulo TODO Tree.
+
+---
 ## [v0.3.2] - 2021-03-15
 > Revisión
 ### Añadidos

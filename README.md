@@ -16,7 +16,9 @@ Archivos de configuración para VSCode
   recomendado si trabajas con Drupal:
 
   * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+  * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   * [Bootstrap v4 Snippets](https://marketplace.visualstudio.com/items?itemName=Zaczero.bootstrap-v4-snippets)
+  * [Color](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
   * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * [Drupal 8 Snippets](https://marketplace.visualstudio.com/items?itemName=dssiqueira.drupal-8-snippets)
@@ -99,8 +101,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.3.2
-[version-badge]: https://img.shields.io/badge/version-0.3.2-blue.svg
+[version]: v0.3.3
+[version-badge]: https://img.shields.io/badge/version-0.3.3-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
