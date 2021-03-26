@@ -8,6 +8,15 @@
     "description": "Añadir use para BubbleableMetadata"
   },
 
+  "drupal_use_AccessResult": {
+    "scope": "php",
+    "prefix": "use_AccessResult",
+    "body": [
+      "use Drupal\\Core\\Access\\AccessResult;$0",
+    ],
+    "description": "Añadir use para AccessResult"
+  },
+
   "drupal_use_ConfigFormBase": {
     "scope": "php",
     "prefix": "use_ConfigFormBase",
@@ -42,6 +51,15 @@
       "use Drupal\\Core\\Entity\\EntityInterface;$0",
     ],
     "description": "Añadir use para EntityInterface"
+  },
+
+  "drupal_use_File": {
+    "scope": "php",
+    "prefix": "use_File",
+    "body": [
+      "use Drupal\\file\\Entity\\File;$0",
+    ],
+    "description": "Añadir use para File"
   },
 
   "drupal_use_FormBase": {

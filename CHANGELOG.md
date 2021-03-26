@@ -1,6 +1,25 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.4] - 2021-03-26
+> Revisión
+### Añadidos
+* Extensión Material Icon Theme.
+* Más configuraciones para VSCode en ***settings.json***.
+* Configuración adicional para la extensión *Bookmarks* (ahora guarda los
+  bookmarks en el proyecto y no en VSCode).
+* Se han incorporado nuevos snippets al archivo ***drupal_uses.code-snippets***.
+
+### Cambios
+* Se han movido algunas extensiones al área de "no recomendar" del archivo
+  ***extensions.json*** al no ser extrictamente necesarias para codificar en
+  Drupal.
+* Se actualiza la información del ***README.md***.
+* Se modifican algunos parámetros del archivo ***sftp.json***.
+* Se han añadido variables de entorno a las rutas de los ejecutables en
+  ***settings.json***.
+
+---
 ## [v0.3.3] - 2021-03-22
 > Revisión
 ### Añadidos

@@ -24,6 +24,10 @@
   },
 
   "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "extensions.ignoreRecommendations": false,
 
   "files.associations": {
     "*.inc": "php",
@@ -48,17 +52,25 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  "git.showPushSuccessNotification": true,
+  "git.autofetch": true,
+
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
 
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+
   "telemetry.enableTelemetry": false,
 
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "${env:programfiles}\\Git\\bin\\bash.exe",
 
   "workbench.colorTheme": "Monokai Dimmed",
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
 
   /* ***************************************************************************
    * CONFIGURACIÓN DE MÓDULOS Y PLUGINS
@@ -104,9 +116,16 @@
     "#F7C244",
     "#F07850"
   ],
+  "bracket-pair-colorizer-2.excludedLanguages": [
+    "twig"
+  ],
+
+  /* Bookmarks */
+  "bookmarks.saveBookmarksInProject": true,
 
   /* Color Highlight */
   "color-highlight.markerType": "dot-before",
+  "color-highlight.markRuler": false,
 
   /* Empty Indent */
   "emptyIndent.exclude": [
@@ -114,10 +133,6 @@
   ],
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
-
-  /* GIT */
-  "git.showPushSuccessNotification": true,
-  "git.autofetch": true,
 
   /* LIVE SASS */
   "liveSassCompile.settings.autoprefix": [
@@ -160,7 +175,8 @@
   "php.suggest.basic": false,
 
   /* PHP Mess Detector */
-  "phpmd.command": "C:\\Users\\Oscar\\AppData\\Roaming\\Composer\\vendor\\bin\\phpmd.bat",
+  "phpmd.command": "${env:appdata}\\Composer\\vendor\\bin\\phpmd.bat",
+
   "phpmd.enabled": true,
   "phpmd.rules": "${workspaceFolder}\\phpmd.xml",
   "phpmd.verbose": false,
@@ -168,17 +184,13 @@
   /* PHP Server */
   "phpserver.port": 8888,
 
-  /* PHP Validation */
-  "php.validate.enable": true,
-  "php.validate.run": "onType",
-
   /* ShellCheck */
   "shellcheck.enable": true,
 
   /* Shell Launcher */
   "shellLauncher.shells.windows": [
     {
-      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "shell": "%programfiles%\\Git\\bin\\bash.exe",
       "args": ["-l"],
       "label": "GIT Bash"
     },
@@ -246,6 +258,7 @@
       "iconColour": "#FFFF00"
     }
   },
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.tree.showScanModeButton": false,
 
   /* ***************************************************************************
