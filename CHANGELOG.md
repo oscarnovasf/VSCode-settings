@@ -1,6 +1,14 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.3.5] - 2021-03-29
+> Revisión
+### Añadidos
+* Actualización de la configuración en ***settings.json***.
+* Extensión opcional **Draw.io Integration**.
+* Excepción en ***sftp.json*** para no subir la configuración del pipeline.
+
+---
 ## [v0.3.4] - 2021-03-26
 > Revisión
 ### Añadidos
@@ -42,7 +50,7 @@
 > Revisión
 ### Añadidos
 * Nuevas configuraciones para la versión ^1.53.0 de VSCode.
-* Añadidas exclusiones de directorios para que no se muestren en el 
+* Añadidas exclusiones de directorios para que no se muestren en el
   explorador aquellos que no son necesarios.
 * Añadida tarea para descargar la librería Mailing en ***tasks.json***.
 

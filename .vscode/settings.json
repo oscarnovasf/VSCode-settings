@@ -13,6 +13,7 @@
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [80],
   "editor.tabSize": 2,
@@ -110,6 +111,7 @@
   ],
 
   /* Bracket Pair Colorizer 2 */
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
   "bracket-pair-colorizer-2.colors": [
     "#FAFAFA",
     "#9F51B6",

@@ -43,6 +43,7 @@
   ],
   "unwantedRecommendations": [
     "brapifra.phpserver",
+    "hediet.vscode-drawio",
     "jebbs.plantuml",
     "mechatroner.rainbow-csv",
     "timonwong.shellcheck",

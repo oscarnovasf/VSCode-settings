@@ -15,6 +15,7 @@ Archivos de configuración para VSCode
   Esta configuración hace uso de una serie de plugins y módulos de uso muy
   recomendado si trabajas con Drupal:
 
+  * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   * [Bootstrap v4 Snippets](https://marketplace.visualstudio.com/items?itemName=Zaczero.bootstrap-v4-snippets)
@@ -50,6 +51,7 @@ Archivos de configuración para VSCode
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+  * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
@@ -105,8 +107,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.3.4
-[version-badge]: https://img.shields.io/badge/version-0.3.4-blue.svg
+[version]: v0.3.5
+[version-badge]: https://img.shields.io/badge/version-0.3.5-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
