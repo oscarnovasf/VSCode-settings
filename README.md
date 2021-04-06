@@ -27,6 +27,7 @@ Archivos de configuración para VSCode
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+  * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
@@ -53,6 +54,7 @@ Archivos de configuración para VSCode
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  * [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
@@ -107,8 +109,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.3.5
-[version-badge]: https://img.shields.io/badge/version-0.3.5-blue.svg
+[version]: v0.4.0
+[version-badge]: https://img.shields.io/badge/version-0.4.0-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

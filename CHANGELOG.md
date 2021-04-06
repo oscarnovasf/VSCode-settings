@@ -1,6 +1,16 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.4.0] - 2021-04-06
+> Revisión
+### Añadidos
+* Se ha creado un nuevo archivo de snippets (***drupal_clases.code-snippets***)
+  que permite generar el contenido de algunas clases de forma automática.
+* Se han añadido nuevos snippets en ***drupal_uses.code-snippets***.
+* Añadida extensión "Git History Diff".
+* Añadida extensión opcional "Macros".
+
+---
 ## [v0.3.5] - 2021-03-29
 > Revisión
 ### Añadidos

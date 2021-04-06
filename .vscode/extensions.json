@@ -40,9 +40,12 @@
     "cnshenj.vscode-task-manager",
     "gruntfuggly.todo-tree",
     "mblode.twig-language-2",
+    "huizhou.githd"
   ],
+
   "unwantedRecommendations": [
     "brapifra.phpserver",
+    "geddski.macros",
     "hediet.vscode-drawio",
     "jebbs.plantuml",
     "mechatroner.rainbow-csv",

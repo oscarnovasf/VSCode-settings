@@ -136,7 +136,10 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
-  /* LIVE SASS */
+  /* Git History Diff */
+  "githd.logView.displayExpressStatus": false,
+
+  /* Live SASS */
   "liveSassCompile.settings.autoprefix": [
     "> 1%",
     "last 2 versions"

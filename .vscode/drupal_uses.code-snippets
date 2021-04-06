@@ -1,4 +1,9 @@
 {
+
+  /* *************************************************************************
+   * USES PARA LIBRERÍAS DE DRUPAL Y MÓDULOS CONTRIB.
+   **************************************************************************/
+
   "drupal_use_BubbleableMetadata": {
     "scope": "php",
     "prefix": "use_BubbleableMetadata",
@@ -159,6 +164,95 @@
       "use Drupal\\Core\\Url;$0",
     ],
     "description": "Añadir use para Url"
+  },
+
+  "drupal_use_WebformSubmission": {
+    "scope": "php",
+    "prefix": "use_WebformSubmission",
+    "body": [
+      "use Drupal\\webform\\Entity\\WebformSubmission;$0",
+    ],
+    "description": "Añadir use para WebformSubmission"
+  },
+
+  /* *************************************************************************
+   * USES PARA MIS PROPIAS LIBRERÍAS (LIB\GENERAL).
+   **************************************************************************/
+
+  "drupal_use_DateTimeFunctions": {
+    "scope": "php",
+    "prefix": "use_DateTimeFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\DateTimeFunctions;$0",
+    ],
+    "description": "Añadir use para DateTimeFunctions"
+  },
+
+  "drupal_use_FileFunctions": {
+    "scope": "php",
+    "prefix": "use_FileFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\FileFunctions;$0",
+    ],
+    "description": "Añadir use para FileFunctions"
+  },
+
+  "drupal_use_FtpFunctions": {
+    "scope": "php",
+    "prefix": "use_FtpFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\FtpFunctions;$0",
+    ],
+    "description": "Añadir use para FtpFunctions"
+  },
+
+  "drupal_use_ParamsFunctions": {
+    "scope": "php",
+    "prefix": "use_ParamsFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\ParamsFunctions;$0",
+    ],
+    "description": "Añadir use para ParamsFunctions"
+  },
+
+  "drupal_use_ResponseFunctions": {
+    "scope": "php",
+    "prefix": "use_ResponseFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\ResponseFunctions;$0",
+    ],
+    "description": "Añadir use para ResponseFunctions"
+  },
+
+  "drupal_use_StringFunctions": {
+    "scope": "php",
+    "prefix": "use_StringFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\StringFunctions;$0",
+    ],
+    "description": "Añadir use para StringFunctions"
+  },
+
+  "drupal_use_ValidateFunctions": {
+    "scope": "php",
+    "prefix": "use_ValidateFunctions",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\ValidateFunctions;$0",
+    ],
+    "description": "Añadir use para ValidateFunctions"
+  },
+
+  /* *************************************************************************
+   * USES PARA MIS PROPIAS LIBRERÍAS (LIB).
+   **************************************************************************/
+
+  "drupal_use_Mailing": {
+    "scope": "php",
+    "prefix": "use_Mailing",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\Mailing;$0",
+    ],
+    "description": "Añadir use para Mailing"
   },
 
 }

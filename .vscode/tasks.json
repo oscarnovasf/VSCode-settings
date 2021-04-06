@@ -9,6 +9,18 @@
      **************************************************************************/
 
     {
+      "label": "Actualizar snippets (Clases)",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_clases.code-snippets -o .vscode/drupal_clases.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
       "label": "Actualizar snippets (Formularios)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_form.code-snippets -o .vscode/drupal_form.code-snippets",
@@ -53,6 +65,7 @@
         "reveal": "never",
       },
       "dependsOn": [
+        "Actualizar snippets (Clases)",
         "Actualizar snippets (Formularios)",
         "Actualizar snippets (JavaScript)",
         "Actualizar snippets (Uses)",
