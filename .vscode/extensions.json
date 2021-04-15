@@ -8,6 +8,7 @@
   "recommendations": [
     "alefragnani.bookmarks",
     "coenraads.bracket-pair-colorizer-2",
+    "adam-bender.commit-message-editor",
     "naumovs.color-highlight",
     "aaron-bond.better-comments",
     "zaczero.bootstrap-v4-snippets",
@@ -15,14 +16,12 @@
     "dssiqueira.drupal-8-snippets",
     "tsega.drupal-8-twig-snippets",
     "marcostazi.vs-code-drupal",
-    "janisdd.vscode-edit-csv",
     "dmitrydorofeev.empty-indent",
     "mrorz.language-gettext",
     "codezombiech.gitignore",
     "ecmel.vscode-html-css",
     "abusaidm.html-snippets",
     "donjayamanne.jquerysnippets",
-    "ritwickdey.live-sass",
     "ritwickdey.liveserver",
     "bierner.markdown-preview-github-styles",
     "ionutvmi.path-autocomplete",
@@ -34,13 +33,13 @@
     "mehedidracula.php-namespace-resolver",
     "shevaua.phpcs",
     "liximomo.sftp",
-    "tyriar.shell-launcher",
     "ms-ceintl.vscode-language-pack-es",
     "cssho.vscode-svgviewer",
     "cnshenj.vscode-task-manager",
     "gruntfuggly.todo-tree",
     "mblode.twig-language-2",
-    "huizhou.githd"
+    "huizhou.githd",
+    "ms-vscode-remote.remote-ssh"
   ],
 
   "unwantedRecommendations": [
@@ -49,10 +48,13 @@
     "hediet.vscode-drawio",
     "jebbs.plantuml",
     "mechatroner.rainbow-csv",
+    "janisdd.vscode-edit-csv",
+    "tyriar.shell-launcher",
     "timonwong.shellcheck",
     "mrmlnc.vscode-apache",
     "ms-azuretools.vscode-docker",
     "github.vscode-pull-request-github",
-    "wakatime.vscode-wakatime"
+    "wakatime.vscode-wakatime",
+    "ritwickdey.live-sass",
   ]
 }

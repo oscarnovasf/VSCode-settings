@@ -5,6 +5,8 @@
 
   "css.validate": true,
 
+  "debug.terminal.clearBeforeReusing": true,
+
   "diffEditor.ignoreTrimWhitespace": false,
 
   "editor.autoIndent": "full",
@@ -64,6 +66,13 @@
 
   "telemetry.enableTelemetry": false,
 
+  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.profiles.windows": {
+    "Commander (Laragon)": {
+      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+      "args": ["${workspaceFolder}"]
+    }
+  },
   "terminal.integrated.shell.windows": "${env:programfiles}\\Git\\bin\\bash.exe",
 
   "workbench.colorTheme": "Monokai Dimmed",
@@ -129,6 +138,99 @@
   "color-highlight.markerType": "dot-before",
   "color-highlight.markRuler": false,
 
+  /* Commit Message Editor*/
+  "commit-message-editor.tokens": [
+    {
+      "label": "Tipo de commit",
+      "name": "type",
+      "type": "enum",
+      "description": "Indica el tipo de commit siguiento las reglas de 'Conventional Commits':",
+      "options": [
+        {
+          "label": "---",
+          "value": ""
+        },
+        {
+          "label": "init",
+          "description": "Commit inicial (inicio del proyecto)."
+        },
+        {
+          "label": "chore",
+          "description": "Tarea de mantenimiento que no produce código fuente."
+        },
+        {
+          "label": "ci",
+          "description": "Cambios relacionados con CI/CD (por ejemplo: Travis, Ansible, GitLab CI/CD, Jenkins...)."
+        },
+        {
+          "label": "doc",
+          "description": "Cambios relacionados con la documentación."
+        },
+        {
+          "label": "feat",
+          "description": "Nueva funcionalidad."
+        },
+        {
+          "label": "fix",
+          "description": "Reparación de un error."
+        },
+        {
+          "label": "refactor",
+          "description": "Cambios en el código que no arreglan bugs ni añaden nuevas funcionalidades."
+        },
+        {
+          "label": "test",
+          "description": "Añadir o corregir pruebas unitarias o tests en general."
+        }
+      ]
+    },
+    {
+      "label": "Alcance",
+      "name": "scope",
+      "type": "text",
+      "description": "Se puede proporcionar un alcance al tipo de un commit, para proporcionar información contextual adicional (encerrada entre paréntesis - ej., \"feat(parser): ...\".",
+      "multiline": false,
+      "prefix": "(",
+      "suffix": ")"
+    },
+    {
+      "label": "Mensaje",
+      "name": "description",
+      "type": "text",
+      "description": "Descripción corta del commit.",
+      "multiline": false
+    },
+    {
+      "label": "Descripción",
+      "name": "body",
+      "type": "text",
+      "description": "Descripción detallada del commit (opcional)",
+      "multiline": true,
+      "lines": 5,
+      "maxLines": 10
+    },
+    {
+      "label": "Breaking change",
+      "name": "breaking_change",
+      "type": "boolean",
+      "description": "Marcar si este commit provoca un cambio de la versión principal.",
+      "value": "BREAKING CHANGE: ",
+      "default": false
+    },
+    {
+      "label": "Pie del mensaje",
+      "name": "footer",
+      "type": "text",
+      "description": "Texto final del commit. Se puede usar para marcar la issue relacionada (ej. closes #21)",
+      "multiline": true,
+      "lines": 3,
+      "maxLines": 5
+    },
+  ],
+  "commit-message-editor.view.defaultView": "form",
+  "commit-message-editor.view.saveAndClose": true,
+  "commit-message-editor.view.showRecentCommits": true,
+
   /* Empty Indent */
   "emptyIndent.exclude": [
     ".md"
@@ -163,6 +265,17 @@
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.showOutputWindow": false,
 
+  /* Macros */
+  "macros": {
+    /* Keybindings.json => ctrl+shift+d */
+    "commentDown": [
+      "editor.action.copyLinesDownAction",
+      "cursorUp",
+      "editor.action.addCommentLine",
+      "cursorDown"
+    ]
+  },
+
   /* PHP Code Sniffer */
   "phpcs.enable": true,
   "phpcs.standard": "Drupal,DrupalPractice",
@@ -180,10 +293,13 @@
   "php.suggest.basic": false,
 
   /* PHP Mess Detector */
-  "phpmd.command": "${env:appdata}\\Composer\\vendor\\bin\\phpmd.bat",
+  // INFO: Para usar en Windows:
+  "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
+  // INFO: Para usar en Ubuntu:
+  // "phpmd.command": "/usr/bin/phpmd",
 
   "phpmd.enabled": true,
-  "phpmd.rules": "${workspaceFolder}\\phpmd.xml",
+  "phpmd.rules": "${workspaceFolder}/phpmd.xml",
   "phpmd.verbose": false,
 
   /* PHP Server */
@@ -231,9 +347,10 @@
     "INFO",
   ],
   "todo-tree.filtering.excludeGlobs":[
-    "**/node_modules/**",
     "**/.tmp-doc",
+    "**/.vscode/**",
     "**/documentation/**",
+    "**/node_modules/**",
     "**/vendor/**"
   ],
   "todo-tree.highlights.enabled": true,

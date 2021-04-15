@@ -3,7 +3,7 @@
   "configurations": [
 
     {
-      "type": "Chrome",
+      "type": "chrome",
       "request": "launch",
       "name": "Chrome [Local]",
       "url": "http://localhost",

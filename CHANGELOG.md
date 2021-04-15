@@ -1,6 +1,28 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.0] - 2021-04-15
+> Revisión
+### Añadidos
+* Nuevas configuraciones disponibles en la versión 1.55.0 de VSCode.
+* Nueva extensión "Remote - SSH".
+* Nueva extensión "Commit Message Editor" y configuración para la misma.
+* Se añade macro para duplicar línea y comentar la anterior en
+  ***settings.json***.
+* Nuevos snippets de formulario (***drupal_form.code-snippets***).
+
+### Cambios
+* La extensión "Live - SASS" pasa a ser opcional.
+* La extensión "Edit CSV" pasa a ser opcional.
+* La extensión "Shell launcher" pasa a ser opcional.
+* Modificación de ***settings.json*** con pequeñas ayudas para usar phpmd en
+  Ubuntu cuando se trabaja vía SSH.
+* Modificación de los snippets de javascript (***drupal_js.code.snippets***).
+
+### Corrección de errores
+* Reparación de error en ***launch.json*** con el tipo "chrome".
+
+---
 ## [v0.4.0] - 2021-04-06
 > Revisión
 ### Añadidos

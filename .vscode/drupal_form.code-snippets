@@ -10,6 +10,15 @@
     "description": "Drupal 8|9: FormApi Action"
   },
 
+  "drupal_form_attached": {
+    "scope": "php",
+    "prefix": "form_attached",
+    "body": [
+      "$$form['#attached']['library'][] = '${WORKSPACE_NAME}/${1:library_name}';$0",
+    ],
+    "description": "Drupal 8|9: FormApi Attached"
+  },
+
   "drupal_form_checkbox": {
     "scope": "php",
     "prefix": "form_checkbox",
@@ -31,11 +40,11 @@
     "body": [
       "$$form['${1:element_name}'] = [",
       "\t'#type' => 'container',",
-      "\t'#prefix' => $$this->t('${2:prefix}'),",
+      "\t'#prefix' => '${2:prefix}',",
       "\t'#suffix' => '${3:suffix}',",
       "\t'#attributes' => [",
       "\t\t'class' => [${4:container}],",
-      "\t]",
+      "\t],",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Container"
@@ -98,6 +107,21 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi FieldSet"
+  },
+
+  "drupal_form_hidden": {
+    "scope": "php",
+    "prefix": "form_hidden",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'hidden',",
+      "\t'#value' => '${2:value}',",
+      "\t'#attributes' => [",
+      "\t\t'id' => '${3:id}'",
+      "\t],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Hidden"
   },
 
   "drupal_form_markup": {

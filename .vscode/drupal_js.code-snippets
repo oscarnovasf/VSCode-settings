@@ -14,7 +14,7 @@
     "scope": "javascript",
     "prefix": "js_bhv",
     "body": [
-      "Drupal.behaviors.${1:behaviorName} = {",
+      "Drupal.behaviors.${1:${TM_FILENAME_BASE}} = {",
       "\tattach: function (context, settings) {",
       "\t\t$0",
       "\t}",
@@ -31,7 +31,7 @@
       "",
       "\t'use strict';",
       "",
-      "\tDrupal.behaviors.${1:behaviorName} = {",
+      "\tDrupal.behaviors.${1:${TM_FILENAME_BASE}} = {",
       "\t\tattach: function (context, settings) {",
       "\t\t\t$0",
       "\t\t}",
