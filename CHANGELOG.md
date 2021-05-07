@@ -1,6 +1,25 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.1] - 2021-05-07
+> Revisión
+### Añadidos
+* Nueva tarea para descargar MarkdownParser.
+* Ahora en cada commit se realiza un push de manera automática.
+* Nueva extensión para gestionar Composer (y configuración).
+* Nueva extensión "phpcbf" (y configuración).
+* Nueva extensión opcional "Remote - Containers".
+* Nueva extensión opcional "Json Editor" (y configuración).
+
+### Cambios
+* Mejora visual de las tareas en Task Manager.
+* Se han movido las configuraciones de ***settings.json*** para encontrar más
+  fácilmente aquellas que necesitan ser revisadas por el usuario o que son más
+  susceptibles de requerir cambios.
+* Eliminación de algunas configuraciones obsoletas.
+* Actualización de algunas configuraciones obsoletas para la versión 1.57.0
+
+---
 ## [v0.5.0] - 2021-04-15
 > Revisión
 ### Añadidos

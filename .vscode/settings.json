@@ -1,5 +1,92 @@
 {
   /* ***************************************************************************
+   * CONFIGURACIÓN DE USUARIO:
+   *
+   * - Esta configuración se debe copiar en el settings.json del usuario.
+   * - Se incluye en este archivo simplemente para darlas a conocer.
+   * - Una vez guardada se aplicará a todos los proyectos o archivos que se
+   *   abran dentro de VSCode.
+   * **************************************************************************/
+
+  "telemetry.enableTelemetry": false,
+
+  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.automationShell.windows": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+
+  "terminal.integrated.profiles.windows": {
+    "Commander (Laragon)": {
+      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+      "args": ["${workspaceFolder}"]
+    },
+    "GitBash": {
+      "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+      "args": ["-l"]
+    },
+    "CMD": {
+      "path": "${env:windir}\\system32\\cmd.exe",
+      "args": ["${workspaceFolder}"]
+    }
+  },
+
+  "window.dialogStyle": "custom",
+  "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "on",
+
+  /* PHP Mess Detector */
+  // INFO: Para usar en Windows:
+  "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
+  // INFO: Para usar en Ubuntu (Copiar en la configuración remota):
+  // "phpmd.command": "/usr/bin/phpmd",
+
+  /* ***************************************************************************
+   * CONFIGURACIÓN DEL PROYECTO:
+   *
+   * - Esta configuración es la que se aplicará a cada proyecto.
+   * **************************************************************************/
+
+  /* ***************************************************************************
+   * CONFIGURACIONES QUE NECESITAN SER MODIFICADAS SEGÚN EL USUARIO / PROYECTO
+   * **************************************************************************/
+
+  "php.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+
+  /* Composer */
+  "composer.executablePath": "C:\\laragon\\bin\\composer\\composer.bat",
+
+  /* phpcbf */
+  "phpcbf.executablePath": "phpcbf.bat",
+
+  /* PHP DocBlocks */
+  "php-docblocker.author": {
+    "name": "Óscar Novás",
+    "email": "hola@oscarnovas.com"
+  },
+
+  /* Shell Launcher */
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "%programfiles%\\Git\\bin\\bash.exe",
+      "args": ["-l"],
+      "label": "GIT Bash"
+    },
+    {
+      "shell": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
+    },
+    {
+      "shell": "%windir%\\system32\\cmd.exe",
+      "label": "CMD"
+    },
+    {
+      "shell": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+      "args": ["${workspaceFolder}"],
+      "label": "Cmder"
+    }
+  ],
+
+  /* ***************************************************************************
    * CONFIGURACIÓN GENERAL DEL EDITOR
    * **************************************************************************/
 
@@ -55,8 +142,8 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  "git.showPushSuccessNotification": true,
   "git.autofetch": true,
+  "git.showPushSuccessNotification": true,
 
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
@@ -64,16 +151,7 @@
   "php.validate.enable": true,
   "php.validate.run": "onType",
 
-  "telemetry.enableTelemetry": false,
-
-  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
-  "terminal.integrated.profiles.windows": {
-    "Commander (Laragon)": {
-      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-      "args": ["${workspaceFolder}"]
-    }
-  },
-  "terminal.integrated.shell.windows": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.tabs.enabled": true,
 
   "workbench.colorTheme": "Monokai Dimmed",
   "workbench.editor.decorations.badges": true,
@@ -137,6 +215,9 @@
   /* Color Highlight */
   "color-highlight.markerType": "dot-before",
   "color-highlight.markRuler": false,
+
+  /* Composer */
+  "composer.enabled": true,
 
   /* Commit Message Editor*/
   "commit-message-editor.tokens": [
@@ -238,8 +319,14 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
+  /* Git */
+  "git.postCommitCommand": "push",
+
   /* Git History Diff */
   "githd.logView.displayExpressStatus": false,
+
+  /* Json Editor */
+  "vscode-json-editor.theme": "dark",
 
   /* Live SASS */
   "liveSassCompile.settings.autoprefix": [
@@ -276,27 +363,23 @@
     ]
   },
 
+  /* phpcbf */
+  "phpcbf.enable": true,
+  "phpcbf.documentFormattingProvider": true,
+  "phpcbf.onsave": false,
+  "phpcbf.standard": "Drupal",
+
   /* PHP Code Sniffer */
   "phpcs.enable": true,
   "phpcs.standard": "Drupal,DrupalPractice",
 
   /* PHP DocBlocks */
-  "php-docblocker.author": {
-    "name": "Óscar Novás",
-    "email": "hola@oscarnovas.com"
-  },
   "php-docblocker.gap": true,
   "php-docblocker.returnVoid" : false,
   "php-docblocker.useShortNames": true,
 
   /* PHP Intellisense */
   "php.suggest.basic": false,
-
-  /* PHP Mess Detector */
-  // INFO: Para usar en Windows:
-  "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
-  // INFO: Para usar en Ubuntu:
-  // "phpmd.command": "/usr/bin/phpmd",
 
   "phpmd.enabled": true,
   "phpmd.rules": "${workspaceFolder}/phpmd.xml",
@@ -307,28 +390,6 @@
 
   /* ShellCheck */
   "shellcheck.enable": true,
-
-  /* Shell Launcher */
-  "shellLauncher.shells.windows": [
-    {
-      "shell": "%programfiles%\\Git\\bin\\bash.exe",
-      "args": ["-l"],
-      "label": "GIT Bash"
-    },
-    {
-      "shell": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-      "label": "PowerShell"
-    },
-    {
-      "shell": "%windir%\\system32\\cmd.exe",
-      "label": "CMD"
-    },
-    {
-      "shell": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-      "args": ["${workspaceFolder}"],
-      "label": "Cmder"
-    }
-  ],
 
   /* ShellCheck */
   "shellcheck.ignorePatterns": {
@@ -381,7 +442,6 @@
     }
   },
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.tree.showScanModeButton": false,
 
   /* ***************************************************************************
    * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES

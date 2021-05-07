@@ -207,7 +207,7 @@
      **************************************************************************/
 
     {
-      "label": "Descargar DateTimeFunctions.php",
+      "label": "-- Librería: DateTimeFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DateTimeFunctions.php -o src/lib/general/DateTimeFunctions.php && grep -l module_template src/lib/general/DateTimeFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -219,7 +219,7 @@
     },
 
     {
-      "label": "Descargar FileFunctions.php",
+      "label": "-- Librería: FileFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o src/lib/general/FileFunctions.php && grep -l module_template src/lib/general/FileFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -231,7 +231,7 @@
     },
 
     {
-      "label": "Descargar FtpFunctions.php",
+      "label": "-- Librería: FtpFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FtpFunctions.php -o src/lib/general/FtpFunctions.php && grep -l module_template src/lib/general/FtpFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -243,7 +243,7 @@
     },
 
     {
-      "label": "Descargar Mailing.php",
+      "label": "-- Librería: Mailing.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/Mailing.php -o src/lib/Mailing.php && grep -l module_template src/lib/Mailing.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -253,12 +253,24 @@
         "clear": true
       },
       "dependsOn": [
-        "Descargar ResponseFunctions.php",
+        "-- Librería: ResponseFunctions.php",
       ],
     },
 
     {
-      "label": "Descargar ParamsFunctions.php",
+      "label": "-- Librería: MarkdownParser.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/MarkdownParser.php -o src/lib/general/MarkdownParser.php && grep -l module_template src/lib/general/MarkdownParser.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "-- Librería: ParamsFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ParamsFunctions.php -o src/lib/general/ParamsFunctions.php && grep -l module_template src/lib/general/ParamsFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -270,7 +282,7 @@
     },
 
     {
-      "label": "Descargar ResponseFunctions.php",
+      "label": "-- Librería: ResponseFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ResponseFunctions.php -o src/lib/general/ResponseFunctions.php && grep -l module_template src/lib/general/ResponseFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -282,7 +294,7 @@
     },
 
     {
-      "label": "Descargar StringFunctions.php",
+      "label": "-- Librería: StringFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/StringFunctions.php -o src/lib/general/StringFunctions.php && grep -l module_template src/lib/general/StringFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -294,7 +306,7 @@
     },
 
     {
-      "label": "Descargar ValidateFunctions.php",
+      "label": "-- Librería: ValidateFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ValidateFunctions.php -o src/lib/general/ValidateFunctions.php && grep -l module_template src/lib/general/ValidateFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
