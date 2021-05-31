@@ -30,6 +30,7 @@ Archivos de configuración para VSCode
   * [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
+  * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
@@ -116,8 +117,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.5.1
-[version-badge]: https://img.shields.io/badge/version-0.5.1-blue.svg
+[version]: v0.5.2
+[version-badge]: https://img.shields.io/badge/version-0.5.2-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

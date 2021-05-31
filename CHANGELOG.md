@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.2] - 2021-05-31
+> Revisión
+### Añadidos
+* Nuevo snippet para generar la librería de un formulario base.
+* Se añade gestión de caché en el snippet para generar la librería de "Blocks".
+* Nueva configuración para trabajar con archivos json más grandes.
+* Añadida extensión "GitLab Workflow" y su configuración base.
+
+### Corrección de errores
+* Error con una coma al generar un campo hidden para los formularios.
+
 ## [v0.5.1] - 2021-05-07
 > Revisión
 ### Añadidos

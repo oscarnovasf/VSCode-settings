@@ -41,7 +41,8 @@
     "gruntfuggly.todo-tree",
     "mblode.twig-language-2",
     "huizhou.githd",
-    "ms-vscode-remote.remote-ssh"
+    "ms-vscode-remote.remote-ssh",
+    "gitlab.gitlab-workflow"
   ],
 
   "unwantedRecommendations": [

@@ -117,7 +117,7 @@
       "\t'#type' => 'hidden',",
       "\t'#value' => '${2:value}',",
       "\t'#attributes' => [",
-      "\t\t'id' => '${3:id}'",
+      "\t\t'id' => '${3:id}',",
       "\t],",
       "];$0",
     ],

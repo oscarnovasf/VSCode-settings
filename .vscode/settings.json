@@ -55,6 +55,9 @@
   /* Composer */
   "composer.executablePath": "C:\\laragon\\bin\\composer\\composer.bat",
 
+  /* GitLab Workflow */
+  "gitlab.instanceUrl": "https://gitlab.gloudify.com",
+
   /* phpcbf */
   "phpcbf.executablePath": "phpcbf.bat",
 
@@ -147,6 +150,8 @@
 
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
+
+  "json.maxItemsComputed": 50000,
 
   "php.validate.enable": true,
   "php.validate.run": "onType",
@@ -324,6 +329,48 @@
 
   /* Git History Diff */
   "githd.logView.displayExpressStatus": false,
+
+  /* GitLab Workflow */
+  "gitlab.customQueries": [
+    {
+      "name": "Issues (asignadas para mi)",
+      "type": "issues",
+      "scope": "assigned_to_me",
+      "state": "opened",
+      "noItemText": "-- Vacío --"
+    },
+    {
+      "name": "Issues (creadas por mi)",
+      "type": "issues",
+      "scope": "created_by_me",
+      "state": "opened",
+      "noItemText": "-- Vacío --"
+    },
+    {
+      "name": "MR (asignadas para mi)",
+      "type": "merge_requests",
+      "scope": "assigned_to_me",
+      "state": "opened",
+      "noItemText": "-- Vacío --"
+    },
+    {
+      "name": "MR (estoy revisando)",
+      "type": "merge_requests",
+      "reviewer": "<current_user>",
+      "state": "opened",
+      "noItemText": "-- Vacío --"
+    },
+    {
+      "name": "MR (creadas por mi)",
+      "type": "merge_requests",
+      "scope": "created_by_me",
+      "state": "opened",
+      "noItemText": "-- Vacío --"
+    }
+  ],
+  "gitlab.showProjectMergeRequests": false,
+  "gitlab.showIssueLinkOnStatusBar": false,
+  "gitlab.showPipelineUpdateNotifications": false,
 
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
