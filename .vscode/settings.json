@@ -131,6 +131,8 @@
     "*.test": "php",
     "*.php": "php",
     "*.twig": "html",
+    "*.env.development": "env",
+    "*.env.production": "env"
   },
   "files.autoSave": "onFocusChange",
   "files.encoding": "utf8",
@@ -494,8 +496,22 @@
    * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES
    * **************************************************************************/
 
+  "[env]": {
+    "files.insertFinalNewline": false,
+  },
+
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": false,
+  },
+
   "[markdown]": {
-    "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace": false,
+    "files.insertFinalNewline": false,
   }
 
 }

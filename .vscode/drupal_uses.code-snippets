@@ -206,6 +206,15 @@
     "description": "Añadir use para FtpFunctions"
   },
 
+  "drupal_use_MarkdownParser": {
+    "scope": "php",
+    "prefix": "use_MarkdownParser",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\MarkdownParser;$0",
+    ],
+    "description": "Añadir use para MarkdownParser"
+  },
+
   "drupal_use_ParamsFunctions": {
     "scope": "php",
     "prefix": "use_ParamsFunctions",

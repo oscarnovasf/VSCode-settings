@@ -1,6 +1,21 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.3] - 2021-06-21
+> Revisión
+### Añadidos
+* Configuración específica para archivos JSON en ***settings.json***.
+* Configuración específica para archivos .env en ***settings.json***.
+* Añadida extensión "ENV" y su configuración.
+* Añadido snippet "use" para la librería MarkdownParser.
+* Añadido archivo ***.editorconfig*** con datos específicos para Drupal
+  (se incluye la tarea para la descarga en *tasks.json*).
+* Configuración en **launch.json** para ejecutar XDebug dentro de Docker.
+
+### Corrección de errores
+* Mejorada la agrupación de las tareas en ***tasks.json***.
+
+---
 ## [v0.5.2] - 2021-05-31
 > Revisión
 ### Añadidos
@@ -12,6 +27,7 @@
 ### Corrección de errores
 * Error con una coma al generar un campo hidden para los formularios.
 
+---
 ## [v0.5.1] - 2021-05-07
 > Revisión
 ### Añadidos

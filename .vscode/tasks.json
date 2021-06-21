@@ -119,6 +119,18 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
+        "group": "settings",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar .editorconfig",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.editorconfig -o .editorconfig",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
         "group": "snippets",
         "clear": true
       },
@@ -131,7 +143,7 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
-        "group": "snippets",
+        "group": "documentacion",
         "clear": true
       },
     },
@@ -143,7 +155,7 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
-        "group": "snippets",
+        "group": "documentacion",
         "clear": true
       },
     },
@@ -155,7 +167,7 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
-        "group": "snippets",
+        "group": "documentacion",
         "clear": true
       },
     },
@@ -167,7 +179,7 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
-        "group": "snippets",
+        "group": "documentacion",
         "clear": true
       },
     },
@@ -183,7 +195,8 @@
         "Actualizar extensions.json",
         "Actualizar launch.json",
         "Actualizar settings.json",
-        "Actualizar tasks.json"
+        "Actualizar tasks.json",
+        "Actualizar .editorconfig"
       ]
     },
 

@@ -27,6 +27,7 @@ Archivos de configuración para VSCode
   * [Drupal 8 Twig Snippets](https://marketplace.visualstudio.com/items?itemName=tsega.drupal-8-twig-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
+  * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
@@ -117,8 +118,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.5.2
-[version-badge]: https://img.shields.io/badge/version-0.5.2-blue.svg
+[version]: v0.5.3
+[version-badge]: https://img.shields.io/badge/version-0.5.3-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"

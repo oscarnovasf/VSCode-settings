@@ -24,5 +24,17 @@
       },
       "log": false,
     },
+
+    {
+      "name": "XDebug [Docker]",
+      "type": "php",
+      "request": "launch",
+      "port": 9001,
+      "log": false,
+      "stopOnEntry": true,
+      "pathMappings": {
+          "/var/www/html/": "${workspaceRoot}/html/",
+      }
+  },
   ]
 }

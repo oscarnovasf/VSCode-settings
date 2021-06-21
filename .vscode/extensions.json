@@ -42,7 +42,8 @@
     "mblode.twig-language-2",
     "huizhou.githd",
     "ms-vscode-remote.remote-ssh",
-    "gitlab.gitlab-workflow"
+    "gitlab.gitlab-workflow",
+    "irongeek.vscode-env"
   ],
 
   "unwantedRecommendations": [
