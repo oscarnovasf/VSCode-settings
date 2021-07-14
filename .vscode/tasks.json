@@ -220,6 +220,18 @@
      **************************************************************************/
 
     {
+      "label": "-- Librería: CalendarLinkFunctions.php",
+      "type": "shell",
+      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/CalendarLinkFunctions.php -o src/lib/general/CalendarLinkFunctions.php && grep -l module_template src/lib/general/CalendarLinkFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "clear": true
+      },
+    },
+
+    {
       "label": "-- Librería: DateTimeFunctions.php",
       "type": "shell",
       "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DateTimeFunctions.php -o src/lib/general/DateTimeFunctions.php && grep -l module_template src/lib/general/DateTimeFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",

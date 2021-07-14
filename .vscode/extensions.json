@@ -8,6 +8,8 @@
   "recommendations": [
     "alefragnani.bookmarks",
     "coenraads.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-spanish",
     "adam-bender.commit-message-editor",
     "ikappas.composer",
     "naumovs.color-highlight",
@@ -29,7 +31,6 @@
     "felixfbecker.php-debug",
     "neilbrayfield.php-docblocker",
     "pkief.material-icon-theme",
-    "felixfbecker.php-intellisense",
     "ecodes.vscode-phpmd",
     "mehedidracula.php-namespace-resolver",
     "shevaua.phpcs",

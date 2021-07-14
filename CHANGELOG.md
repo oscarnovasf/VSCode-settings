@@ -1,6 +1,19 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.4] - 2021-07-14
+> Revisión
+### Añadidos
+* Descarga de la librería ***CalendarLinkFunctions.php** en las tareas.
+* Configuración para validar algunos archivos ***json***.
+* Configuración específica para archivos de ***shell***.
+* Añadida extensión ***Code Spell Checker*** con lenguaje español.
+
+### Corrección de errores
+* Eliminada extensión PHP Intellisense porque ya no aparece en el repositorio
+  de extensiones de VSCode.
+
+---
 ## [v0.5.3] - 2021-06-21
 > Revisión
 ### Añadidos

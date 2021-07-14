@@ -154,6 +154,21 @@
   "html.format.wrapLineLength": 80,
 
   "json.maxItemsComputed": 50000,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "composer.json",
+        "composer.*.json"
+      ],
+      "url": "https://raw.githubusercontent.com/composer/composer/master/res/composer-schema.json"
+    },
+    {
+      "fileMatch": [
+        "package.json",
+      ],
+      "url": "https://json.schemastore.org/package.json"
+    }
+  ],
 
   "php.validate.enable": true,
   "php.validate.run": "onType",
@@ -218,6 +233,9 @@
 
   /* Bookmarks */
   "bookmarks.saveBookmarksInProject": true,
+
+  /* Code Spell Checker */
+  "cSpell.language": "en,es",
 
   /* Color Highlight */
   "color-highlight.markerType": "dot-before",
@@ -427,9 +445,7 @@
   "php-docblocker.returnVoid" : false,
   "php-docblocker.useShortNames": true,
 
-  /* PHP Intellisense */
-  "php.suggest.basic": false,
-
+  /* PHP Mess Detector */
   "phpmd.enabled": true,
   "phpmd.rules": "${workspaceFolder}/phpmd.xml",
   "phpmd.verbose": false,
@@ -509,8 +525,20 @@
     "files.insertFinalNewline": false,
   },
 
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "files.insertFinalNewline": false,
+  },
+
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
+    "files.insertFinalNewline": false,
+  },
+
+  "[shellscript]": {
     "files.insertFinalNewline": false,
   }
 
