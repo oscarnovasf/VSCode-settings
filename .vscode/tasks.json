@@ -59,7 +59,6 @@
     {
       "label": "- Actualizar snippets",
       "type": "shell",
-      "command": "ls -l .vscode",
       "isBackground": true,
       "presentation": {
         "reveal": "never",
@@ -75,6 +74,18 @@
     /* *************************************************************************
      * TAREAS PARA ACTUALIZAR LA CONFIGURACIÓN.
      **************************************************************************/
+
+    {
+      "label": "Actualizar cspell.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/cspell.json -o .vscode/cspell.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "clear": true
+      },
+    },
 
     {
       "label": "Actualizar extensions.json",
@@ -186,12 +197,13 @@
 
     {
       "label": "- Actualizar configuraciones",
-      "command": "ls -l .vscode",
+      "type": "shell",
       "isBackground": true,
       "presentation": {
         "reveal": "never",
       },
       "dependsOn": [
+        "Actualizar cspell.json",
         "Actualizar extensions.json",
         "Actualizar launch.json",
         "Actualizar settings.json",
@@ -202,7 +214,7 @@
 
     {
       "label": "- Actualizar documentación",
-      "command": "ls -l .vscode",
+      "type": "shell",
       "isBackground": true,
       "presentation": {
         "reveal": "never",

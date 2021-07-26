@@ -11,7 +11,6 @@
     "streetsidesoftware.code-spell-checker",
     "streetsidesoftware.code-spell-checker-spanish",
     "adam-bender.commit-message-editor",
-    "ikappas.composer",
     "naumovs.color-highlight",
     "aaron-bond.better-comments",
     "zaczero.bootstrap-v4-snippets",
@@ -44,7 +43,8 @@
     "huizhou.githd",
     "ms-vscode-remote.remote-ssh",
     "gitlab.gitlab-workflow",
-    "irongeek.vscode-env"
+    "irongeek.vscode-env",
+    "rangav.vscode-thunder-client"
   ],
 
   "unwantedRecommendations": [

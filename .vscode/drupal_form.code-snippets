@@ -65,6 +65,21 @@
     "description": "Drupal 8|9: FormApi Date"
   },
 
+  "drupal_form_date_time": {
+    "scope": "php",
+    "prefix": "form_datetime",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'datetime',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#description' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi DateTime"
+  },
+
   "drupal_form_details": {
     "scope": "php",
     "prefix": "form_details",
@@ -201,6 +216,7 @@
       "\t'#options' => [${6:array}],",
       "\t'#empty_option' => $$this->t('${7:-- None --}'),",
       "\t'#empty_value' => '${8:_none}',",
+      "\t'#multiple' => ${9|FALSE,TRUE|},",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Select"

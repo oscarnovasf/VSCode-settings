@@ -49,11 +49,7 @@
    * CONFIGURACIONES QUE NECESITAN SER MODIFICADAS SEGÚN EL USUARIO / PROYECTO
    * **************************************************************************/
 
-  "php.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
   "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-
-  /* Composer */
-  "composer.executablePath": "C:\\laragon\\bin\\composer\\composer.bat",
 
   /* GitLab Workflow */
   "gitlab.instanceUrl": "https://gitlab.gloudify.com",
@@ -142,6 +138,7 @@
     ".tmp-doc/": true,
     "node_modules/": true,
     "package-lock.json": true,
+    "composer.lock": true,
     "debug.log": true
   },
   "files.insertFinalNewline": true,
@@ -234,15 +231,13 @@
   /* Bookmarks */
   "bookmarks.saveBookmarksInProject": true,
 
-  /* Code Spell Checker */
+  /* Code Spell Checker => El resto de configuraciónes => cspell.json */
+  "cSpell.enabled": true,
   "cSpell.language": "en,es",
 
   /* Color Highlight */
   "color-highlight.markerType": "dot-before",
   "color-highlight.markRuler": false,
-
-  /* Composer */
-  "composer.enabled": true,
 
   /* Commit Message Editor*/
   "commit-message-editor.tokens": [
@@ -464,6 +459,10 @@
 
   /* SVG */
   "svgviewer.enableautopreview": true,
+
+  /* Thunder Client */
+  "thunder-client.loadFromProject": true,
+  "thunder-client.workspaceRelativePath": "docs",
 
   /* TO-DO TREE */
   "todo-tree.general.tags": [

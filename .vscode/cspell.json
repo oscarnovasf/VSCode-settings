@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "language": "en,es",
+
+  /* Rutas y archivos que no se van a verificar */
+  "ignorePaths": [
+    "node_modules",
+    "node_modules/**",
+    "**/node_modules",
+    "**/node_modules/**",
+
+    "vendor",
+    "vendor/**",
+    "**/vendor",
+    "**/vendor/**",
+
+    ".git",
+    ".vscode",
+    "*.json"
+  ],
+
+  /* Lista de palabras consideradas correctas */
+  "words": [
+    "editorconfig",
+    "langcode",
+    "phpcbf",
+    "phpcs",
+    "phpmd",
+    "webform",
+    "xargs"
+  ],
+
+  /* Lista de palabras consideradas incorrectas */
+  "flagWords": []
+}

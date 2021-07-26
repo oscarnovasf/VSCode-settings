@@ -1,6 +1,24 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.5] - 2021-07-21
+> Revisión
+### Añadidos
+* Configuración especial para ***Code Spell Checker***.
+* Tarea para descargar ***cspell.json***.
+* Pequeñas modificaciones en ***phpcs.xml***.
+* Nuevo módulo "Thunder Client" para test de APIs.
+* Nuevos snippets de formulario.
+
+### Cambios
+* Más opciones en algunos snippets de formularios.
+* Elimino extensión de Composer (me marca error en composer.json).
+
+### Corrección de errores
+* Error al ejecutar tareas con dependencias.
+* Limpieza de configuraciones obsoletas.
+
+---
 ## [v0.5.4] - 2021-07-14
 > Revisión
 ### Añadidos
