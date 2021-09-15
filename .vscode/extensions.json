@@ -7,14 +7,12 @@
    */
   "recommendations": [
     "alefragnani.bookmarks",
-    "coenraads.bracket-pair-colorizer-2",
     "streetsidesoftware.code-spell-checker",
     "streetsidesoftware.code-spell-checker-spanish",
     "adam-bender.commit-message-editor",
     "naumovs.color-highlight",
     "aaron-bond.better-comments",
     "zaczero.bootstrap-v4-snippets",
-    "msjsdiag.debugger-for-chrome",
     "dssiqueira.drupal-8-snippets",
     "tsega.drupal-8-twig-snippets",
     "marcostazi.vs-code-drupal",
@@ -42,7 +40,6 @@
     "mblode.twig-language-2",
     "huizhou.githd",
     "ms-vscode-remote.remote-ssh",
-    "gitlab.gitlab-workflow",
     "irongeek.vscode-env",
     "rangav.vscode-thunder-client"
   ],
@@ -63,5 +60,7 @@
     "github.vscode-pull-request-github",
     "wakatime.vscode-wakatime",
     "ritwickdey.live-sass",
+    "gitlab.gitlab-workflow",
+    "dotjoshjohnson.xml"
   ]
 }

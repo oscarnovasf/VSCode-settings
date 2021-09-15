@@ -3,9 +3,9 @@
   "configurations": [
 
     {
-      "type": "chrome",
-      "request": "launch",
       "name": "Chrome [Local]",
+      "type":"pwa-chrome",
+      "request": "launch",
       "url": "http://localhost",
       "webRoot": "${workspaceFolder}"
     },
@@ -35,6 +35,6 @@
       "pathMappings": {
           "/var/www/html/": "${workspaceRoot}/html/",
       }
-  },
+    },
   ]
 }

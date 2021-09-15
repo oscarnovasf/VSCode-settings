@@ -94,6 +94,15 @@
     "description": "Añadir use para Markup"
   },
 
+  "drupal_use_Media": {
+    "scope": "php",
+    "prefix": "use_Media",
+    "body": [
+      "use Drupal\\media\\Entity\\Media;$0",
+    ],
+    "description": "Añadir use para Media"
+  },
+
   "drupal_use_Node": {
     "scope": "php",
     "prefix": "use_Node",

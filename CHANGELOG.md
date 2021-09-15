@@ -1,6 +1,25 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.6] - 2021-09-15
+> Revisión
+### Añadidos
+* Nuevas palabras para ***cspell.json***
+* Extensión para formatear archivos XML.
+* Configuración especial para archivos ***yml***.
+* Nuevos snippets para cláusulas *use*.
+* Código de conducta para contribuyentes al proyecto.
+* Tarea para descargar archivo ***.gitignore***.
+
+### Cambios
+* Mejora de la documentación.
+* Eliminadas extensiones descontinuadas o innecesarias.
+* Adaptada configuración para la versión 1.60.0 de VSCode.
+
+### Eliminados
+* Extensión Bracket Pair Colorizer 2.
+
+---
 ## [v0.5.5] - 2021-07-21
 > Revisión
 ### Añadidos

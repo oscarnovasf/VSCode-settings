@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "language": "en,es",
 
   /* Rutas y archivos que no se van a verificar */
@@ -21,6 +21,10 @@
 
   /* Lista de palabras consideradas correctas */
   "words": [
+    "autoload",
+    "autoloader",
+    "desactivación",
+    "drush",
     "editorconfig",
     "langcode",
     "phpcbf",

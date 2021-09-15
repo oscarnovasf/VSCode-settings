@@ -96,6 +96,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
 
   "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
@@ -124,6 +125,7 @@
     "*.install": "php",
     "*.theme": "php",
     "*.tpl.php": "php",
+    "*.tmpl": "html",
     "*.test": "php",
     "*.php": "php",
     "*.twig": "html",
@@ -214,18 +216,6 @@
       "bold": false,
       "italic": false
     }
-  ],
-
-  /* Bracket Pair Colorizer 2 */
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  "bracket-pair-colorizer-2.colors": [
-    "#FAFAFA",
-    "#9F51B6",
-    "#F7C244",
-    "#F07850"
-  ],
-  "bracket-pair-colorizer-2.excludedLanguages": [
-    "twig"
   ],
 
   /* Bookmarks */
@@ -538,6 +528,10 @@
   },
 
   "[shellscript]": {
+    "files.insertFinalNewline": false,
+  },
+
+  "[yaml]": {
     "files.insertFinalNewline": false,
   }
 

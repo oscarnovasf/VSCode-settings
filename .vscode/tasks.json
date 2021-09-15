@@ -1,6 +1,6 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
+  // Ver https://go.microsoft.com/fwlink/?LinkId=733558
+  // para más documentación sobre el formato de este archivo.
   "version": "2.0.0",
   "tasks": [
 
@@ -175,6 +175,18 @@
       "label": "Actualizar phpdox.xml",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpdox.xml -o phpdox.xml && grep -l module_template phpdox.xml|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "documentacion",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar .gitignore",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.gitignore_tasks -o .gitignore",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",

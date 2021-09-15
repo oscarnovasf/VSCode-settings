@@ -1,0 +1,44 @@
+# Archivos de diferentes IDEs.
+/.idea/
+/.vscode/**
+!/.vscode/tasks.json
+
+debug.log
+
+# Archivos de desarrollo.
+/node_modules/
+
+# Archivos de documentación (phpdox).
+/.tmp-doc/
+/documentation/
+
+################################################################################
+# Configuración para proyectos Drupal con Composer.
+################################################################################
+
+# Variables de entorno para el proyecto actual.
+.env
+
+# Archivos generados por Composer.
+/drush/contrib/
+/vendor/
+/tmp/
+
+# Core y módulos/plantillas contrib.
+/web/core/
+/web/modules/contrib/
+/web/modules/custom/*/node_modules
+/web/modules/custom/*/vendor
+/web/themes/contrib/
+/web/themes/custom/*/node_modules
+/web/profiles/contrib/
+/web/libraries/
+
+# Directorio de Archivos de Drupal.
+/web/sites/*/files/
+/web/sites/simpletest
+
+# Según la naturaleza del proyecto puede que se tengan que ignorar también
+# estos archivos:
+# /web/sites/*/settings.php
+# /web/sites/*/settings.local.php
