@@ -41,7 +41,8 @@
     "huizhou.githd",
     "ms-vscode-remote.remote-ssh",
     "irongeek.vscode-env",
-    "rangav.vscode-thunder-client"
+    "rangav.vscode-thunder-client",
+    "dbaeumer.vscode-eslint"
   ],
 
   "unwantedRecommendations": [

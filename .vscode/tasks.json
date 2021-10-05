@@ -142,7 +142,31 @@
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
-        "group": "snippets",
+        "group": "settings",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar .eslintignore",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintignore -o .eslintignore",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "Actualizar .eslintrc.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintrc.json -o .eslintrc.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
         "clear": true
       },
     },
@@ -220,7 +244,9 @@
         "Actualizar launch.json",
         "Actualizar settings.json",
         "Actualizar tasks.json",
-        "Actualizar .editorconfig"
+        "Actualizar .editorconfig",
+        "Actualidar .eslintignore",
+        "Actualidar .eslintrc.json"
       ]
     },
 
@@ -246,7 +272,7 @@
     {
       "label": "-- Librería: CalendarLinkFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/CalendarLinkFunctions.php -o src/lib/general/CalendarLinkFunctions.php && grep -l module_template src/lib/general/CalendarLinkFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/CalendarLinkFunctions.php -o ${input:destino}/CalendarLinkFunctions.php && grep -l module_template ${input:destino}/CalendarLinkFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -258,7 +284,7 @@
     {
       "label": "-- Librería: DateTimeFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DateTimeFunctions.php -o src/lib/general/DateTimeFunctions.php && grep -l module_template src/lib/general/DateTimeFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DateTimeFunctions.php -o ${input:destino}/DateTimeFunctions.php && grep -l module_template ${input:destino}/DateTimeFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -270,7 +296,7 @@
     {
       "label": "-- Librería: FileFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o src/lib/general/FileFunctions.php && grep -l module_template src/lib/general/FileFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o ${input:destino}/FileFunctions.php && grep -l module_template ${input:destino}/FileFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -282,7 +308,7 @@
     {
       "label": "-- Librería: FtpFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FtpFunctions.php -o src/lib/general/FtpFunctions.php && grep -l module_template src/lib/general/FtpFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FtpFunctions.php -o ${input:destino}/FtpFunctions.php && grep -l module_template ${input:destino}/FtpFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -294,7 +320,7 @@
     {
       "label": "-- Librería: Mailing.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/Mailing.php -o src/lib/Mailing.php && grep -l module_template src/lib/Mailing.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino_mailing} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/Mailing.php -o ${input:destino_mailing}/Mailing.php && grep -l module_template ${input:destino_mailing}/Mailing.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -309,7 +335,7 @@
     {
       "label": "-- Librería: MarkdownParser.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/MarkdownParser.php -o src/lib/general/MarkdownParser.php && grep -l module_template src/lib/general/MarkdownParser.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/MarkdownParser.php -o ${input:destino}/MarkdownParser.php && grep -l module_template ${input:destino}/MarkdownParser.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -321,7 +347,7 @@
     {
       "label": "-- Librería: ParamsFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ParamsFunctions.php -o src/lib/general/ParamsFunctions.php && grep -l module_template src/lib/general/ParamsFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ParamsFunctions.php -o ${input:destino}/ParamsFunctions.php && grep -l module_template ${input:destino}/ParamsFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -333,7 +359,7 @@
     {
       "label": "-- Librería: ResponseFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ResponseFunctions.php -o src/lib/general/ResponseFunctions.php && grep -l module_template src/lib/general/ResponseFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ResponseFunctions.php -o ${input:destino}/ResponseFunctions.php && grep -l module_template ${input:destino}/ResponseFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -345,7 +371,7 @@
     {
       "label": "-- Librería: StringFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/StringFunctions.php -o src/lib/general/StringFunctions.php && grep -l module_template src/lib/general/StringFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/StringFunctions.php -o ${input:destino}/StringFunctions.php && grep -l module_template ${input:destino}/StringFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -357,7 +383,7 @@
     {
       "label": "-- Librería: ValidateFunctions.php",
       "type": "shell",
-      "command": "mkdir -p src/lib/general && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ValidateFunctions.php -o src/lib/general/ValidateFunctions.php && grep -l module_template src/lib/general/ValidateFunctions.php|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/ValidateFunctions.php -o ${input:destino}/ValidateFunctions.php && grep -l module_template ${input:destino}/ValidateFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -395,6 +421,27 @@
     },
 */
 
+  ],
+
+  "inputs": [
+    {
+      "id": "destino",
+      "description": "Destino:",
+      "type": "promptString",
+      "default": "src/lib/general"
+    },
+    {
+      "id": "destino_mailing",
+      "description": "Destino (Mailing):",
+      "type": "promptString",
+      "default": "src/lib"
+    },
+    {
+      "id": "namespace",
+      "description": "NameSpace:",
+      "type": "promptString",
+      "default": "${workspaceFolderBasename}"
+    }
   ]
 
 }

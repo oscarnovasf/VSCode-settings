@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.5.7] - 2021-10-05
+> Revisión
+### Añadidos
+* Añadidos parámetros a las tareas de las librerías para poder utilizar las
+  descargas en proyectos que no son módulos.
+* Módulo ESLint y su configuración.
+
+### Cambios
+* Modificación del snippet de formulario para las fechas.
+
+---
 ## [v0.5.6] - 2021-09-15
 > Revisión
 ### Añadidos

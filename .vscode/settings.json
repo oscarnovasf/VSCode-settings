@@ -97,6 +97,9 @@
 
   "editor.autoIndent": "full",
   "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
   "editor.detectIndentation": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
@@ -328,6 +331,9 @@
   ],
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
+
+  /* ESLint */
+  "eslint.alwaysShowStatus": true,
 
   /* Git */
   "git.postCommitCommand": "push",

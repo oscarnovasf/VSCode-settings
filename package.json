@@ -5,14 +5,11 @@
   "description": "",
   "keywords": [
     "Drupal",
-    "phpdox",
-    "phpcs",
-    "phploc",
-    "sftp",
+    "eslint",
     "standard-version"
   ],
 
-  "license": "GNU",
+  "license": "GPLv3+",
 
   "author": {
     "name": "Óscar Novás",
@@ -30,6 +27,7 @@
   },
 
   "devDependencies": {
+    "eslint-config-drupal": "^5.0.2",
     "standard-version": "^9.1.0"
   }
 

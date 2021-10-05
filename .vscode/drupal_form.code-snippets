@@ -58,8 +58,9 @@
       "\t'#type' => 'date',",
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#description' => '${3:default}',",
-      "\t'#required' => ${4|TRUE,FALSE|},",
-      "\t'#access' => ${5|TRUE,FALSE|},",
+      "\t'#default_value' => ${4:date('Y-m-d')},",
+      "\t'#required' => ${5|TRUE,FALSE|},",
+      "\t'#access' => ${6|TRUE,FALSE|},",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Date"

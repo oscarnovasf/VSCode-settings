@@ -29,6 +29,7 @@ Archivos de configuración para VSCode
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
+  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
@@ -123,11 +124,11 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.5.6
-[version-badge]: https://img.shields.io/badge/version-0.5.6-blue.svg
+[version]: v0.5.7
+[version-badge]: https://img.shields.io/badge/Versión-0.5.7-blue.svg
 
 [license]: LICENSE.md
-[license-badge]: https://img.shields.io/github/license/oscarnovasf/vscode_config "Leer la licencia"
+[license-badge]: https://img.shields.io/badge/Licencia-GNU3+-green.svg "Leer la licencia"
 
 [conduct]: CODE_OF_CONDUCT.md
 [conduct-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg "Código de conducta"
@@ -135,5 +136,5 @@ momento.
 [changelog]: CHANGELOG.md "Histórico de cambios"
 [contributors]: https://github.com/oscarnovasf/vscode_config/contributors "Ver contribuyentes"
 
-[donate-badge]: https://img.shields.io/badge/Donate-PayPal-green.svg
+[donate-badge]: https://img.shields.io/badge/Donaci%C3%B3n-PayPal-red.svg
 [donate-url]: https://paypal.me/oscarnovasf "Haz una donación"
