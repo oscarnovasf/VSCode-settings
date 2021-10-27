@@ -271,6 +271,6 @@
       "use Drupal\\\\$WORKSPACE_NAME\\lib\\Mailing;$0",
     ],
     "description": "Añadir use para Mailing"
-  },
+  }
 
 }

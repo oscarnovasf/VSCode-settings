@@ -104,6 +104,7 @@
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
+  "editor.guides.bracketPairs": true,
   "editor.insertSpaces": true,
   "editor.linkedEditing": true,
   "editor.renderWhitespace": "boundary",

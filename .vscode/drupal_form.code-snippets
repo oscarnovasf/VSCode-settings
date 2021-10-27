@@ -19,6 +19,15 @@
     "description": "Drupal 8|9: FormApi Attached"
   },
 
+  "drupal_form_cache": {
+    "scope": "php",
+    "prefix": "form_cache",
+    "body": [
+      "$$form['#cache']['max-age'] = ${1:0};$0",
+    ],
+    "description": "Drupal 8|9: FormApi Caché"
+  },
+
   "drupal_form_checkbox": {
     "scope": "php",
     "prefix": "form_checkbox",
@@ -32,6 +41,22 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Checkbox"
+  },
+
+  "drupal_form_checkboxes": {
+    "scope": "php",
+    "prefix": "form_checkboxes",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'checkboxes',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#required' => ${4|TRUE,FALSE|},",
+      "\t'#access' => ${5|TRUE,FALSE|},",
+      "\t'#options' => [${6:array}],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Checkboxes"
   },
 
   "drupal_form_container": {
@@ -140,6 +165,28 @@
     "description": "Drupal 8|9: FormApi Hidden"
   },
 
+  "drupal_form_managed_file": {
+    "scope": "php",
+    "prefix": "form_managed_file",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'managed_file',",
+      "\t'#title' => $$this->t('${2:Upload file}'),",
+      "\t'#description' => $$this->t('${3:Allowed extensions: txt pdf doc docx}'),",
+      "\t'#multiple' => ${4|FALSE,TRUE|},",
+      "\t'#required' => ${5|TRUE,FALSE|},",
+      "\t'#access' => ${6|TRUE,FALSE|},",
+      "\t'#upload_location' => ${7|public,private,temporal|}://,",
+      "\t'#upload_validators' => [",
+      "\t\t'file_validate_extensions' => [${8:txt pdf doc docx}],",
+      "\t\t'file_validate_size' => [${9:25600000}],",
+      "\t\t'file_validate_is_image' => [],",
+      "\t'],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Managed File"
+  },
+
   "drupal_form_markup": {
     "scope": "php",
     "prefix": "form_markup",
@@ -227,9 +274,9 @@
     "scope": "php",
     "prefix": "form_submit",
     "body": [
-      "$$form['${1:element_name}'] = [",
+      "$$form['${1:actions}']['${2:element_name}'] = [",
       "\t'#type' => 'submit',",
-      "\t'#value' => $$this->t('${2:title}'),",
+      "\t'#value' => $$this->t('${3:title}'),",
       "\t'#attributes' => [",
       "\t\t'class' => [",
       "\t\t\t'btn-primary',",
@@ -238,6 +285,25 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Submit"
+  },
+
+  "drupal_form_table": {
+    "scope": "php",
+    "prefix": "form_table",
+    "body": [
+      "$$header = [$0];",
+      "$$rows = [];",
+      "",
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'table',",
+      "\t'#header' => $$header,",
+      "\t'#rows' => $$rows,",
+      "\t'#empty' => $$this->t('No data has been found.'),",
+      "\t'#responsive' => ${2|TRUE,FALSE|},",
+      "\t'#sticky' => ${3|FALSE,TRUE|},",
+      "];",
+    ],
+    "description": "Drupal 8|9: FormApi Table"
   },
 
   "drupal_form_tel": {

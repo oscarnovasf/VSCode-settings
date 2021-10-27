@@ -1,6 +1,21 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.6.0] - 2021-
+> Revisión
+### Añadidos
+* Nuevo snippet para generar la clase de un formulario de configuración
+  (FormConfig).
+* Nuevo snippet para generar la clase WebformHandler.
+* Nuevos snippets para los formularios.
+* Manipulación de la caché del formulario.
+* Form API de Checkboxes.
+* Nueva librería de snippets de carácter general.
+
+### Cambios
+* Se elimina la extensión de Bootstrap 4 por otras más completa.
+
+---
 ## [v0.5.7] - 2021-10-05
 > Revisión
 ### Añadidos

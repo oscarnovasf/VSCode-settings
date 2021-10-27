@@ -19,7 +19,7 @@ Archivos de configuración para VSCode
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-  * [Bootstrap v4 Snippets](https://marketplace.visualstudio.com/items?itemName=Zaczero.bootstrap-v4-snippets)
+  * [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode)
   * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * [Spanish - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-spanish)
   * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
@@ -124,11 +124,11 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.5.7
-[version-badge]: https://img.shields.io/badge/Versión-0.5.7-blue.svg
+[version]: v0.6.0
+[version-badge]: https://img.shields.io/badge/Versión-0.6.0-blue.svg
 
 [license]: LICENSE.md
-[license-badge]: https://img.shields.io/badge/Licencia-GNU3+-green.svg "Leer la licencia"
+[license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
 
 [conduct]: CODE_OF_CONDUCT.md
 [conduct-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg "Código de conducta"

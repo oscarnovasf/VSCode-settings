@@ -57,6 +57,18 @@
     },
 
     {
+      "label": "Actualizar snippets (Utils)",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/utils.code-snippets -o .vscode/utils.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
       "label": "- Actualizar snippets",
       "type": "shell",
       "isBackground": true,
@@ -68,6 +80,7 @@
         "Actualizar snippets (Formularios)",
         "Actualizar snippets (JavaScript)",
         "Actualizar snippets (Uses)",
+        "Actualizar snippets (Utils)",
       ]
     },
 

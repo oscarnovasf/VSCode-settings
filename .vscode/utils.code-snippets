@@ -1,0 +1,28 @@
+{
+  "utils_db": {
+    "scope": "php",
+    "prefix": "utils_db",
+    "body": [
+      "$$sql = \"$0\";",
+      "",
+      "$$db = \\Drupal::database();",
+      "$$result = $$db->query($$sql);",
+      "",
+      "while ($$row = $$result->fetchAssoc()) {",
+      "}",
+    ],
+    "description": "Snippet de consulta a base de datos"
+  },
+
+  "utils_dump": {
+    "scope": "php",
+    "prefix": "utils_dump",
+    "body": [
+      "echo '<pre><code>';",
+      "var_dump($0);",
+      "echo '</code></pre>';",
+    ],
+    "description": "PHP var_dump"
+  }
+
+}
