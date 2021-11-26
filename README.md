@@ -31,14 +31,16 @@ Archivos de configuración para VSCode
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
-  * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
+  * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+  * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+  * [MySQL](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
@@ -46,6 +48,7 @@ Archivos de configuración para VSCode
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
   * [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
+  * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
@@ -59,13 +62,14 @@ Archivos de configuración para VSCode
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+  * [Fix Json](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
-  * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
   * [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+  * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [Shell launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
@@ -124,8 +128,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.6.0
-[version-badge]: https://img.shields.io/badge/Versión-0.6.0-blue.svg
+[version]: v0.7.0
+[version-badge]: https://img.shields.io/badge/Versión-0.7.0-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

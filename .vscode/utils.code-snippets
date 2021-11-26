@@ -14,6 +14,15 @@
     "description": "Snippet de consulta a base de datos"
   },
 
+  "utils_drupal_log": {
+    "scope": "php",
+    "prefix": "utils_drupal_log",
+    "body": [
+      "\\Drupal::logger('custom_logger')->${1|info,notice,error,warning|}('<pre><code>' . print_r(${2:$$array}, TRUE) . '</code></pre>');$0",
+    ],
+    "description": "PHP var_dump"
+  },
+
   "utils_dump": {
     "scope": "php",
     "prefix": "utils_dump",

@@ -1,7 +1,30 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
-## [v0.6.0] - 2021-
+## [v0.7.0] - 2021-11-26
+> Revisión
+### Añadidos
+* Configuraciones nuevas en la versión 1.62 de vscode.
+* Configuraciones especiales para archivos CSV.
+* Nuevos snippets de formulario.
+* Nuevos snippets de utilidades.
+* Extensión para scripts en PowerShell (opcional) y configuración.
+* Extensión GitLink para crear enlaces al repo (con configuración).
+* Extensión Project Manager para optimizar la gestión de proyectos.
+* Extensión MySQL y configuración.
+* Extensión FIX Json (opcional).
+
+### Cambios
+* Mejora del snippet para crear form_base.
+
+### Corrección de errores
+* Error en el snippet de formulario: managed_file.
+
+### Eliminados
+* Configuración y extension opcional "Live Sass Compiler".
+
+---
+## [v0.6.0] - 2021-10-27
 > Revisión
 ### Añadidos
 * Nuevo snippet para generar la clase de un formulario de configuración

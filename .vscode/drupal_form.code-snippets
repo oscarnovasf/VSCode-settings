@@ -176,12 +176,12 @@
       "\t'#multiple' => ${4|FALSE,TRUE|},",
       "\t'#required' => ${5|TRUE,FALSE|},",
       "\t'#access' => ${6|TRUE,FALSE|},",
-      "\t'#upload_location' => ${7|public,private,temporal|}://,",
+      "\t'#upload_location' => '${7|public,private,temporary|}://',",
       "\t'#upload_validators' => [",
-      "\t\t'file_validate_extensions' => [${8:txt pdf doc docx}],",
+      "\t\t'file_validate_extensions' => ['${8:txt pdf doc docx}'],",
       "\t\t'file_validate_size' => [${9:25600000}],",
       "\t\t'file_validate_is_image' => [],",
-      "\t'],",
+      "\t],",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Managed File"
@@ -378,6 +378,23 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Vertical Tabs"
+  },
+
+  "drupal_form_view": {
+    "scope": "php",
+    "prefix": "form_view",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'view',",
+      "\t'#name' => '$$view_name',",
+      "\t'#display_id' => '$$display_id',",
+      "\t'#arguments' => [,",
+      "\t\t'arg_1' => '${2:arg_1}',",
+      "\t\t'arg_2' => '${3:arg_2}',",
+      "\t],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi View"
   }
 
 }

@@ -153,6 +153,7 @@
   "git.autofetch": true,
   "git.showPushSuccessNotification": true,
 
+  "html.completion.attributeDefaultValue": "doublequotes",
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
 
@@ -326,6 +327,11 @@
   "commit-message-editor.view.saveAndClose": true,
   "commit-message-editor.view.showRecentCommits": true,
 
+  /* Databse Client (MySQL) */
+  "database-client.showQuery": true,
+  "database-client.showFunction": false,
+  "database-client.showProcedure": false,
+
   /* Empty Indent */
   "emptyIndent.exclude": [
     ".md"
@@ -384,32 +390,11 @@
   "gitlab.showIssueLinkOnStatusBar": false,
   "gitlab.showPipelineUpdateNotifications": false,
 
+  /* GitLink */
+  "GitLink.defaultRemote": "origin",
+
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
-
-  /* Live SASS */
-  "liveSassCompile.settings.autoprefix": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "liveSassCompile.settings.excludeList": [
-    ".vscode/**",
-    "css/**"
-  ],
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    },
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "/css"
-    }
-  ],
-  "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.showOutputWindow": false,
 
   /* Macros */
   "macros": {
@@ -445,10 +430,22 @@
   /* PHP Server */
   "phpserver.port": 8888,
 
-  /* ShellCheck */
-  "shellcheck.enable": true,
+  /* PowerShell */
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.integratedConsole.suppressStartupBanner": true,
+
+  /* Project Manager */
+  "projectManager.groupList": true,
+  "projectManager.removeCurrentProjectFromList": true,
+  "projectManager.tags": [
+    "Composer",
+    "Drush",
+    "Module-Templates",
+    "Scripts"
+  ],
 
   /* ShellCheck */
+  "shellcheck.enable": true,
   "shellcheck.ignorePatterns": {
     "**/.git/*.sh": true
   },
@@ -507,6 +504,14 @@
   /* ***************************************************************************
    * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES
    * **************************************************************************/
+
+  "[csv]": {
+    "files.insertFinalNewline": false,
+  },
+
+  "[csv (semicolon)]": {
+    "files.insertFinalNewline": false,
+  },
 
   "[env]": {
     "files.insertFinalNewline": false,
