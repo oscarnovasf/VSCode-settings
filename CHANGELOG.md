@@ -1,6 +1,16 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.1] - 2022-01-14
+> Revisión
+### Añadidos
+* Nuevos snippets de utilidades.
+
+### Cambios
+* Actualización de configuraciones obsoletas en la versión 1.63.0 de VSCode.
+* Configuraciones específicas para MAC.
+
+---
 ## [v0.7.0] - 2021-11-26
 > Revisión
 ### Añadidos

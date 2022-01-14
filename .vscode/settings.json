@@ -8,10 +8,13 @@
    *   abran dentro de VSCode.
    * **************************************************************************/
 
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
 
+  /* Modificaciones en el terminal de Windows */
   "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
-  "terminal.integrated.automationShell.windows": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.automationProfile.windows": {
+    "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+  },
   "terminal.integrated.defaultProfile.windows": "GitBash",
 
   "terminal.integrated.profiles.windows": {
@@ -29,15 +32,24 @@
     }
   },
 
+  /* Terminal: Sólo si se tiene instalado ohmyzsh */
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "terminal.integrated.fontSize": 13,
+
   "window.dialogStyle": "custom",
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
 
-  /* PHP Mess Detector */
-  // INFO: Para usar en Windows:
-  "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
-  // INFO: Para usar en Ubuntu (Copiar en la configuración remota):
-  // "phpmd.command": "/usr/bin/phpmd",
+  /* PHP Mess Detector:
+   *
+   * Para usar en Windows:
+   *   - "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
+   * Para usar en Ubuntu (Copiar en la configuración remota):
+   *   - "phpmd.command": "/usr/bin/phpmd",
+   * Para usar en MAC si se ha instalado con brew:
+   *   - "phpmd.command": "/opt/homebrew/bin/phpmd",
+   */
+  "phpmd.command": "/opt/homebrew/bin/phpmd",
 
   /* ***************************************************************************
    * CONFIGURACIÓN DEL PROYECTO:
@@ -49,13 +61,20 @@
    * CONFIGURACIONES QUE NECESITAN SER MODIFICADAS SEGÚN EL USUARIO / PROYECTO
    * **************************************************************************/
 
-  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-
-  /* GitLab Workflow */
+   /* GitLab Workflow */
   "gitlab.instanceUrl": "https://gitlab.gloudify.com",
 
-  /* phpcbf */
-  "phpcbf.executablePath": "phpcbf.bat",
+  /* PHP:
+   *
+   * Para usar en Windows:
+   *   - "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+   * Para usar en MAC (PHP instalado con brew):
+   *   - "php.validate.executablePath": "/opt/homebrew/bin/php",
+   */
+  "php.validate.executablePath": "/opt/homebrew/bin/php",
+
+  /* phpcbf: Añadir .bat si se usa Windows */
+  "phpcbf.executablePath": "phpcbf",
 
   /* PHP DocBlocks */
   "php-docblocker.author": {
@@ -398,7 +417,8 @@
 
   /* Macros */
   "macros": {
-    /* Keybindings.json => ctrl+shift+d */
+    /* Keybindings.json (Windows) => ctrl+shift+d */
+    /* Keybindings.json (MAC) => ctrl+shift+d */
     "commentDown": [
       "editor.action.copyLinesDownAction",
       "cursorUp",
@@ -440,7 +460,7 @@
   "projectManager.tags": [
     "Composer",
     "Drush",
-    "Module-Templates",
+    "Templates",
     "Scripts"
   ],
 
