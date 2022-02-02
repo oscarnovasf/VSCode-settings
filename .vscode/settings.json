@@ -1,44 +1,55 @@
 {
   /* ***************************************************************************
-   * CONFIGURACIÓN DE USUARIO:
    *
-   * - Esta configuración se debe copiar en el settings.json del usuario.
-   * - Se incluye en este archivo simplemente para darlas a conocer.
-   * - Una vez guardada se aplicará a todos los proyectos o archivos que se
-   *   abran dentro de VSCode.
+   * El presente archivo de configuración está divido en las siguientes
+   * secciones:
+   *
+   * - CONFIGURACIÓN DE USUARIO: Configuraciones que deberán ser copiadas en el
+   *   settings.json del usuario y adaptadas según la configuración del SO del
+   *   PC dónde se ejecute VSCode. Algunas de ellas sólo funcionan si se
+   *   configuran en dicho archivo.
+   *
+   * - CONFIGURACIÓN DEL PROYECTO: Configuraciones que pueden variar según el
+   *   proyecto en el que se trabaje y que deben ser modificadas por cada
+   *   desarrollador.
+   *
+   * - CONFIGURACIÓN GENERAL DEL EDITOR: Configuraciones fijas que se pueden
+   *   copiar en el settings.json del usuario o mantener en un archivo por
+   *   proyecto. Son configuraciones fijas que no necesitan modificación por
+   *   parte del desarrollador.
+   *
+   * - CONFIGURACIÓN DE MÓDULOS Y PLUGINS: Configuraciones específicas de los
+   *   módulos propuestos en el archivo extensions.json. Al igual que las
+   *   configuraciones anteriores se pueden copiar el el settings.json del
+   *   usuario o mantenerlas en un archivo por proyecto.
+   *
+   * - CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES: Son alteraciones de las
+   *   configuraciones anteriores específicas para algunos lenguajes. Se puede
+   *   proceder con ellas como en los dos casos anteriores.
+   *
    * **************************************************************************/
 
-  "telemetry.telemetryLevel": "off",
+  /* ***************************************************************************
+   * 1.- CONFIGURACIÓN DE USUARIO:
+   * **************************************************************************/
 
-  /* Modificaciones en el terminal de Windows */
-  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
-  "terminal.integrated.automationProfile.windows": {
-    "path": "${env:programfiles}\\Git\\bin\\bash.exe",
-  },
-  "terminal.integrated.defaultProfile.windows": "GitBash",
+  /* PHP:
+   *
+   * Para usar en Windows:
+   *   - "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+   * Para usar en MAC (Si ha sido instalado con brew):
+   *   - "php.validate.executablePath": "/opt/homebrew/bin/php",
+   */
+  "php.validate.executablePath": "/opt/homebrew/bin/php",
 
-  "terminal.integrated.profiles.windows": {
-    "Commander (Laragon)": {
-      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-      "args": ["${workspaceFolder}"]
-    },
-    "GitBash": {
-      "path": "${env:programfiles}\\Git\\bin\\bash.exe",
-      "args": ["-l"]
-    },
-    "CMD": {
-      "path": "${env:windir}\\system32\\cmd.exe",
-      "args": ["${workspaceFolder}"]
-    }
-  },
-
-  /* Terminal: Sólo si se tiene instalado ohmyzsh */
-  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
-  "terminal.integrated.fontSize": 13,
-
-  "window.dialogStyle": "custom",
-  "window.newWindowDimensions": "maximized",
-  "window.openFoldersInNewWindow": "on",
+  /* phpcbf:
+   *
+   * Para usar en Windows:
+   *   - "phpcbf.executablePath": "<ruta .bat>",
+   * Para usar en MAC (Si ha sido instalado con brew):
+   *   - "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
+   */
+  "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
 
   /* PHP Mess Detector:
    *
@@ -46,41 +57,19 @@
    *   - "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
    * Para usar en Ubuntu (Copiar en la configuración remota):
    *   - "phpmd.command": "/usr/bin/phpmd",
-   * Para usar en MAC si se ha instalado con brew:
+   * Para usar en MAC (Si ha sido instalado con brew):
    *   - "phpmd.command": "/opt/homebrew/bin/phpmd",
    */
   "phpmd.command": "/opt/homebrew/bin/phpmd",
 
-  /* ***************************************************************************
-   * CONFIGURACIÓN DEL PROYECTO:
-   *
-   * - Esta configuración es la que se aplicará a cada proyecto.
-   * **************************************************************************/
-
-  /* ***************************************************************************
-   * CONFIGURACIONES QUE NECESITAN SER MODIFICADAS SEGÚN EL USUARIO / PROYECTO
-   * **************************************************************************/
-
-   /* GitLab Workflow */
-  "gitlab.instanceUrl": "https://gitlab.gloudify.com",
-
-  /* PHP:
+  /* ShellCheck
    *
    * Para usar en Windows:
-   *   - "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-   * Para usar en MAC (PHP instalado con brew):
-   *   - "php.validate.executablePath": "/opt/homebrew/bin/php",
+   *   - "shellcheck.executablePath": "<ruta>",
+   * Para usar en MAC (Si ha sido instalado con brew):
+   *   - "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
    */
-  "php.validate.executablePath": "/opt/homebrew/bin/php",
-
-  /* phpcbf: Añadir .bat si se usa Windows */
-  "phpcbf.executablePath": "phpcbf",
-
-  /* PHP DocBlocks */
-  "php-docblocker.author": {
-    "name": "Óscar Novás",
-    "email": "hola@oscarnovas.com"
-  },
+  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
 
   /* Shell Launcher */
   "shellLauncher.shells.windows": [
@@ -104,8 +93,54 @@
     }
   ],
 
+  /* Telemetría */
+  "telemetry.telemetryLevel": "off",
+
+  /* Modificaciones en el terminal de Windows */
+  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
+  "terminal.integrated.automationProfile.windows": {
+    "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+  },
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+  "terminal.integrated.profiles.windows": {
+    "Commander (Laragon)": {
+      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+      "args": ["${workspaceFolder}"]
+    },
+    "GitBash": {
+      "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+      "args": ["-l"]
+    },
+    "CMD": {
+      "path": "${env:windir}\\system32\\cmd.exe",
+      "args": ["${workspaceFolder}"]
+    }
+  },
+
+  /* Terminal: Sólo si se tiene instalado ohmyzsh */
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "terminal.integrated.fontSize": 13,
+
+  /* Ventanas de VSCode */
+  "window.dialogStyle": "custom",
+  "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "on",
+
   /* ***************************************************************************
-   * CONFIGURACIÓN GENERAL DEL EDITOR
+   * 2.- CONFIGURACIÓN DEL PROYECTO:
+   * **************************************************************************/
+
+   /* GitLab Workflow */
+  "gitlab.instanceUrl": "https://gitlab.gloudify.com",
+
+  /* PHP DocBlocks */
+  "php-docblocker.author": {
+    "name": "Óscar Novás",
+    "email": "hola@oscarnovas.com"
+  },
+
+  /* ***************************************************************************
+   * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
    * **************************************************************************/
 
   "css.validate": true,
@@ -206,7 +241,7 @@
   "workbench.startupEditor": "newUntitledFile",
 
   /* ***************************************************************************
-   * CONFIGURACIÓN DE MÓDULOS Y PLUGINS
+   * 4.- CONFIGURACIÓN DE MÓDULOS Y PLUGINS:
    * **************************************************************************/
 
   /* Better Comments */
@@ -345,6 +380,9 @@
   "commit-message-editor.view.defaultView": "form",
   "commit-message-editor.view.saveAndClose": true,
   "commit-message-editor.view.showRecentCommits": true,
+
+  /* Draw.io */
+  "hediet.vscode-drawio.theme": "Kennedy",
 
   /* Databse Client (MySQL) */
   "database-client.showQuery": true,
@@ -522,7 +560,7 @@
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
 
   /* ***************************************************************************
-   * CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES
+   * 5.- CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES:
    * **************************************************************************/
 
   "[csv]": {

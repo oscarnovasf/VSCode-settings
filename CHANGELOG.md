@@ -1,6 +1,26 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.2] - 2022-
+> Revisión
+### Añadidos
+* Nueva extensión para "ordenar" los archivos SCSS (SCSS Formatter).
+* Nueva extensión para lanzar conexiones ssh en la terminal de VSCode.
+* Añadido watch en el módulo sftp para los archivos de javascript.
+* Asignación de theme para Draw.io.
+
+### Cambios
+* Modificación de la extensión de PHP Debug (la anterior ha desaparecido del
+  repositorio).
+* Pequeñas modificaciones en los comentarios de archivo settings.json para
+  facilitar su comprensión.
+
+### Corrección de errores
+* Modificación de la ruta al ejecutable de shellcheck para evitar error
+  recurrente de que no encuentra dicho ejecutable.
+* Modificación de la ruta al ejecutable phpcbf (mismo problema que el anterior)
+
+---
 ## [v0.7.1] - 2022-01-14
 > Revisión
 ### Añadidos

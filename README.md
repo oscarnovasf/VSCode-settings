@@ -42,7 +42,7 @@ Archivos de configuración para VSCode
   * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
   * [MySQL](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
-  * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
+  * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
   * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
@@ -50,7 +50,9 @@ Archivos de configuración para VSCode
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+  * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
+  * [SSH FS](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
   * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
@@ -128,8 +130,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.1
-[version-badge]: https://img.shields.io/badge/Versión-0.7.1-blue.svg
+[version]: v0.7.2
+[version-badge]: https://img.shields.io/badge/Versión-0.7.2-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
