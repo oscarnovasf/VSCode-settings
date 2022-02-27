@@ -9,7 +9,7 @@
      **************************************************************************/
 
     {
-      "label": "Actualizar snippets (Clases)",
+      "label": "hidden: Actualizar snippets (Clases)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_clases.code-snippets -o .vscode/drupal_clases.code-snippets",
       "presentation": {
@@ -21,7 +21,7 @@
     },
 
     {
-      "label": "Actualizar snippets (Formularios)",
+      "label": "hidden: Actualizar snippets (Formularios)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_form.code-snippets -o .vscode/drupal_form.code-snippets",
       "presentation": {
@@ -33,7 +33,7 @@
     },
 
     {
-      "label": "Actualizar snippets (JavaScript)",
+      "label": "hidden: Actualizar snippets (JavaScript)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_js.code-snippets -o .vscode/drupal_js.code-snippets",
       "presentation": {
@@ -45,7 +45,7 @@
     },
 
     {
-      "label": "Actualizar snippets (Uses)",
+      "label": "hidden: Actualizar snippets (Uses)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_uses.code-snippets -o .vscode/drupal_uses.code-snippets",
       "presentation": {
@@ -57,7 +57,7 @@
     },
 
     {
-      "label": "Actualizar snippets (Utils)",
+      "label": "hidden: Actualizar snippets (Utils)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/utils.code-snippets -o .vscode/utils.code-snippets",
       "presentation": {
@@ -89,7 +89,7 @@
      **************************************************************************/
 
     {
-      "label": "Actualizar cspell.json",
+      "label": "hidden: Actualizar cspell.json",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/cspell.json -o .vscode/cspell.json",
       "presentation": {
@@ -101,7 +101,7 @@
     },
 
     {
-      "label": "Actualizar extensions.json",
+      "label": "hidden: Actualizar extensions.json",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/extensions.json -o .vscode/extensions.json",
       "presentation": {
@@ -113,7 +113,7 @@
     },
 
     {
-      "label": "Actualizar launch.json",
+      "label": "hidden: Actualizar launch.json",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/launch.json -o .vscode/launch.json",
       "presentation": {
@@ -125,7 +125,7 @@
     },
 
     {
-      "label": "Actualizar settings.json",
+      "label": "hidden: Actualizar settings.json",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/settings.json -o .vscode/settings.json",
       "presentation": {
@@ -149,7 +149,7 @@
     },
 
     {
-      "label": "Actualizar .editorconfig",
+      "label": "hidden: Actualizar .editorconfig",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.editorconfig -o .editorconfig",
       "presentation": {
@@ -161,7 +161,7 @@
     },
 
     {
-      "label": "Actualizar .eslintignore",
+      "label": "hidden: Actualizar .eslintignore",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintignore -o .eslintignore",
       "presentation": {
@@ -173,7 +173,7 @@
     },
 
     {
-      "label": "Actualizar .eslintrc.json",
+      "label": "hidden: Actualizar .eslintrc.json",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintrc.json -o .eslintrc.json",
       "presentation": {
@@ -185,7 +185,7 @@
     },
 
     {
-      "label": "Actualizar phpcs.xml",
+      "label": "hidden: Actualizar phpcs.xml",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpcs.xml -o phpcs.xml",
       "presentation": {
@@ -197,7 +197,7 @@
     },
 
     {
-      "label": "Actualizar phpmd.xml",
+      "label": "hidden: Actualizar phpmd.xml",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpmd.xml -o phpmd.xml",
       "presentation": {
@@ -209,7 +209,7 @@
     },
 
     {
-      "label": "Actualizar phpdox.xml",
+      "label": "hidden: Actualizar phpdox.xml",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpdox.xml -o phpdox.xml && grep -l module_template phpdox.xml|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
       "presentation": {
@@ -221,7 +221,7 @@
     },
 
     {
-      "label": "Actualizar .gitignore",
+      "label": "hidden: Actualizar .gitignore",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.gitignore_tasks -o .gitignore",
       "presentation": {
@@ -233,7 +233,7 @@
     },
 
     {
-      "label": "Actualizar .versionrc",
+      "label": "hidden: Actualizar .versionrc",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
       "presentation": {
@@ -250,6 +250,7 @@
       "isBackground": true,
       "presentation": {
         "reveal": "never",
+        "close": true,
       },
       "dependsOn": [
         "Actualizar cspell.json",
@@ -260,7 +261,7 @@
         "Actualizar .editorconfig",
         "Actualidar .eslintignore",
         "Actualidar .eslintrc.json"
-      ]
+      ],
     },
 
     {
@@ -269,13 +270,14 @@
       "isBackground": true,
       "presentation": {
         "reveal": "never",
+        "close": true,
       },
       "dependsOn": [
         "Actualizar phpcs.xml",
         "Actualizar phpdox.xml",
         "Actualizar phpmd.xml",
         "Actualizar .versionrc"
-      ]
+      ],
     },
 
     /* *************************************************************************
@@ -290,6 +292,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -302,6 +305,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -314,6 +318,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -326,6 +331,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -338,6 +344,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
       "dependsOn": [
@@ -353,6 +360,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -365,6 +373,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -377,6 +386,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -389,6 +399,7 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
       },
     },
@@ -401,7 +412,22 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "librerias",
+        "close": true,
         "clear": true
+      },
+    },
+
+    /* *************************************************************************
+     * TAREAS PARA CORREGIR FALLOS EN MAC.
+     **************************************************************************/
+
+    {
+      "label": "Reparar archivos duplicados *.*.e",
+      "type": "shell",
+      "command": "find ./ -name '*.*-e' -type f -delete",
+      "presentation": {
+        "reveal": "silent",
+        "close": true,
       },
     },
 

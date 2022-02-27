@@ -29,12 +29,18 @@
       "name": "XDebug [Docker]",
       "type": "php",
       "request": "launch",
-      "port": 9001,
+      "port": 9003,
+      "stopOnEntry": false,
+      "xdebugSettings": {
+        "max_children": 128,
+        "max_data": 1024,
+        "max_depth": 3,
+        "show_hidden": 1
+      },
       "log": false,
-      "stopOnEntry": true,
       "pathMappings": {
-          "/var/www/html/": "${workspaceRoot}/html/",
-      }
-    },
+        "/var/www/html":"${workspaceRoot}/",
+      },
+    }
   ]
 }

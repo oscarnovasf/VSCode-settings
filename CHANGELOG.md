@@ -1,7 +1,24 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
-## [v0.7.2] - 2022-
+## [v0.7.3] - 2022-02-27
+> Revisión
+### Añadidos
+* Configuración específica para archivos XML.
+* Nuevas configuraciones para la versión 1.64
+* Nueva configuración para Task Manager y ocultar alguna tarea que ya está
+  incluida como dependencia de otra.
+* Nueva tarea para eliminar archivos *.*e que por alguna razón se generan en
+  MAC al descargar alguna de las librerías.
+* Añadidos nuevas exclusiones al gitignore (el que se descarga vía tasks.json).
+* Añadidas las mismas exclusiones anteriores al archivo ***sftp.json***.
+
+### Cambios
+* Redistribución de configuraciones en settings.json.
+* Se modifica el ***launch.json*** con mejoras para XDebug sobre Docker.
+
+---
+## [v0.7.2] - 2022-02-02
 > Revisión
 ### Añadidos
 * Nueva extensión para "ordenar" los archivos SCSS (SCSS Formatter).

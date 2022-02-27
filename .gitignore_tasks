@@ -2,6 +2,7 @@
 /.idea/
 /.vscode/**
 !/.vscode/tasks.json
+.editorconfig
 
 debug.log
 
@@ -42,3 +43,7 @@ debug.log
 # estos archivos:
 # /web/sites/*/settings.php
 # /web/sites/*/settings.local.php
+
+# Volumenes y Certificados (si se usa docker)
+/docker/apache-php/ssl
+/docker/mysql/
