@@ -39,7 +39,7 @@
       },
       "log": false,
       "pathMappings": {
-        "/var/www/html":"${workspaceRoot}/",
+        "/var/www/html/web":"${workspaceRoot}/web/",
       },
     }
   ]

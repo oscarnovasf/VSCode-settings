@@ -73,6 +73,18 @@
    */
   "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
 
+  /* Telemetría */
+  "telemetry.telemetryLevel": "off",
+
+  /* Ventanas de VSCode */
+  "window.dialogStyle": "custom",
+  "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "on",
+
+  /* ***************************************************************************
+   * 1.a - CONFIGURACIÓN DE USUARIO. Propias del sistema Windows:
+   * **************************************************************************/
+
   /* Shell Launcher */
   "shellLauncher.shells.windows": [
     {
@@ -95,10 +107,7 @@
     }
   ],
 
-  /* Telemetría */
-  "telemetry.telemetryLevel": "off",
-
-  /* Modificaciones en el terminal de Windows */
+  /* Modificaciones en el terminal */
   "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
   "terminal.integrated.automationProfile.windows": {
     "path": "${env:programfiles}\\Git\\bin\\bash.exe",
@@ -118,15 +127,6 @@
       "args": ["${workspaceFolder}"]
     }
   },
-
-  /* Terminal: Sólo si se tiene instalado ohmyzsh */
-  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
-  "terminal.integrated.fontSize": 13,
-
-  /* Ventanas de VSCode */
-  "window.dialogStyle": "custom",
-  "window.newWindowDimensions": "maximized",
-  "window.openFoldersInNewWindow": "on",
 
   /* ***************************************************************************
    * 2.- CONFIGURACIÓN DEL PROYECTO:
@@ -243,6 +243,11 @@
   "terminal.integrated.autoReplies": {
     "[oh-my-zsh] Would you like to update? [Y/n]": "Y\r"
   },
+
+  /* Sólo si se tiene instalado oh-my-zsh */
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.tabs.enabled": true,
 
   "workbench.colorTheme": "Monokai Dimmed",
@@ -250,6 +255,7 @@
   "workbench.editor.decorations.colors": true,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
 
   /* ***************************************************************************
@@ -524,6 +530,8 @@
   /* Thunder Client */
   "thunder-client.loadFromProject": true,
   "thunder-client.workspaceRelativePath": "docs",
+  "thunder-client.codeSnippetLanguage": "curl",
+  "thunder-client.showActivityFromCollection": false,
 
   /* TO-DO TREE */
   "todo-tree.general.tags": [
@@ -567,9 +575,6 @@
     }
   },
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-
-  /* Thunder Client */
-  "thunder-client.codeSnippetLanguage": "curl",
 
   /* ***************************************************************************
    * 5.- CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES:

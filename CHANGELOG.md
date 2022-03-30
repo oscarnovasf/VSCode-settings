@@ -1,6 +1,20 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.4] - 2022-03-30
+> Revisión
+### Añadidos
+* Configuración para forzar que la configuración de vscode se abra en formato
+  json.
+* Snippet para generar Traits.
+
+### Cambios
+* Modificación del launch para XDebug en Docker.
+* Activar las tareas parar Docker.
+* Modificar plantilla .gitignore para los proyectos en los que uso docker.
+* Se han movido algunas configuraciones para categorizarlas mejor.
+
+---
 ## [v0.7.3] - 2022-02-27
 > Revisión
 ### Añadidos

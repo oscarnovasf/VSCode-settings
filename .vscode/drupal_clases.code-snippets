@@ -210,6 +210,29 @@
     "description": "Drupal 8|9: Lib Class"
   },
 
+  "drupal_generate_trait": {
+    "scope": "php",
+    "prefix": "drupal_trait",
+    "body": [
+      "",
+      "namespace Drupal\\\\${1:${WORKSPACE_NAME}}\\lib\\Traits;",
+      "",
+      "use Drupal\\Core\\StringTranslation\\StringTranslationTrait;",
+      "",
+      "/**",
+      " * ${2:Class description.}",
+      " */",
+      "trait ${3:${TM_FILENAME_BASE}} {",
+      "",
+      "\tuse StringTranslationTrait;",
+      "",
+      "\tpublic function ${4:functionName}(${5:params}) {$0}",
+      "",
+      "}",
+    ],
+    "description": "Drupal 8|9: Trait Class"
+  },
+
   "drupal_generate_webform_handler": {
     "scope": "php",
     "prefix": "drupal_webform_handler",
