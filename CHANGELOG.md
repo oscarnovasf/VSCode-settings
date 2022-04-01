@@ -1,6 +1,12 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.5] - 2022-04-01
+> Revisión
+### Corrección de errores
+* Error en ***tasks.json*** al actualizar.
+
+---
 ## [v0.7.4] - 2022-03-30
 > Revisión
 ### Añadidos

@@ -76,11 +76,11 @@
         "reveal": "never",
       },
       "dependsOn": [
-        "Actualizar snippets (Clases)",
-        "Actualizar snippets (Formularios)",
-        "Actualizar snippets (JavaScript)",
-        "Actualizar snippets (Uses)",
-        "Actualizar snippets (Utils)",
+        "hidden: Actualizar snippets (Clases)",
+        "hidden: Actualizar snippets (Formularios)",
+        "hidden: Actualizar snippets (JavaScript)",
+        "hidden: Actualizar snippets (Uses)",
+        "hidden: Actualizar snippets (Utils)",
       ]
     },
 
@@ -253,14 +253,14 @@
         "close": true,
       },
       "dependsOn": [
-        "Actualizar cspell.json",
-        "Actualizar extensions.json",
-        "Actualizar launch.json",
-        "Actualizar settings.json",
+        "hidden: Actualizar cspell.json",
+        "hidden: Actualizar extensions.json",
+        "hidden: Actualizar launch.json",
+        "hidden: Actualizar settings.json",
         "Actualizar tasks.json",
-        "Actualizar .editorconfig",
-        "Actualidar .eslintignore",
-        "Actualidar .eslintrc.json"
+        "hidden: Actualizar .editorconfig",
+        "hidden: Actualidar .eslintignore",
+        "hidden: Actualidar .eslintrc.json"
       ],
     },
 
@@ -273,10 +273,10 @@
         "close": true,
       },
       "dependsOn": [
-        "Actualizar phpcs.xml",
-        "Actualizar phpdox.xml",
-        "Actualizar phpmd.xml",
-        "Actualizar .versionrc"
+        "hidden: Actualizar phpcs.xml",
+        "hidden: Actualizar phpdox.xml",
+        "hidden: Actualizar phpmd.xml",
+        "hidden: Actualizar .versionrc"
       ],
     },
 
