@@ -259,8 +259,8 @@
         "hidden: Actualizar settings.json",
         "Actualizar tasks.json",
         "hidden: Actualizar .editorconfig",
-        "hidden: Actualidar .eslintignore",
-        "hidden: Actualidar .eslintrc.json"
+        "hidden: Actualizar .eslintignore",
+        "hidden: Actualizar .eslintrc.json"
       ],
     },
 
@@ -283,6 +283,19 @@
     /* *************************************************************************
      * TAREAS PARA ACTUALIZAR / DESCARGAR LIBRERÍAS.
      **************************************************************************/
+
+    {
+      "label": "-- Element: MultiValue.php",
+      "type": "shell",
+      "command": "mkdir -p ${input:destino_element} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/Element/MultiValue.php -o ${input:destino_element}/MultiValue.php && grep -l module_template ${input:destino_element}/MultiValue.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "close": true,
+        "clear": true
+      },
+    },
 
     {
       "label": "-- Librería: CalendarLinkFunctions.php",
@@ -473,6 +486,12 @@
       "description": "Destino:",
       "type": "promptString",
       "default": "src/lib/general"
+    },
+    {
+      "id": "destino_element",
+      "description": "Destino (Element):",
+      "type": "promptString",
+      "default": "src/Element"
     },
     {
       "id": "destino_mailing",

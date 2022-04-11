@@ -31,7 +31,7 @@
 
     </collector>
 
-    <generator output="${basedir}/documentation">
+    <generator output="${basedir}/docs">
 
       <enrich base="${basedir}">
 
@@ -54,8 +54,8 @@
 
       </enrich>
 
-      <build engine="html" enabled="true" output="html">
-        <template dir="${phpDox.home}/templates/html" />
+      <build engine="html" enabled="true" output="manual">
+        <template dir="${phpDox.home}/templates/html_onovas" />
         <file extension="html" />
       </build>
 

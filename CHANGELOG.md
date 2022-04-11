@@ -1,6 +1,28 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.6] - 2022-04-11
+> Revisión
+### Añadidos
+* Nuevas palabras en ***cspell.json***.
+* Nuevos snippets de formulario.
+* Nuevos snippets de cláusulas use.
+* Nueva tarea para descargar la librería MultiValue.php (elemento de formulario
+  que permite generar elementos múltiples).
+* Nueva extensión recomendada ***JS & CSS Minifier (Minify)*** y configuración.
+* Configuración para que no se sincronice la carpeta ".well-known".
+* Nuevo snippet para obtener la url del sitio de Drupal.
+
+### Cambios
+* Adaptación del archivo phpmd.xml
+* Cambio de plantilla por defecto en phpdox.xml [phpdox-template](https://github.com/oscarnovasf/phpdox-template)
+
+### Corrección de errores
+* Configuración para multi-línea del módulo TODO-TREE.
+* Error en snippet para generar traits.
+* Error tipográfico en task.json
+
+---
 ## [v0.7.5] - 2022-04-01
 > Revisión
 ### Corrección de errores

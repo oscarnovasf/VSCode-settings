@@ -185,6 +185,19 @@
   },
 
   /* *************************************************************************
+   * USES PARA MIS PROPIAS LIBRERÍAS (ELEMENT).
+   **************************************************************************/
+
+  "drupal_use_MultiValue": {
+    "scope": "php",
+    "prefix": "use_MultiValue",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\Element\\MultiValue;$0",
+    ],
+    "description": "Añadir use para MultiValue"
+  },
+
+  /* *************************************************************************
    * USES PARA MIS PROPIAS LIBRERÍAS (LIB\GENERAL).
    **************************************************************************/
 

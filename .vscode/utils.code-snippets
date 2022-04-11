@@ -32,6 +32,15 @@
     "description": "Snippet para crear un log en Drupal"
   },
 
+  "utils_drupal_url": {
+    "scope": "php",
+    "prefix": "utils_drupal_url",
+    "body": [
+      "$$host = \\Drupal::request()->getSchemeAndHttpHost();$0",
+    ],
+    "description": "Snippet para obtener la url actual del sitio"
+  },
+
   "utils_dump": {
     "scope": "php",
     "prefix": "utils_dump",

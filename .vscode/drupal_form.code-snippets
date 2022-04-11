@@ -165,6 +165,22 @@
     "description": "Drupal 8|9: FormApi Hidden"
   },
 
+  "drupal_form_html_tag": {
+    "scope": "php",
+    "prefix": "form_html_tag",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'html_tag',",
+      "\t'#tag' => '${2:div}',",
+      "\t'#value' => '${3:value}',",
+      "\t'#attributes' => [",
+      "\t\t'id' => '${4:id}',",
+      "\t],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi HTML_TAG"
+  },
+
   "drupal_form_managed_file": {
     "scope": "php",
     "prefix": "form_managed_file",
@@ -196,6 +212,21 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Markup"
+  },
+
+  "drupal_form_multi_value": {
+    "scope": "php",
+    "prefix": "form_multi_value",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'multi-value',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#cardinality' => ${3:-1},",
+      "",
+      "$0",
+      "];",
+    ],
+    "description": "Drupal 8|9: Custom FormApi MultiValue"
   },
 
   "drupal_form_number": {

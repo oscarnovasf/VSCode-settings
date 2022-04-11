@@ -138,6 +138,11 @@
   /* GitLink */
   "GitLink.defaultRemote": "origin",
 
+  /* JS & CSS Minifier (Minify) */
+  "es6-css-minify.minifyOnSave": "exists",
+  "es6-css-minify.genJSmap": false,
+  "es6-css-minify.jsMinPath": "",
+
   /* PHP DocBlocks */
   "php-docblocker.author": {
     "name": "Óscar Novás",
@@ -250,11 +255,16 @@
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.tabs.enabled": true,
 
+  "timeline.excludeSources": [
+    "timeline.localHistory"
+  ],
+
   "workbench.colorTheme": "Monokai Dimmed",
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.localHistory.maxFileEntries": 25,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
 
@@ -529,6 +539,7 @@
 
   /* Thunder Client */
   "thunder-client.loadFromProject": true,
+  "thunder-client.saveToWorkspace": true,
   "thunder-client.workspaceRelativePath": "docs",
   "thunder-client.codeSnippetLanguage": "curl",
   "thunder-client.showActivityFromCollection": false,
@@ -574,7 +585,7 @@
       "iconColour": "#FFFF00"
     }
   },
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regex": "((//|#|;)[ ]*($TAGS)[^\\n]*)|(/\\*(\\*?\\s*)*($TAGS)(.|\\n|\\r)*?\\*/)|(<!--\\s*($TAGS)(.|\\n|\\r)*?-->)",
 
   /* ***************************************************************************
    * 5.- CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES:

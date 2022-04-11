@@ -27,6 +27,7 @@
     "drush",
     "editorconfig",
     "langcode",
+    "paginador",
     "phpcbf",
     "phpcs",
     "phpmd",
