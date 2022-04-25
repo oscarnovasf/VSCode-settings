@@ -136,6 +136,26 @@
     "description": "Drupal 8|9: FormApi Email"
   },
 
+  "drupal_form_entity_autocomplete": {
+    "scope": "php",
+    "prefix": "form_entity_autocomplete",
+    "body": [
+      "$$entity = ${1|Node,Term|}::load();",
+      "$$form['${2:element_name}'] = [",
+      "\t'#type' => 'entity_autocomplete',",
+      "\t'#title' => $$this->t('${3:title}'),",
+      "\t'#default_value' => is_object($$entity) ? $$entity : NULL,",
+      "\t'#target_type' => '${4|node,taxonomy_term|}',",
+      "\t'#selection_settings' => [",
+      "\t\t'target_bundles' => ['${5:article}'],",
+      "\t],",
+      "\t'#required' => ${6|TRUE,FALSE|},",
+      "\t'#access' => ${7|TRUE,FALSE|},",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Entity Autocomplete"
+  },
+
   "drupal_form_fieldset": {
     "scope": "php",
     "prefix": "form_fieldset",

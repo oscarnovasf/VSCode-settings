@@ -1,0 +1,50 @@
+{
+  // Ver https://www.drupal.org/docs/drupal-apis/routing-system/structure-of-routes
+
+  "drupal_routing_controller": {
+    "scope": "yaml",
+    "prefix": "routing_controller",
+    "body": [
+      "# Los parámetros en la ruta van con {}.",
+      "${1:${WORKSPACE_NAME}}.${2:route_name}:",
+      "\tpath: ${3:path}",
+      "\tdefaults:",
+      "\t\t_controller: '\\Drupal\\\\${1:${WORKSPACE_NAME}}\\Controller\\\\${4:controllerName}::${5:functionName}'",
+      "\t\t_title: '${6:title}'",
+      "\trequirements:",
+      "\t\t_permission: '${7:access content}'",
+      "\t\t_role: '${8:manager}'",
+      "\t\t_custom_access: '\\Drupal\\\\${1:${WORKSPACE_NAME}}\\Controller\\\\${9:controllerName}::${10:functionName}'",
+      "\t\t_format: json",
+      "\t\t_content_type_format: json",
+      "\t\t_user_is_logged_in: 'TRUE'",
+      "\tmethods: [POST]",
+      "\toptions:",
+      "\t\tno_cache: '${11|TRUE,FALSE|}'",
+      "\t\tparameters:",
+      "\t\t\t${12:param_name}:",
+      "\t\t\t\ttype: ${13|string,integer|}$0",
+    ],
+    "description": "Drupal 8|9: Ruta para Controladores"
+  },
+
+  "drupal_routing_form": {
+    "scope": "yaml",
+    "prefix": "routing_form",
+    "body": [
+      "# Los parámetros en la ruta van con {}.",
+      "${1:${WORKSPACE_NAME}}.${2:route_name}:",
+      "\tpath: ${3:path}",
+      "\tdefaults:",
+      "\t\t_form: '\\Drupal\\\\${1:${WORKSPACE_NAME}}\\Form\\\\${4:formNameForm}'",
+      "\t\t_title: '${5:title}'",
+      "\trequirements:",
+      "\t\t_permission: '${6:access content}'",
+      "\t\t_role: '${7:manager}'",
+      "\t\t_custom_access: '\\Drupal\\\\${1:${WORKSPACE_NAME}}\\Controller\\\\${8:controllerName}::${9:functionName}'",
+      "\toptions:",
+      "\t\tno_cache: '${10|TRUE,FALSE|}'$0",
+    ],
+    "description": "Drupal 8|9: Ruta para Formularios"
+  }
+}

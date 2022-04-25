@@ -1,6 +1,20 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.7] - 2022-04-25
+> Revisión
+### Añadidos
+* Nueva extensión recomendada ***CSS Peek***
+* Nuevo snippet de formulario ***Entity Autocomplete***.
+* Nuevo snippet para obtener el nombre de la ruta actual.
+* Nuevos snippets parar generar rutas en fichero .routing.yml
+  (***drupal_routing.code-snippets***)
+
+### Cambios
+* Ampliación del snippet para crear formularios asignando plantilla por defecto.
+* Simplificación del archivo ***sftp.json***.
+
+---
 ## [v0.7.6] - 2022-04-11
 > Revisión
 ### Añadidos

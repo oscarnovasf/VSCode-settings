@@ -43,6 +43,7 @@
     "olback.es6-css-minify",
     "persoderlind.vscode-phpcbf",
     "pkief.material-icon-theme",
+    "pranaygp.vscode-css-peek",
     "qezhu.gitlink",
     "ritwickdey.liveserver",
     "shevaua.phpcs",
@@ -55,7 +56,7 @@
   ],
 
   /* ***************************************************************************
-   * LISTADO DE EXTENSIONES RECOMENDADAS.
+   * LISTADO DE EXTENSIONES OPCIONALES.
    *
    * - Estas extensiones son también muy útiles, se recomienda su instalación
    *   aunque no las considero imprescindibles para trabajar con Drupal.

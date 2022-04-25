@@ -14,6 +14,15 @@
     "description": "Snippet de consulta a base de datos"
   },
 
+  "utils_drupal_host": {
+    "scope": "php",
+    "prefix": "utils_drupal_host",
+    "body": [
+      "$$host = \\Drupal::request()->getSchemeAndHttpHost();$0",
+    ],
+    "description": "Snippet para obtener la url actual del sitio"
+  },
+
   "utils_drupal_langcode": {
     "scope": "php",
     "prefix": "utils_drupal_langcode",
@@ -32,13 +41,13 @@
     "description": "Snippet para crear un log en Drupal"
   },
 
-  "utils_drupal_url": {
+  "utils_drupal_route_name": {
     "scope": "php",
-    "prefix": "utils_drupal_url",
+    "prefix": "utils_drupal_route_name",
     "body": [
-      "$$host = \\Drupal::request()->getSchemeAndHttpHost();$0",
+      "$$route_name = \\Drupal::request()->getRouteName();$0",
     ],
-    "description": "Snippet para obtener la url actual del sitio"
+    "description": "Snippet para obtener la ruta actual"
   },
 
   "utils_dump": {

@@ -45,6 +45,18 @@
     },
 
     {
+      "label": "hidden: Actualizar snippets (Routing)",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_routing.code-snippets -o .vscode/drupal_routing.code-snippets",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "snippets",
+        "clear": true
+      },
+    },
+
+    {
       "label": "hidden: Actualizar snippets (Uses)",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_uses.code-snippets -o .vscode/drupal_uses.code-snippets",
@@ -79,6 +91,7 @@
         "hidden: Actualizar snippets (Clases)",
         "hidden: Actualizar snippets (Formularios)",
         "hidden: Actualizar snippets (JavaScript)",
+        "hidden: Actualizar snippets (Routing)",
         "hidden: Actualizar snippets (Uses)",
         "hidden: Actualizar snippets (Utils)",
       ]
