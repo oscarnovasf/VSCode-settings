@@ -93,7 +93,7 @@
         "hidden: Actualizar snippets (JavaScript)",
         "hidden: Actualizar snippets (Routing)",
         "hidden: Actualizar snippets (Uses)",
-        "hidden: Actualizar snippets (Utils)",
+        "hidden: Actualizar snippets (Utils)"
       ]
     },
 
@@ -174,28 +174,26 @@
     },
 
     {
-      "label": "hidden: Actualizar .eslintignore",
+      "label": "- Actualizar configuraciones",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintignore -o .eslintignore",
+      "isBackground": true,
       "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "settings",
-        "clear": true
+        "reveal": "never",
+        "close": true,
       },
+      "dependsOn": [
+        "hidden: Actualizar cspell.json",
+        "hidden: Actualizar extensions.json",
+        "hidden: Actualizar launch.json",
+        "hidden: Actualizar settings.json",
+        "Actualizar tasks.json",
+        "hidden: Actualizar .editorconfig"
+      ],
     },
 
-    {
-      "label": "hidden: Actualizar .eslintrc.json",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintrc.json -o .eslintrc.json",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "settings",
-        "clear": true
-      },
-    },
+    /* *************************************************************************
+     * TAREAS PARA ACTUALIZAR DOCUMENTACIÓN.
+     **************************************************************************/
 
     {
       "label": "hidden: Actualizar phpcs.xml",
@@ -246,38 +244,6 @@
     },
 
     {
-      "label": "hidden: Actualizar .versionrc",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "documentacion",
-        "clear": true
-      },
-    },
-
-    {
-      "label": "- Actualizar configuraciones",
-      "type": "shell",
-      "isBackground": true,
-      "presentation": {
-        "reveal": "never",
-        "close": true,
-      },
-      "dependsOn": [
-        "hidden: Actualizar cspell.json",
-        "hidden: Actualizar extensions.json",
-        "hidden: Actualizar launch.json",
-        "hidden: Actualizar settings.json",
-        "Actualizar tasks.json",
-        "hidden: Actualizar .editorconfig",
-        "hidden: Actualizar .eslintignore",
-        "hidden: Actualizar .eslintrc.json"
-      ],
-    },
-
-    {
       "label": "- Actualizar documentación",
       "type": "shell",
       "isBackground": true,
@@ -288,8 +254,75 @@
       "dependsOn": [
         "hidden: Actualizar phpcs.xml",
         "hidden: Actualizar phpdox.xml",
-        "hidden: Actualizar phpmd.xml",
-        "hidden: Actualizar .versionrc"
+        "hidden: Actualizar phpmd.xml"
+      ],
+    },
+
+    /* *************************************************************************
+     * TAREAS PARA ACTUALIZAR PAQUETES NPM Y PACKAGE.JSON.
+     **************************************************************************/
+
+    {
+      "label": "hidden: Actualizar .eslintignore",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintignore -o .eslintignore",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "npm",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "hidden: Actualizar .eslintrc.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintrc.json -o .eslintrc.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "npm",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "hidden: Actualizar .versionrc",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "npm",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "hidden: Actualizar package.json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/package.json -o package.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "npm",
+        "clear": true
+      },
+    },
+
+    {
+      "label": "- Actualizar paquetes npm y package.json",
+      "type": "shell",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "never",
+        "close": true,
+      },
+      "dependsOn": [
+        "hidden: Actualizar .eslintignore",
+        "hidden: Actualizar .eslintrc.json",
+        "hidden: Actualizar .versionrc",
+        "hidden: Actualizar package.json"
       ],
     },
 

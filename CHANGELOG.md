@@ -1,6 +1,31 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.8] - 2022-05-19
+> Revisión
+### Añadidos
+* Nueva tarea para descargar archivos de configuración vinculados con los
+  paquetes npm.
+* Añado al gitignore los archivos generados por el script de enviar-proyecto:
+  - archivo .zip
+  - archivo *_pass.txt
+* Añadidas extensiones "Replace Rules" y "Editor Macros".
+* Asociación de los archivos .env.docker como archivos .env.
+
+### Cambios
+* Ahora se sincronizan vía sftp.json los manuales generados con phpdox y se
+  añaden también a git.
+
+### Corrección de errores
+* Snippet para obtener la ruta actual mal formado.
+* Snippet para crear FormBase mal formado.
+* Snippet para crear WebFormHandlers mal formado.
+
+### Eliminados
+* Extensión de macros usada hasta el momento.
+* Extensión de mysql porque ahora tiene funciones de pago.
+
+---
 ## [v0.7.7] - 2022-04-25
 > Revisión
 ### Añadidos

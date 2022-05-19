@@ -42,7 +42,6 @@ Archivos de configuración para VSCode
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
-  * [MySQL](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
@@ -52,6 +51,7 @@ Archivos de configuración para VSCode
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+  * [Replace Rules](https://marketplace.visualstudio.com/items?itemName=bhughes339.replacerules)
   * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [SSH FS](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
@@ -60,6 +60,7 @@ Archivos de configuración para VSCode
   * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
+  * [VsCode Editor Macros](https://marketplace.visualstudio.com/items?itemName=jpsnee.vscode-editor-macros)
 
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
@@ -70,7 +71,6 @@ Archivos de configuración para VSCode
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
-  * [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
   * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
@@ -132,8 +132,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.7
-[version-badge]: https://img.shields.io/badge/Versión-0.7.7-blue.svg
+[version]: v0.7.8
+[version-badge]: https://img.shields.io/badge/Versión-0.7.8-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

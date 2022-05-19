@@ -45,7 +45,7 @@
     "scope": "php",
     "prefix": "utils_drupal_route_name",
     "body": [
-      "$$route_name = \\Drupal::request()->getRouteName();$0",
+      "$$route_name = \\Drupal::routeMatch()->getRouteName();$0",
     ],
     "description": "Snippet para obtener la ruta actual"
   },

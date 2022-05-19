@@ -198,6 +198,7 @@
     "*.php": "php",
     "*.twig": "html",
     "*.env.development": "env",
+    "*.env.docker": "env",
     "*.env.production": "env"
   },
   "files.autoSave": "onFocusChange",
@@ -412,10 +413,46 @@
   /* Draw.io */
   "hediet.vscode-drawio.theme": "Kennedy",
 
-  /* Databse Client (MySQL) */
-  "database-client.showQuery": true,
-  "database-client.showFunction": false,
-  "database-client.showProcedure": false,
+  /* Editor Macros */
+  "editormacros": {
+    /* Keybindings.json (Windows) => ctrl+shift+d */
+    /* Keybindings.json (MAC) => ctrl+shift+d */
+    "commentDown": {
+      "type": "command",
+      "args": {
+          "commands": [
+            "editor.action.copyLinesDownAction",
+            "cursorUp",
+            "editor.action.addCommentLine",
+            "cursorDown"
+          ]
+      }
+    },
+
+    /* Keybindings.json (Windows) => alt+v */
+    /* Keybindings.json (MAC) => alt+v */
+    "pasteComposer": {
+      "type": "multiple",
+      "args": {
+        "macros": [
+          {
+            "type": "command",
+            "args": {
+              "commands": [
+                "editor.action.clipboardPasteAction",
+                {
+                  "command": "replacerules.runRule",
+                  "args": {
+                    "ruleName": "Quitar datos innecesarios para composer.json"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
 
   /* Empty Indent */
   "emptyIndent.exclude": [
@@ -475,18 +512,6 @@
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
 
-  /* Macros */
-  "macros": {
-    /* Keybindings.json (Windows) => ctrl+shift+d */
-    /* Keybindings.json (MAC) => ctrl+shift+d */
-    "commentDown": [
-      "editor.action.copyLinesDownAction",
-      "cursorUp",
-      "editor.action.addCommentLine",
-      "cursorDown"
-    ]
-  },
-
   /* phpcbf */
   "phpcbf.enable": true,
   "phpcbf.documentFormattingProvider": true,
@@ -523,6 +548,22 @@
     "Templates",
     "Scripts"
   ],
+
+  /* Replace Rules */
+  "replacerules.rules": {
+    "Quitar datos innecesarios para composer.json": {
+      "find": "composer require (')(.+)(:)(.+)(')",
+      "replace": "\"$2\": \"$4\","
+    },
+  },
+
+  "replacerules.rulesets": {
+    "Remove lots of stuff": {
+      "rules": [
+        "Quitar datos innecesarios para composer.json"
+      ]
+    }
+  },
 
   /* ShellCheck */
   "shellcheck.enable": true,

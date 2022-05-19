@@ -11,7 +11,10 @@ debug.log
 
 # Archivos de documentación (phpdox).
 /.tmp-doc/
-/docs/manual/
+
+# Archivos de envio al cliente.
+*_pass.txt
+*.zip
 
 ################################################################################
 # Configuración para proyectos Drupal con Composer.
