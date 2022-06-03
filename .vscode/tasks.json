@@ -157,6 +157,21 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
+        "clear": true
+      },
+    },
+
+    /* Tarea duplicada para poder usarla en Activitus Bar */
+    {
+      "label": "hidden_actualizar_tasks_json",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated",
+        "group": "settings",
+        "close": true,
         "clear": true
       },
     },
@@ -263,30 +278,6 @@
      **************************************************************************/
 
     {
-      "label": "hidden: Actualizar .eslintignore",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintignore -o .eslintignore",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "npm",
-        "clear": true
-      },
-    },
-
-    {
-      "label": "hidden: Actualizar .eslintrc.json",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.eslintrc.json -o .eslintrc.json",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "npm",
-        "clear": true
-      },
-    },
-
-    {
       "label": "hidden: Actualizar .versionrc",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
@@ -319,8 +310,6 @@
         "close": true,
       },
       "dependsOn": [
-        "hidden: Actualizar .eslintignore",
-        "hidden: Actualizar .eslintrc.json",
         "hidden: Actualizar .versionrc",
         "hidden: Actualizar package.json"
       ],
@@ -486,6 +475,8 @@
       "command": "find ./ -name '*.*-e' -type f -delete",
       "presentation": {
         "reveal": "silent",
+        "group": "utils",
+        "clear": true,
         "close": true,
       },
     },
@@ -499,7 +490,7 @@
       "type": "shell",
       "command": "docker-compose up",
       "presentation": {
-        "reveal": "always",
+        "reveal": "silent",
         "panel": "dedicated",
         "group": "docker-compose",
         "clear": true,
@@ -512,7 +503,7 @@
       "type": "shell",
       "command": "docker-compose stop",
       "presentation": {
-        "reveal": "always",
+        "reveal": "silent",
         "panel": "dedicated",
         "group": "docker-compose",
         "clear": true,

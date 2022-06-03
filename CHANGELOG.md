@@ -1,6 +1,21 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.9] - 2022-06-03
+> Revisión
+### Añadidos
+* Nuevo módulo ***Activitus Bar*** y configuración.
+* Nuevas configuraciones para módulos relacionados con la instalación anterior.
+
+### Cambios
+* Mejora de visualización de algunas de las tareas.
+
+### Eliminados
+* Extensión recomendada Shell Launcher.
+* Extensión recomendada PowerShell.
+* Extensión ESLint.
+
+---
 ## [v0.7.8] - 2022-05-19
 > Revisión
 ### Añadidos

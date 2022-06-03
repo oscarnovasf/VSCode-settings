@@ -16,6 +16,7 @@ Archivos de configuración para VSCode
   Esta configuración hace uso de una serie de plugins y módulos de uso muy
   recomendado si trabajas con Drupal:
 
+  * [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
@@ -30,7 +31,6 @@ Archivos de configuración para VSCode
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
-  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
@@ -76,7 +76,6 @@ Archivos de configuración para VSCode
   * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-  * [Shell launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
@@ -132,8 +131,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.8
-[version-badge]: https://img.shields.io/badge/Versión-0.7.8-blue.svg
+[version]: v0.7.9
+[version-badge]: https://img.shields.io/badge/Versión-0.7.9-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

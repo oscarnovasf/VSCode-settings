@@ -19,13 +19,12 @@
     "cnshenj.vscode-task-manager",
     "codezombiech.gitignore",
     "cssho.vscode-svgviewer",
-    "dbaeumer.vscode-eslint",
     "dmitrydorofeev.empty-indent",
     "donjayamanne.jquerysnippets",
     "dssiqueira.drupal-8-snippets",
     "ecmel.vscode-html-css",
     "ecodes.vscode-phpmd",
-    "xdebug.php-debug",
+    "gruntfuggly.activitusbar",
     "gruntfuggly.todo-tree",
     "huizhou.githd",
     "ionutvmi.path-autocomplete",
@@ -53,7 +52,8 @@
     "streetsidesoftware.code-spell-checker-spanish",
     "thekalinga.bootstrap4-vscode",
     "tsega.drupal-8-twig-snippets",
-    "rangav.vscode-thunder-client"
+    "rangav.vscode-thunder-client",
+    "xdebug.php-debug"
   ],
 
   /* ***************************************************************************
@@ -74,13 +74,11 @@
     "jebbs.plantuml",
     "mechatroner.rainbow-csv",
     "ms-azuretools.vscode-docker",
-    "ms-vscode.PowerShell",
     "ms-vscode-remote.remote-containers",
     "mrmlnc.vscode-apache",
     "nickdemayo.vscode-json-editor",
     "oliversturm.fix-json",
     "timonwong.shellcheck",
-    "tyriar.shell-launcher",
     "wakatime.vscode-wakatime"
   ]
 }

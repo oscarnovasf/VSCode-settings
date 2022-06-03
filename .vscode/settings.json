@@ -85,28 +85,6 @@
    * 1.a - CONFIGURACIÓN DE USUARIO. Propias del sistema Windows:
    * **************************************************************************/
 
-  /* Shell Launcher */
-  "shellLauncher.shells.windows": [
-    {
-      "shell": "%programfiles%\\Git\\bin\\bash.exe",
-      "args": ["-l"],
-      "label": "GIT Bash"
-    },
-    {
-      "shell": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-      "label": "PowerShell"
-    },
-    {
-      "shell": "%windir%\\system32\\cmd.exe",
-      "label": "CMD"
-    },
-    {
-      "shell": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-      "args": ["${workspaceFolder}"],
-      "label": "Cmder"
-    }
-  ],
-
   /* Modificaciones en el terminal */
   "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
   "terminal.integrated.automationProfile.windows": {
@@ -272,6 +250,67 @@
   /* ***************************************************************************
    * 4.- CONFIGURACIÓN DE MÓDULOS Y PLUGINS:
    * **************************************************************************/
+
+  /* Activitus Bar
+   *
+   * Para añadir nuevos módulos:
+   * - Buscar en los atajos de teclado workbench.view.extension.
+   * - Identificar el módulo que queremos abrir.
+   * - Generar la view con command.workbench.view.extension.(nombre)
+   *
+   * Para los iconos:
+   * https://microsoft.github.io/vscode-codicons/dist/codicon.html
+   */
+  "activitusbar.views": [
+    {
+      "name": "command.workbench.action.reloadWindow",
+      "codicon": "refresh",
+      "tooltip": "Recargar VSCode"
+    },
+
+    {
+      "name": "extensions",
+      "codicon": "extensions-view-icon",
+      "tooltip": "Extensiones"
+    },
+    {
+      "codicon": "kebab-vertical"
+    },
+    {
+      "name": "command.workbench.view.extension.bookmarks",
+      "codicon": "bookmark",
+      "tooltip": "Bookmarks"
+    },
+    {
+      "name": "command.workbench.view.extension.dockerView",
+      "codicon": "root-folder-opened",
+      "tooltip": "Docker"
+    },
+    {
+      "name": "command.workbench.view.extension.thunder-client",
+      "codicon": "circuit-board",
+      "tooltip": "Thunder Client"
+    },
+    {
+      "name": "command.workbench.view.extension.todo-tree-container",
+      "codicon": "checklist",
+      "tooltip": "TODOs"
+    },
+
+    {
+      "codicon": "kebab-vertical"
+    },
+    {
+      "name": "task.hidden_actualizar_tasks_json",
+      "codicon": "tasklist",
+      "tooltip": "Actualizar Tasks.json"
+    },
+    {
+      "name": "command.replacerules.runRuleset",
+      "codicon": "symbol-ruler",
+      "tooltip": "Quitar datos innecesarios para composer.json"
+    }
+  ],
 
   /* Better Comments */
   "better-comments.highlightPlainText": false,
@@ -461,9 +500,6 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
-  /* ESLint */
-  "eslint.alwaysShowStatus": true,
-
   /* Git History Diff */
   "githd.logView.displayExpressStatus": false,
 
@@ -535,10 +571,6 @@
   /* PHP Server */
   "phpserver.port": 8888,
 
-  /* PowerShell */
-  "powershell.integratedConsole.showOnStartup": false,
-  "powershell.integratedConsole.suppressStartupBanner": true,
-
   /* Project Manager */
   "projectManager.groupList": true,
   "projectManager.removeCurrentProjectFromList": true,
@@ -576,7 +608,7 @@
   "svgviewer.enableautopreview": true,
 
   /* Task Manager */
-  "taskManager.exclude": "hidden:",
+  "taskManager.exclude": "hidden:|hidden_",
 
   /* Thunder Client */
   "thunder-client.loadFromProject": true,

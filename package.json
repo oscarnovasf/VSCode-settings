@@ -28,7 +28,6 @@
   },
 
   "devDependencies": {
-    "eslint-config-drupal": "^5.0.2",
     "standard-version": "^9.1.0"
   }
 
