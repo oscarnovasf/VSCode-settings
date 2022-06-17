@@ -315,7 +315,9 @@
       "\t'#options' => [${6:array}],",
       "\t'#empty_option' => $$this->t('${7:-- None --}'),",
       "\t'#empty_value' => '${8:_none}',",
-      "\t'#multiple' => ${9|FALSE,TRUE|},",
+      "\t'#sort_options' => ${9|TRUE,FALSE|},",
+      "\t'#sort_start' => 1,",
+      "\t'#multiple' => ${10|FALSE,TRUE|},",
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi Select"

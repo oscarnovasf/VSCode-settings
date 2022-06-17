@@ -359,6 +359,19 @@
     },
 
     {
+      "label": "-- Librería: DrupalLog.php",
+      "type": "shell",
+      "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/DrupalLog.php -o ${input:destino}/DrupalLog.php && grep -l module_template ${input:destino}/DrupalLog.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "librerias",
+        "close": true,
+        "clear": true
+      },
+    },
+
+    {
       "label": "-- Librería: FileFunctions.php",
       "type": "shell",
       "command": "mkdir -p ${input:destino} && curl https://raw.githubusercontent.com/oscarnovasf/drupal-aux-libraries/master/src/lib/general/FileFunctions.php -o ${input:destino}/FileFunctions.php && grep -l module_template ${input:destino}/FileFunctions.php|xargs sed -i -e \"s/module_template/${input:namespace}/g\"",

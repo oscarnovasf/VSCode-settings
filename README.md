@@ -36,7 +36,6 @@ Archivos de configuración para VSCode
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-  * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [JS & CSS Minifier (Minify)](https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
@@ -131,8 +130,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.9
-[version-badge]: https://img.shields.io/badge/Versión-0.7.9-blue.svg
+[version]: v0.7.10
+[version-badge]: https://img.shields.io/badge/Versión-0.7.10-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

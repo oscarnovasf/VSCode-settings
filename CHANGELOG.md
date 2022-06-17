@@ -1,6 +1,22 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.10] - 2022-06-17
+> Revisión
+### Añadidos
+* Tareas y Snippets relacionados con mi nueva librería DrupalLog.
+* Nuevos Snippet de utilidades.
+
+### Cambios
+* Nuevas propiedades en los snippets de formulario para el tipo select
+  (ordenación).
+* Pequeños ajustes en los snippets de clases y javascript.
+
+### Eliminados
+* Extensión recomendada HTML Snippets por incompatibilidad con la nueva versión
+  de VSCode.
+
+---
 ## [v0.7.9] - 2022-06-03
 > Revisión
 ### Añadidos

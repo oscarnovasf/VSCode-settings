@@ -36,6 +36,7 @@
       "\t\t\t$0",
       "\t\t}",
       "\t};",
+      "",
       "}(jQuery, Drupal, drupalSettings));"
     ],
     "description": "Añade el cuerpo del JS con el behavior."

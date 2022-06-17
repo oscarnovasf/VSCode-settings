@@ -210,6 +210,15 @@
     "description": "Añadir use para DateTimeFunctions"
   },
 
+  "drupal_use_DrupalLog": {
+    "scope": "php",
+    "prefix": "use_DrupalLog",
+    "body": [
+      "use Drupal\\\\$WORKSPACE_NAME\\lib\\general\\DrupalLog;$0",
+    ],
+    "description": "Añadir use para DrupalLog"
+  },
+
   "drupal_use_FileFunctions": {
     "scope": "php",
     "prefix": "use_FileFunctions",
