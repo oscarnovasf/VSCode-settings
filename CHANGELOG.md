@@ -1,6 +1,14 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.11] - 2022-07-27
+> Revisión
+### Añadidos
+* Nuevas configuraciones visuales.
+* Adaptación de tasks.json a la versión v1.69 de vscode.
+* Ejecución de XDebug en LANDO.
+
+---
 ## [v0.7.10] - 2022-06-17
 > Revisión
 ### Añadidos

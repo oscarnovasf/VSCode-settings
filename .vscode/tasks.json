@@ -16,8 +16,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -28,8 +30,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -40,8 +44,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -52,8 +58,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -64,8 +72,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -76,8 +86,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "snippets",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -94,7 +106,8 @@
         "hidden: Actualizar snippets (Routing)",
         "hidden: Actualizar snippets (Uses)",
         "hidden: Actualizar snippets (Utils)"
-      ]
+      ],
+      "icon": { "id": "file-code", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -109,8 +122,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -121,8 +136,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -133,8 +150,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -145,8 +164,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -160,6 +181,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     /* Tarea duplicada para poder usarla en Activitus Bar */
@@ -174,6 +196,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -184,8 +207,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "settings",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -194,7 +219,6 @@
       "isBackground": true,
       "presentation": {
         "reveal": "never",
-        "close": true,
       },
       "dependsOn": [
         "hidden: Actualizar cspell.json",
@@ -204,6 +228,7 @@
         "Actualizar tasks.json",
         "hidden: Actualizar .editorconfig"
       ],
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -218,8 +243,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "documentacion",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "files", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -230,8 +257,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "documentacion",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "files", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -242,20 +271,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "documentacion",
+        "close": true,
         "clear": true
       },
-    },
-
-    {
-      "label": "hidden: Actualizar .gitignore",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.gitignore_tasks -o .gitignore",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "documentacion",
-        "clear": true
-      },
+      "icon": { "id": "files", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -264,13 +283,13 @@
       "isBackground": true,
       "presentation": {
         "reveal": "never",
-        "close": true,
       },
       "dependsOn": [
         "hidden: Actualizar phpcs.xml",
         "hidden: Actualizar phpdox.xml",
         "hidden: Actualizar phpmd.xml"
       ],
+      "icon": { "id": "files", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -285,8 +304,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "npm",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "package", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -297,8 +318,10 @@
         "reveal": "always",
         "panel": "dedicated",
         "group": "npm",
+        "close": true,
         "clear": true
       },
+      "icon": { "id": "package", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -307,12 +330,12 @@
       "isBackground": true,
       "presentation": {
         "reveal": "never",
-        "close": true,
       },
       "dependsOn": [
         "hidden: Actualizar .versionrc",
         "hidden: Actualizar package.json"
       ],
+      "icon": { "id": "package", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -330,6 +353,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -343,6 +367,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -356,6 +381,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -369,6 +395,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -382,6 +409,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -395,6 +423,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -411,6 +440,7 @@
       "dependsOn": [
         "-- Librería: ResponseFunctions.php",
       ],
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -424,6 +454,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -437,6 +468,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -450,6 +482,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -463,6 +496,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -476,6 +510,7 @@
         "close": true,
         "clear": true
       },
+      "icon": { "id": "cloud-download", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -492,6 +527,7 @@
         "clear": true,
         "close": true,
       },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 
     /* *************************************************************************
@@ -509,6 +545,7 @@
         "clear": true,
         "close": true,
       },
+      "icon": { "id": "archive", "color": "terminal.ansiBlue"}
     },
 
     {
@@ -521,9 +558,26 @@
         "group": "docker-compose",
         "clear": true,
         "close": true,
-      }
+      },
+      "icon": { "id": "archive", "color": "terminal.ansiBlue"}
     },
 
+    /* *************************************************************************
+     * TAREAS EN DESUSO PERO QUE PUEDEN SER NECESARIAS.
+     **************************************************************************/
+
+    {
+      "label": "hidden: Actualizar .gitignore",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.gitignore_tasks -o .gitignore",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "documentacion",
+        "close": true,
+        "clear": true
+      },
+    },
 
   ],
 
