@@ -6,6 +6,9 @@
 
 debug.log
 
+# Archivos MAC
+.DS_Store
+
 # Archivos de desarrollo.
 /node_modules/
 
@@ -27,6 +30,7 @@ debug.log
 /drush/contrib/
 /vendor/
 /tmp/
+/private_files/
 
 # Core y módulos/plantillas contrib.
 /web/core/

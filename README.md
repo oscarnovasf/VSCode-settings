@@ -7,6 +7,7 @@ Archivos de configuración para VSCode
 [![version][version-badge]][changelog]
 [![Licencia][license-badge]][license]
 [![Código de conducta][conduct-badge]][conduct]
+[![wakatime](https://wakatime.com/badge/github/oscarnovasf/VSCode-settings.svg)](https://wakatime.com/badge/github/oscarnovasf/VSCode-settings)
 [![Donate][donate-badge]][donate-url]
 
 ## Instalación
@@ -35,12 +36,15 @@ Archivos de configuración para VSCode
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
+  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [JS & CSS Minifier (Minify)](https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify)
+  * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+  * [Open Folder Context Menus for VS Code](https://marketplace.visualstudio.com/items?itemName=chrisdias.vscode-opennewinstance)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
@@ -130,8 +134,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.11
-[version-badge]: https://img.shields.io/badge/Versión-0.7.11-blue.svg
+[version]: v0.7.12
+[version-badge]: https://img.shields.io/badge/Versión-0.7.12-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

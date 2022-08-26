@@ -1,6 +1,25 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.12] - 2022-08-26
+> Revisión
+### Añadidos
+* Exclusión de /private_files/ en el gitignore.
+* Exclusión de .DS_Store en el gitignore.
+* Módulo "Open Folder Context Menus for VS Code".
+* Nuevas exclusiones para "Task Manager".
+* Extensión "Live Sass Compiler" y configuración básica.
+* Módulo "Git Graph".
+
+### Cambios
+* Modificación de tareas para añadir comandos específicos para MAC.
+* Reemplazo del módulo de SFTP (liximomo) por el fork de Natizyskunk.
+
+### Eliminados
+* Se elimina la extensión SVG Viewer porque ha desaparecido del repositorio de
+  VSCode.
+
+---
 ## [v0.7.11] - 2022-07-27
 > Revisión
 ### Añadidos

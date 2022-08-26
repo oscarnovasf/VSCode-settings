@@ -121,6 +121,28 @@
   "es6-css-minify.genJSmap": false,
   "es6-css-minify.jsMinPath": "",
 
+  /* Live Sass Compiler */
+  "liveSassCompile.settings.formats":[
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": [
+    "defaults"
+  ],
+
   /* PHP DocBlocks */
   "php-docblocker.author": {
     "name": "Óscar Novás",
@@ -144,6 +166,7 @@
   },
   "editor.cursorBlinking": "expand",
   "editor.detectIndentation": true,
+  "editor.experimental.stickyScroll.enabled": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
@@ -610,11 +633,8 @@
   },
   "shellcheck.run": "onType",
 
-  /* SVG */
-  "svgviewer.enableautopreview": true,
-
   /* Task Manager */
-  "taskManager.exclude": "hidden:|hidden_",
+  "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib",
 
   /* Thunder Client */
   "thunder-client.loadFromProject": true,

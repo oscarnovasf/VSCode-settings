@@ -280,6 +280,9 @@
     {
       "label": "- Actualizar documentación",
       "type": "shell",
+      "osx": {
+        "command": "find ./ -name '*.*-e' -type f -delete",
+      },
       "isBackground": true,
       "presentation": {
         "reveal": "never",
@@ -327,6 +330,9 @@
     {
       "label": "- Actualizar paquetes npm y package.json",
       "type": "shell",
+      "osx": {
+        "command": "find ./ -name '*.*-e' -type f -delete",
+      },
       "isBackground": true,
       "presentation": {
         "reveal": "never",
