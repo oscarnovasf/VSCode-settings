@@ -9,7 +9,6 @@
    ****************************************************************************/
 
   "recommendations": [
-    "aaron-bond.better-comments",
     "adam-bender.commit-message-editor",
     "alefragnani.bookmarks",
     "alefragnani.project-manager",
@@ -73,6 +72,7 @@
     "hediet.vscode-drawio",
     "janisdd.vscode-edit-csv",
     "jebbs.plantuml",
+    "Maarti.jenkins-doc",
     "mechatroner.rainbow-csv",
     "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-containers",

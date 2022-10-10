@@ -110,9 +110,6 @@
    * 2.- CONFIGURACIÓN DEL PROYECTO:
    * **************************************************************************/
 
-   /* GitLab Workflow */
-  "gitlab.instanceUrl": "https://gitlab.gloudify.com",
-
   /* GitLink */
   "GitLink.defaultRemote": "origin",
 
@@ -142,12 +139,7 @@
   "liveSassCompile.settings.autoprefix": [
     "defaults"
   ],
-
-  /* PHP DocBlocks */
-  "php-docblocker.author": {
-    "name": "Óscar Novás",
-    "email": "hola@oscarnovas.com"
-  },
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
 
   /* ***************************************************************************
    * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
@@ -166,7 +158,6 @@
   },
   "editor.cursorBlinking": "expand",
   "editor.detectIndentation": true,
-  "editor.experimental.stickyScroll.enabled": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
@@ -175,6 +166,7 @@
   "editor.linkedEditing": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [80],
+  "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "editor.wordWrapColumn": 80,
   "editor.wordWrap": "off",
@@ -224,7 +216,7 @@
   "git.ignoreRebaseWarning": true,
   "git.mergeEditor": true,
   "git.postCommitCommand": "push",
-  "git.showPushSuccessNotification": true,
+  "git.showPushSuccessNotification": false,
 
   "html.completion.attributeDefaultValue": "doublequotes",
   "html.format.enable": true,
@@ -259,11 +251,8 @@
 
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
-
-  "timeline.excludeSources": [
-    "timeline.localHistory"
-  ],
 
   "window.commandCenter": true,
 
@@ -338,39 +327,6 @@
       "name": "command.replacerules.runRuleset",
       "codicon": "symbol-ruler",
       "tooltip": "Quitar datos innecesarios para composer.json"
-    }
-  ],
-
-  /* Better Comments */
-  "better-comments.highlightPlainText": false,
-  "better-comments.multilineComments": true,
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF0000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#FFFF00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#008000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
     }
   ],
 
@@ -571,7 +527,6 @@
     }
   ],
   "gitlab.showProjectMergeRequests": false,
-  "gitlab.showIssueLinkOnStatusBar": false,
   "gitlab.showPipelineUpdateNotifications": false,
 
   /* Json Editor */
@@ -637,10 +592,8 @@
   "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib",
 
   /* Thunder Client */
-  "thunder-client.loadFromProject": true,
   "thunder-client.saveToWorkspace": true,
   "thunder-client.workspaceRelativePath": "docs",
-  "thunder-client.codeSnippetLanguage": "curl",
   "thunder-client.showActivityFromCollection": false,
 
   /* TO-DO TREE */
@@ -734,6 +687,6 @@
 
   "[yaml]": {
     "files.insertFinalNewline": false,
-  }
+  },
 
 }

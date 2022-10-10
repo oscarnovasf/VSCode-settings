@@ -1,6 +1,21 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.13] - 2022-10-10
+> Revisión
+### Añadidos
+* Extensión "Jenkins Doc"
+
+### Cambios
+* Adaptación de configuraciones a la versión 1.71.0 de VSCode.
+* Eliminación de configuraciones obsoletas.
+* Limpieza de extensiones que ya no uso/recomiendo.
+
+### Corrección de errores
+* Error en snippet de librería de formulario.
+* Parámetros en funciones de snippets de algunas clases.
+
+---
 ## [v0.7.12] - 2022-08-26
 > Revisión
 ### Añadidos

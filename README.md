@@ -19,7 +19,6 @@ Archivos de configuración para VSCode
 
   * [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-  * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   * [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode)
   * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
@@ -73,6 +72,7 @@ Archivos de configuración para VSCode
   * [Fix Json](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
+  * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
@@ -134,8 +134,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.12
-[version-badge]: https://img.shields.io/badge/Versión-0.7.12-blue.svg
+[version]: v0.7.13
+[version-badge]: https://img.shields.io/badge/Versión-0.7.13-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
