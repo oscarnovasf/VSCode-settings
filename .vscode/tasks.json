@@ -537,38 +537,6 @@
     },
 
     /* *************************************************************************
-     * TAREAS PARA DOCKER COMPOSE.
-     **************************************************************************/
-
-    {
-      "label": "--- DOCKER: docker-compose (UP)",
-      "type": "shell",
-      "command": "docker-compose up",
-      "presentation": {
-        "reveal": "silent",
-        "panel": "dedicated",
-        "group": "docker-compose",
-        "clear": true,
-        "close": true,
-      },
-      "icon": { "id": "archive", "color": "terminal.ansiBlue"}
-    },
-
-    {
-      "label": "--- DOCKER: docker-compose (STOP)",
-      "type": "shell",
-      "command": "docker-compose stop",
-      "presentation": {
-        "reveal": "silent",
-        "panel": "dedicated",
-        "group": "docker-compose",
-        "clear": true,
-        "close": true,
-      },
-      "icon": { "id": "archive", "color": "terminal.ansiBlue"}
-    },
-
-    /* *************************************************************************
      * TAREAS EN DESUSO PERO QUE PUEDEN SER NECESARIAS.
      **************************************************************************/
 

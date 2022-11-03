@@ -33,6 +33,17 @@
    * 1.- CONFIGURACIÓN DE USUARIO:
    * **************************************************************************/
 
+  /* Code Runner */
+  "code-runner.executorMap":{
+    "javascript": "node",
+    "php": "/opt/homebrew/bin/php",
+    "shellscript": "bash",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "html": "/Applications/Google Chrome.app",
+  },
+
   /* PHP:
    *
    * Para usar en Windows:
@@ -141,9 +152,14 @@
   ],
   "liveSassCompile.settings.showOutputWindowOn": "Error",
 
+  /* NPM */
+  "npm.packageManager": "npm",
+
   /* ***************************************************************************
    * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
    * **************************************************************************/
+
+  "breadcrumbs.enabled": true,
 
   "css.validate": true,
 
@@ -208,6 +224,7 @@
     "debug.log": true
   },
   "files.insertFinalNewline": true,
+  "files.restoreUndoStack": false,
   "files.trimTrailingWhitespace": true,
 
   "git.autofetch": true,
@@ -332,6 +349,10 @@
 
   /* Bookmarks */
   "bookmarks.saveBookmarksInProject": true,
+
+  /* Code Runner */
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
 
   /* Code Spell Checker => El resto de configuraciónes => cspell.json */
   "cSpell.enabled": true,
@@ -482,6 +503,7 @@
   "emptyIndent.exclude": [
     ".md"
   ],
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 

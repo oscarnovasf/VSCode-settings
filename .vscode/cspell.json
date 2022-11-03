@@ -31,6 +31,7 @@
     "phpcbf",
     "phpcs",
     "phpmd",
+    "redirecciona",
     "webform",
     "xargs"
   ],

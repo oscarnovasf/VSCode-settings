@@ -1,6 +1,23 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.14] - 2022-11-03
+> Revisión
+### Añadidos
+* Configuraciones para npm.
+* Extensión Code Runner.
+
+### Cambios
+* Ampliación del snippet para "text_format".
+* Cambio del módulo "Git Graph" por el módulo "Git History".
+* Se cambia el módulo "Drupal 8 Snippets" por "Drupal Smart Snippets".
+* Actualización de algunas configuraciones propias para Drupal.
+
+### Eliminados
+* Tareas para Docker compose.
+* Módulo "Drupal 8 Twig Snippets".
+
+---
 ## [v0.7.13] - 2022-10-10
 > Revisión
 ### Añadidos

@@ -25,17 +25,17 @@ Archivos de configuración para VSCode
     * [Spanish - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-spanish)
   * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
   * [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
+  * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-  * [Drupal 8 Snippets](https://marketplace.visualstudio.com/items?itemName=dssiqueira.drupal-8-snippets)
-  * [Drupal 8 Twig Snippets](https://marketplace.visualstudio.com/items?itemName=tsega.drupal-8-twig-snippets)
+  * [Drupal Smart Snippets](https://marketplace.visualstudio.com/items?itemName=andrewdavidblum.drupal-smart-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
+  * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
-  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [JS & CSS Minifier (Minify)](https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify)
@@ -134,7 +134,7 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.13
+[version]: v0.7.14
 [version-badge]: https://img.shields.io/badge/Versión-0.7.13-blue.svg
 
 [license]: LICENSE.md
