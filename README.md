@@ -32,8 +32,8 @@ Archivos de configuración para VSCode
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
-  * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-  * [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
+  * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
+  * [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
@@ -63,6 +63,7 @@ Archivos de configuración para VSCode
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
   * [VsCode Editor Macros](https://marketplace.visualstudio.com/items?itemName=jpsnee.vscode-editor-macros)
+  * [Yet Another PHPUnit](https://marketplace.visualstudio.com/items?itemName=danilopolani.yet-another-phpunit)
 
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
@@ -75,7 +76,6 @@ Archivos de configuración para VSCode
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
-  * [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
   * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
@@ -95,8 +95,6 @@ Archivos de configuración para VSCode
   * Copiar el directorio ***.vscode*** en la carpeta raíz de tu proyecto.
     > * Una vez copiada deberás cambiar los valores del archivo ***sftp.json***
         para que se conecten con tus servidores.
-    > * En el *settings.json* deberás cambiar el nombre y correo en el apartado
-        de configuración del ***PHP DocBlocks***.
     > * Sigue las instrucciones que se encuentran en *settings.json*
   * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***phpmd.xml*** en la carpeta raíz de tu proyecto.
@@ -105,10 +103,14 @@ Archivos de configuración para VSCode
   * Copiar el archivo ***phpdox.xml*** en la carpeta raíz de tu proyecto.
     > * Crear una carpeta ***.tmp-doc*** en la raíz de tu proyecto.
   * Copiar el archivo ***package.json*** en la carpeta raíz de tu proyecto.
-  * Copiar los archivos ***.gitignore*** y ***.gitattributes*** en la carpeta
-    raíz de tu proyecto.
+  * Copiar el archivos ***.gitignore_tasks*** y renombrarlo por ***.gitignore***
+    en la raíz de tu proyecto.
     > * Eliminar los comentarios del archivo ***.gitignore*** y añadir lo que
         necesites.
+  * Copiar el archivo ***.gitattributes*** en la carpeta raíz de tu proyecto.
+  * Si usas la extensión de WakaTime, debes copiar el archivo
+    ***wakatime-project_tasks*** y renombrarlo por ***.wakatime-project***,
+    luego editarlo y modificar su contenido por el nombre de tu proyecto.
 
 * ### Instalación de PHPCs
 
@@ -134,8 +136,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.14
-[version-badge]: https://img.shields.io/badge/Versión-0.7.13-blue.svg
+[version]: v0.7.15
+[version-badge]: https://img.shields.io/badge/Versión-0.7.15-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

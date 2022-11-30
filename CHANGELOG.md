@@ -1,6 +1,29 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.14] - 2022-11-30
+> Revisión
+### Añadidos
+* Nuevos snippets de uses.
+* Configuración para sftp para cuando se trata de un proyecto completo de
+  Drupal (también se modifica .gitignore).
+* Extensión `Git Config User Profiles`.
+* Extensión Git Lens.
+* Extensión Yet Another PHPUnit.
+* Plantilla para WakaTime.
+
+### Cambios
+* Modificación de `launch.json` con mejoras para XDebug en Lando y supresión de
+  lanzadores que no uso.
+* Eliminación de algunas de las extensiones opcionales.
+* Ajustes en archivo `.gitignore_tasks`.
+* Mejora y ampliación de la documentación.
+
+### Eliminados
+* Tareas y archivos relacionados con standard-version y dependencias npm.
+* Extensiones Git History y Git History Diff.
+
+---
 ## [v0.7.14] - 2022-11-03
 > Revisión
 ### Añadidos

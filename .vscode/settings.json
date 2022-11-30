@@ -73,6 +73,9 @@
    */
   "phpmd.command": "/opt/homebrew/bin/phpmd",
 
+  /* Project Manager */
+  "projectManager.sortList": "Name",
+
   "security.workspace.trust.untrustedFiles": "open",
 
   /* ShellCheck
@@ -155,6 +158,10 @@
   /* NPM */
   "npm.packageManager": "npm",
 
+  /* Yet Another PHPUnit */
+  "yet-phpunit.phpunitBinary": "./vendor/bin/phpunit",
+  "yet-phpunit.xmlConfigFilepath": "./phpunit.xml",
+
   /* ***************************************************************************
    * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
    * **************************************************************************/
@@ -184,6 +191,7 @@
   "editor.rulers": [80],
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
+  "editor.unicodeHighlight.includeComments": true,
   "editor.wordWrapColumn": 80,
   "editor.wordWrap": "off",
 
@@ -507,8 +515,11 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
-  /* Git History Diff */
-  "githd.logView.displayExpressStatus": false,
+  /* Git Lens*/
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.hovers.avatars": false,
 
   /* GitLab Workflow */
   "gitlab.customQueries": [
@@ -616,7 +627,6 @@
   /* Thunder Client */
   "thunder-client.saveToWorkspace": true,
   "thunder-client.workspaceRelativePath": "docs",
-  "thunder-client.showActivityFromCollection": false,
 
   /* TO-DO TREE */
   "todo-tree.general.tags": [

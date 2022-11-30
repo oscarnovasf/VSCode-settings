@@ -296,55 +296,6 @@
     },
 
     /* *************************************************************************
-     * TAREAS PARA ACTUALIZAR PAQUETES NPM Y PACKAGE.JSON.
-     **************************************************************************/
-
-    {
-      "label": "hidden: Actualizar .versionrc",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.versionrc -o .versionrc",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "npm",
-        "close": true,
-        "clear": true
-      },
-      "icon": { "id": "package", "color": "terminal.ansiBlue"}
-    },
-
-    {
-      "label": "hidden: Actualizar package.json",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/package.json -o package.json",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "npm",
-        "close": true,
-        "clear": true
-      },
-      "icon": { "id": "package", "color": "terminal.ansiBlue"}
-    },
-
-    {
-      "label": "- Actualizar paquetes npm y package.json",
-      "type": "shell",
-      "osx": {
-        "command": "find ./ -name '*.*-e' -type f -delete",
-      },
-      "isBackground": true,
-      "presentation": {
-        "reveal": "never",
-      },
-      "dependsOn": [
-        "hidden: Actualizar .versionrc",
-        "hidden: Actualizar package.json"
-      ],
-      "icon": { "id": "package", "color": "terminal.ansiBlue"}
-    },
-
-    /* *************************************************************************
      * TAREAS PARA ACTUALIZAR / DESCARGAR LIBRERÍAS.
      **************************************************************************/
 

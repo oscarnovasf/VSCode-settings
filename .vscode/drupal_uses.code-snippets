@@ -85,6 +85,15 @@
     "description": "Añadir use para FormStateInterface"
   },
 
+  "drupal_use_ImageStyle": {
+    "scope": "php",
+    "prefix": "use_ImageStyle",
+    "body": [
+      "use Drupal\\image\\Entity\\ImageStyle;$0",
+    ],
+    "description": "Añadir use para ImageStyle"
+  },
+
   "drupal_use_Markup": {
     "scope": "php",
     "prefix": "use_Markup",

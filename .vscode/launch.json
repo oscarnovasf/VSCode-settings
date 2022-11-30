@@ -1,31 +1,12 @@
 {
   "version": "0.2.0",
   "configurations": [
-
-    {
-      "name": "Chrome [Local]",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost",
-      "webRoot": "${workspaceFolder}"
-    },
-
     {
       "name": "XDebug [LANDO]",
       "type": "php",
       "request": "launch",
       "port": 9003,
       "log": false,
-      "pathMappings": {
-        "/app/": "${workspaceFolder}/",
-      }
-    },
-
-    {
-      "name": "XDebug [Docker]",
-      "type": "php",
-      "request": "launch",
-      "port": 9003,
       "stopOnEntry": false,
       "xdebugSettings": {
         "max_children": 128,
@@ -33,10 +14,22 @@
         "max_depth": 3,
         "show_hidden": 1
       },
-      "log": false,
       "pathMappings": {
-        "/var/www/html/web":"${workspaceRoot}/web/",
-      },
+        "/app/": "${workspaceFolder}/",
+      }
+    },
+    {
+      "name": "PhpUnit dummy",
+      "type": "php",
+      "request": "launch",
+      "port": 9001,
+    }
+  ],
+
+  "compounds": [
+    {
+      "name": "PhpUnit",
+      "configurations": ["XDebug [LANDO]", "PhpUnit dummy"]
     }
   ]
 }

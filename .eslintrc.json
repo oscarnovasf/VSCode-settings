@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "drupal"
-  ],
-
-  "rules": {
-    "func-names": ["off"]
-  }
-}
