@@ -1,7 +1,8 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
-## [v0.7.14] - 2022-11-30
+
+## [v0.7.15] - 2022-11-30
 > Revisión
 ### Añadidos
 * Nuevos snippets de uses.
