@@ -32,10 +32,11 @@ Archivos de configuración para VSCode
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
+  * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+  * [Git Commits](https://marketplace.visualstudio.com/items?itemName=exelord.git-commits)
   * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
-  * [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
-  * [GitLink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [JS & CSS Minifier (Minify)](https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify)
@@ -136,8 +137,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.15
-[version-badge]: https://img.shields.io/badge/Versión-0.7.15-blue.svg
+[version]: v0.7.16
+[version-badge]: https://img.shields.io/badge/Versión-0.7.16-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

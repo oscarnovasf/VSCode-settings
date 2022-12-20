@@ -23,7 +23,7 @@
     "donjayamanne.jquerysnippets",
     "ecmel.vscode-html-css",
     "ecodes.vscode-phpmd",
-    "eamodio.gitlens",
+    "exelord.git-commits",
     "formulahendry.code-runner",
     "glenn2223.live-sass",
     "gruntfuggly.activitusbar",
@@ -46,7 +46,6 @@
     "persoderlind.vscode-phpcbf",
     "pkief.material-icon-theme",
     "pranaygp.vscode-css-peek",
-    "qezhu.gitlink",
     "ritwickdey.liveserver",
     "shevaua.phpcs",
     "sibiraj-s.vscode-scss-formatter",
@@ -54,7 +53,8 @@
     "streetsidesoftware.code-spell-checker-spanish",
     "thekalinga.bootstrap4-vscode",
     "rangav.vscode-thunder-client",
-    "xdebug.php-debug"
+    "xdebug.php-debug",
+    "waderyan.gitblame"
   ],
 
   /* ***************************************************************************

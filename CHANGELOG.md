@@ -1,7 +1,23 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.16] - 2022-12-20
+> Revisión
+### Añadidos
+* Nuevas excepciones al listar las tareas en `Task Manager`.
+* Git History.
+* Git Blame.
+* Git Commits.
+* Nuevas configuraciones añadidas en VSCode 1.74.
 
+### Cambios
+* Mejoras en la configuración de Live Sass Compiler.
+
+### Eliminados
+* Git Lens (módulo de pago que ya no me interesa).
+* Git Link (realmente no lo estoy usando).
+
+---
 ## [v0.7.15] - 2022-11-30
 > Revisión
 ### Añadidos

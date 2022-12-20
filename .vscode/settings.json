@@ -124,9 +124,6 @@
    * 2.- CONFIGURACIÓN DEL PROYECTO:
    * **************************************************************************/
 
-  /* GitLink */
-  "GitLink.defaultRemote": "origin",
-
   /* JS & CSS Minifier (Minify) */
   "es6-css-minify.minifyOnSave": "exists",
   "es6-css-minify.genJSmap": false,
@@ -135,23 +132,20 @@
   /* Live Sass Compiler */
   "liveSassCompile.settings.formats":[
     {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    },
-    {
       "extensionName": ".min.css",
       "format": "compressed",
-      "savePath": "/css"
+      "savePath": "~/../css"
     }
   ],
   "liveSassCompile.settings.excludeList": [
     "/**/node_modules/**",
-    "/.vscode/**"
+    "/.vscode/**",
+    "/**/themes/contrib/**"
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
-    "defaults"
+    "> 1%",
+    "last 2 versions"
   ],
   "liveSassCompile.settings.showOutputWindowOn": "Error",
 
@@ -179,6 +173,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": false
   },
+  "editor.colorDecorators": false,
   "editor.cursorBlinking": "expand",
   "editor.detectIndentation": true,
   "editor.fontSize": 14,
@@ -203,6 +198,10 @@
   "explorer.openEditors.visible": 0,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.autoRevealExclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
 
   "extensions.ignoreRecommendations": false,
 
@@ -218,7 +217,8 @@
     "*.twig": "html",
     "*.env.development": "env",
     "*.env.docker": "env",
-    "*.env.production": "env"
+    "*.env.production": "env",
+    ".gitignore_tasks": "gitignore"
   },
   "files.autoSave": "onFocusChange",
   "files.encoding": "utf8",
@@ -325,11 +325,6 @@
       "tooltip": "Bookmarks"
     },
     {
-      "name": "command.workbench.view.extension.dockerView",
-      "codicon": "root-folder-opened",
-      "tooltip": "Docker"
-    },
-    {
       "name": "command.workbench.view.extension.thunder-client",
       "codicon": "circuit-board",
       "tooltip": "Thunder Client"
@@ -367,7 +362,7 @@
   "cSpell.language": "en,es",
 
   /* Color Highlight */
-  "color-highlight.markerType": "dot-before",
+  "color-highlight.markerType": "background",
   "color-highlight.markRuler": false,
 
   /* Commit Message Editor*/
@@ -515,11 +510,12 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
-  /* Git Lens*/
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.pullRequests.enabled": false,
-  "gitlens.currentLine.scrollable": false,
-  "gitlens.hovers.avatars": false,
+  /* Git Blame*/
+  "gitblame.inlineMessageEnabled": true,
+  "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) - ${commit.summary}",
+
+  /* Git History */
+  "gitHistory.includeRemoteBranches": true,
 
   /* GitLab Workflow */
   "gitlab.customQueries": [
@@ -622,7 +618,7 @@
   "shellcheck.run": "onType",
 
   /* Task Manager */
-  "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib",
+  "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib|web/libraries|web/modules/contrib|web/themes/contrib",
 
   /* Thunder Client */
   "thunder-client.saveToWorkspace": true,
