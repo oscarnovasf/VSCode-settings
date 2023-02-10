@@ -3,24 +3,53 @@
 /.vscode/**
 !/.vscode/tasks.json
 .editorconfig
+*.un~
 
-.wakatime-project
+# Logs.
+/web/error_log
+/error_log
+*.log
+*.bak
 
-debug.log
-
-# Archivos MAC
+# Archivos del SO.
 .DS_Store
+thumbs.db
+Thumbs.db
+._*
 
 # Archivos de desarrollo.
 /node_modules/
+.sass-cache
 
 # Archivos de documentación (phpdox).
 /.tmp-doc/
 /documentation/
 
+# Archivos de PHPUnit.
+/docs/simpletest/
+
 # Archivos de envio al cliente.
 *_pass.txt
 *.zip
+
+# Paquetes
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.tgz
+
+# Varios.
+.wakatime-project
+.well-known
+
+# PHPMiniAdmin
+phpminiadmin.php
+/web/phpminiadmin.php
 
 ################################################################################
 # Configuración para proyectos Drupal con Composer.
@@ -48,6 +77,15 @@ debug.log
 /web/sites/*/files/
 /web/sites/simpletest
 /private_files/
+
+# Archivos de texto.
+CHANGELOG.txt
+COPYRIGHT.txt
+INSTALL*.txt
+LICENSE.txt
+MAINTAINERS.txt
+UPGRADE.txt
+README.txt
 
 # Según la naturaleza del proyecto puede que se tengan que ignorar también
 # estos archivos:

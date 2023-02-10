@@ -48,10 +48,13 @@ Archivos de configuración para VSCode
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
+  * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
   * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+  * [PHPUnit Test Explorer](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit)
   * [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
+  * [platform-settings](https://marketplace.visualstudio.com/items?itemName=runarsf.platform-settings)
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
   * [Replace Rules](https://marketplace.visualstudio.com/items?itemName=bhughes339.replacerules)
@@ -62,9 +65,10 @@ Archivos de configuración para VSCode
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
   * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+  * [Twig braces helper](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
+  * [UNOTES - Markdown Notes WYSIWYG](https://marketplace.visualstudio.com/items?itemName=ryanmcalister.Unotes)
   * [VsCode Editor Macros](https://marketplace.visualstudio.com/items?itemName=jpsnee.vscode-editor-macros)
-  * [Yet Another PHPUnit](https://marketplace.visualstudio.com/items?itemName=danilopolani.yet-another-phpunit)
 
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
@@ -76,6 +80,7 @@ Archivos de configuración para VSCode
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
+  * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
@@ -137,8 +142,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.16
-[version-badge]: https://img.shields.io/badge/Versión-0.7.16-blue.svg
+[version]: v0.7.17
+[version-badge]: https://img.shields.io/badge/Versión-0.7.17-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

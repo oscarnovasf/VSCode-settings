@@ -1,6 +1,24 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.17] - 2023-02-10
+> Revisión
+### Añadidos
+* Twig braces helper.
+* PHP Intelephense.
+* PHPUnit Test Explorer.
+* Función para redireccionar a "destination" en el snippet de Controller.
+* Ampliación de restricciones en el gitignore de los proyectos.
+* Extensión UNotes.
+* Extensión opcional Lando UI (añadida también como icono a la toolbar).
+* Extensión platform-settings que nos permite gestionar diferentes
+  configuraciones según el SO... (reestructura de settings para su uso).
+
+### Cambios
+* Arreglos menores de configuración para los snippets de twig.
+* Adaptación de configuración para v1.75
+
+---
 ## [v0.7.16] - 2022-12-20
 > Revisión
 ### Añadidos

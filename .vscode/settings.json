@@ -33,59 +33,107 @@
    * 1.- CONFIGURACIÓN DE USUARIO:
    * **************************************************************************/
 
-  /* Code Runner */
-  "code-runner.executorMap":{
-    "javascript": "node",
-    "php": "/opt/homebrew/bin/php",
-    "shellscript": "bash",
-    "sass": "sass --style expanded",
-    "scss": "scss --style expanded",
-    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-    "html": "/Applications/Google Chrome.app",
+  /* Gracias a platform-settings diferenciamos configuraciones según SO */
+  "platformSettings.platforms": {
+    "linux": {
+      "nodes": {
+        /* Code Runner */
+        "code-runner.executorMap":{
+          "javascript": "node",
+          "php": "/usr/bin/php",
+          "shellscript": "bash",
+          "sass": "sass --style expanded",
+          "scss": "scss --style expanded",
+          "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+          "html": "/usr/bin/google-chrome-stable",
+        },
+
+        /* PHP */
+        "php.validate.executablePath": "/usr/bin/php",
+
+        /* phpcbf */
+        "phpcbf.executablePath": "/usr/bin/phpcbf",
+
+        /* phpcs */
+        "phpcs.executablePath": "/usr/bin/phpcs",
+
+        /* PHP Mess Detector */
+        "phpmd.command": "/usr/bin/phpmd",
+
+        /* ShellCheck */
+        "shellcheck.executablePath": "/usr/bin/shellcheck",
+      }
+    },
+
+    "darwin": {
+      "nodes": {
+        /* Code Runner */
+        "code-runner.executorMap":{
+          "javascript": "node",
+          "php": "/opt/homebrew/bin/php",
+          "shellscript": "bash",
+          "sass": "sass --style expanded",
+          "scss": "scss --style expanded",
+          "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+          "html": "/Applications/Google Chrome.app",
+        },
+
+        /* PHP */
+        "php.validate.executablePath": "/opt/homebrew/bin/php",
+
+        /* phpcbf */
+        "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
+
+        /* phpcs */
+        "phpcs.executablePath": "/Users/onovas/.composer/vendor/bin/phpcs",
+
+        /* PHP Mess Detector */
+        "phpmd.command": "/opt/homebrew/bin/phpmd",
+
+        /* ShellCheck */
+        "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
+      }
+    },
+
+    "win32": {
+      "nodes": {
+        /* PHP */
+        "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+
+        /* PHP Mess Detector */
+        "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
+
+        /* Modificaciones en el terminal */
+        "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
+        "terminal.integrated.automationProfile.windows": {
+          "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+        },
+        "terminal.integrated.defaultProfile.windows": "GitBash",
+        "terminal.integrated.profiles.windows": {
+          "Commander (Laragon)": {
+            "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
+            "args": ["${workspaceFolder}"]
+          },
+          "GitBash": {
+            "path": "${env:programfiles}\\Git\\bin\\bash.exe",
+            "args": ["-l"]
+          },
+          "CMD": {
+            "path": "${env:windir}\\system32\\cmd.exe",
+            "args": ["${workspaceFolder}"]
+          }
+        }
+      }
+    }
   },
 
-  /* PHP:
-   *
-   * Para usar en Windows:
-   *   - "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-   * Para usar en MAC (Si ha sido instalado con brew):
-   *   - "php.validate.executablePath": "/opt/homebrew/bin/php",
-   */
-  "php.validate.executablePath": "/opt/homebrew/bin/php",
-
-  /* phpcbf:
-   *
-   * Para usar en Windows:
-   *   - "phpcbf.executablePath": "<ruta .bat>",
-   * Para usar en MAC (Si ha sido instalado con brew):
-   *   - "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
-   */
-  "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
-
-  /* PHP Mess Detector:
-   *
-   * Para usar en Windows:
-   *   - "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
-   * Para usar en Ubuntu (Copiar en la configuración remota):
-   *   - "phpmd.command": "/usr/bin/phpmd",
-   * Para usar en MAC (Si ha sido instalado con brew):
-   *   - "phpmd.command": "/opt/homebrew/bin/phpmd",
-   */
-  "phpmd.command": "/opt/homebrew/bin/phpmd",
+  /* PHPUnit Test Explorer */
+  "phpunit.showAfterExecution": "always",
 
   /* Project Manager */
   "projectManager.sortList": "Name",
 
   "security.workspace.trust.untrustedFiles": "open",
-
-  /* ShellCheck
-   *
-   * Para usar en Windows:
-   *   - "shellcheck.executablePath": "<ruta>",
-   * Para usar en MAC (Si ha sido instalado con brew):
-   *   - "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
-   */
-  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
 
   /* Telemetría */
   "telemetry.telemetryLevel": "off",
@@ -94,31 +142,6 @@
   "window.dialogStyle": "custom",
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
-
-  /* ***************************************************************************
-   * 1.a - CONFIGURACIÓN DE USUARIO. Propias del sistema Windows:
-   * **************************************************************************/
-
-  /* Modificaciones en el terminal */
-  "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
-  "terminal.integrated.automationProfile.windows": {
-    "path": "${env:programfiles}\\Git\\bin\\bash.exe",
-  },
-  "terminal.integrated.defaultProfile.windows": "GitBash",
-  "terminal.integrated.profiles.windows": {
-    "Commander (Laragon)": {
-      "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-      "args": ["${workspaceFolder}"]
-    },
-    "GitBash": {
-      "path": "${env:programfiles}\\Git\\bin\\bash.exe",
-      "args": ["-l"]
-    },
-    "CMD": {
-      "path": "${env:windir}\\system32\\cmd.exe",
-      "args": ["${workspaceFolder}"]
-    }
-  },
 
   /* ***************************************************************************
    * 2.- CONFIGURACIÓN DEL PROYECTO:
@@ -148,13 +171,23 @@
     "last 2 versions"
   ],
   "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "liveSassCompile.settings.useNewCompiler": true,
 
   /* NPM */
   "npm.packageManager": "npm",
 
-  /* Yet Another PHPUnit */
-  "yet-phpunit.phpunitBinary": "./vendor/bin/phpunit",
-  "yet-phpunit.xmlConfigFilepath": "./phpunit.xml",
+  /* PHPUnit Test Explorer */
+  "phpunit.command": "lando ssh -c",
+  "phpunit.clearOutputOnRun": true,
+  "phpunit.php": "php",
+  "phpunit.phpunit": "/app/vendor/bin/phpunit",
+  "phpunit.args": [
+    "-c",
+    "phpunit.xml"
+  ],
+  "phpunit.paths": {
+    "${workspaceFolder}": "/app",
+  },
 
   /* ***************************************************************************
    * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
@@ -206,18 +239,19 @@
   "extensions.ignoreRecommendations": false,
 
   "files.associations": {
-    "*.inc": "php",
-    "*.module": "php",
-    "*.install": "php",
-    "*.theme": "php",
-    "*.tpl.php": "php",
-    "*.tmpl": "html",
-    "*.test": "php",
-    "*.php": "php",
-    "*.twig": "html",
     "*.env.development": "env",
     "*.env.docker": "env",
     "*.env.production": "env",
+    "*.html.twig": "twig",
+    "*.inc": "php",
+    "*.install": "php",
+    "*.module": "php",
+    "*.php": "php",
+    "*.theme": "php",
+    "*.tmpl": "html",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.twig": "html",
     ".gitignore_tasks": "gitignore"
   },
   "files.autoSave": "onFocusChange",
@@ -266,6 +300,7 @@
 
   "php.validate.enable": true,
   "php.validate.run": "onType",
+  "php.suggest.basic": false,
 
   "terminal.integrated.autoReplies": {
     "[oh-my-zsh] Would you like to update? [Y/n]": "Y\r"
@@ -282,6 +317,7 @@
   "window.commandCenter": true,
 
   "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.editorLargeFileConfirmation": 1024,
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.wrapTabs": true,
@@ -325,9 +361,9 @@
       "tooltip": "Bookmarks"
     },
     {
-      "name": "command.workbench.view.extension.thunder-client",
-      "codicon": "circuit-board",
-      "tooltip": "Thunder Client"
+      "name": "command.workbench.view.extension.lando-ui",
+      "codicon": "dashboard",
+      "tooltip": "Lando UI"
     },
     {
       "name": "command.workbench.view.extension.todo-tree-container",
@@ -584,6 +620,9 @@
   /* PHP Server */
   "phpserver.port": 8888,
 
+  /* Platform-Settings */
+  "platformSettings.autoLoad": true,
+
   /* Project Manager */
   "projectManager.groupList": true,
   "projectManager.removeCurrentProjectFromList": true,
@@ -667,6 +706,9 @@
   },
   "todo-tree.regex.regex": "((//|#|;)[ ]*($TAGS)[^\\n]*)|(/\\*(\\*?\\s*)*($TAGS)(.|\\n|\\r)*?\\*/)|(<!--\\s*($TAGS)(.|\\n|\\r)*?-->)",
 
+  /* UNotes */
+  "unotes.rootPath": "${workspaceFolder}/docs/notes",
+
   /* ***************************************************************************
    * 5.- CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES:
    * **************************************************************************/
@@ -703,6 +745,10 @@
   "[markdown]": {
     "files.insertFinalNewline": false,
     "files.trimTrailingWhitespace": false,
+  },
+
+  "[python]": {
+    "editor.formatOnType": true,
   },
 
   "[shellscript]": {
