@@ -163,7 +163,8 @@
   "liveSassCompile.settings.excludeList": [
     "/**/node_modules/**",
     "/.vscode/**",
-    "/**/themes/contrib/**"
+    "/**/themes/contrib/**",
+    "/**/libraries/**"
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
@@ -385,6 +386,13 @@
       "tooltip": "Quitar datos innecesarios para composer.json"
     }
   ],
+
+  /* AutoHide */
+  "autoHide.autoHidePanel": false,
+  "autoHide.autoHideSideBar": true,
+  "autoHide.hideOnOpen": false,
+  "autoHide.panelDelay": 0,
+  "autoHide.sideBarDelay": 10,
 
   /* Bookmarks */
   "bookmarks.saveBookmarksInProject": true,

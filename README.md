@@ -18,6 +18,7 @@ Archivos de configuración para VSCode
   recomendado si trabajas con Drupal:
 
   * [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
+  * [Auto Hide](https://marketplace.visualstudio.com/items?itemName=sirmspencer.vscode-autohide)
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   * [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode)
@@ -142,8 +143,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.17
-[version-badge]: https://img.shields.io/badge/Versión-0.7.17-blue.svg
+[version]: v0.7.18
+[version-badge]: https://img.shields.io/badge/Versión-0.7.18-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

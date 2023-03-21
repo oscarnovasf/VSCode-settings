@@ -201,6 +201,20 @@
     "description": "Drupal 8|9: FormApi HTML_TAG"
   },
 
+  "drupal_form_link": {
+    "scope": "php",
+    "prefix": "form_link",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'link,",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#url' => Url::fromRoute('${3:route_name}'),",
+      "\t'#attributes' => '[${4:attributes}],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Tabs"
+  },
+
   "drupal_form_managed_file": {
     "scope": "php",
     "prefix": "form_managed_file",
@@ -359,6 +373,17 @@
     "description": "Drupal 8|9: FormApi Table"
   },
 
+  "drupal_form_tabs": {
+    "scope": "php",
+    "prefix": "form_tabs",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => ${2|'vertical_tabs','horizontal_tabs'|},",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Tabs"
+  },
+
   "drupal_form_tel": {
     "scope": "php",
     "prefix": "form_tel",
@@ -430,17 +455,6 @@
       "];$0",
     ],
     "description": "Drupal 8|9: FormApi TextFormat"
-  },
-
-  "drupal_form_vertical_tabs": {
-    "scope": "php",
-    "prefix": "form_vertical_tabs",
-    "body": [
-      "$$form['${1:element_name}'] = [",
-      "\t'#type' => 'vertical_tabs',",
-      "];$0",
-    ],
-    "description": "Drupal 8|9: FormApi Vertical Tabs"
   },
 
   "drupal_form_view": {

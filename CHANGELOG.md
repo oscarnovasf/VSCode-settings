@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.18] - 2023-03-21
+> Revisión
+### Añadidos
+* Nuevos snippets de formulario.
+* Nueva extensión "AutoHide".
+
+### Corrección de errores
+* Solucionado problema con la extensión SASS que compilaba archivos dentro de
+  la carpeta "libraries".
+
+---
 ## [v0.7.17] - 2023-02-10
 > Revisión
 ### Añadidos
