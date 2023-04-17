@@ -1,6 +1,20 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.19] - 2023-04-17
+> Revisión
+### Añadidos
+* Extensión opcional "SQLTools".
+* Extensión "Lando UI".
+* Extensión "Composer".
+
+### Eliminados
+* Extensión "JS & CSS Minifier (Minify)" por no tener mantenimiento.
+
+### Corrección de errores
+* Eliminar documentación obsoleta.
+
+---
 ## [v0.7.18] - 2023-03-21
 > Revisión
 ### Añadidos

@@ -22,11 +22,12 @@ Archivos de configuración para VSCode
   * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * [BookMarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   * [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode)
+  * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
   * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * [Spanish - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-spanish)
   * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
   * [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
-  * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+  * [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   * [Drupal Smart Snippets](https://marketplace.visualstudio.com/items?itemName=andrewdavidblum.drupal-smart-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
@@ -40,7 +41,7 @@ Archivos de configuración para VSCode
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
-  * [JS & CSS Minifier (Minify)](https://marketplace.visualstudio.com/items?itemName=olback.es6-css-minify)
+  * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -87,6 +88,7 @@ Archivos de configuración para VSCode
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
+  * [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -106,10 +108,8 @@ Archivos de configuración para VSCode
   * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***phpmd.xml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***.editorconfig*** en la carpeta raíz de tu proyecto.
-  * Copiar el archivo ***.versionrc*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***phpdox.xml*** en la carpeta raíz de tu proyecto.
     > * Crear una carpeta ***.tmp-doc*** en la raíz de tu proyecto.
-  * Copiar el archivo ***package.json*** en la carpeta raíz de tu proyecto.
   * Copiar el archivos ***.gitignore_tasks*** y renombrarlo por ***.gitignore***
     en la raíz de tu proyecto.
     > * Eliminar los comentarios del archivo ***.gitignore*** y añadir lo que
@@ -143,8 +143,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.18
-[version-badge]: https://img.shields.io/badge/Versión-0.7.18-blue.svg
+[version]: v0.7.19
+[version-badge]: https://img.shields.io/badge/Versión-0.7.19-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

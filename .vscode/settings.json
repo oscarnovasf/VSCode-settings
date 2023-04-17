@@ -147,11 +147,6 @@
    * 2.- CONFIGURACIÓN DEL PROYECTO:
    * **************************************************************************/
 
-  /* JS & CSS Minifier (Minify) */
-  "es6-css-minify.minifyOnSave": "exists",
-  "es6-css-minify.genJSmap": false,
-  "es6-css-minify.jsMinPath": "",
-
   /* Live Sass Compiler */
   "liveSassCompile.settings.formats":[
     {
