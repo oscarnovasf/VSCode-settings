@@ -41,7 +41,6 @@ Archivos de configuración para VSCode
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
-  * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -83,6 +82,7 @@ Archivos de configuración para VSCode
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
   * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
   * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
+  * [nyan-mode](https://marketplace.visualstudio.com/items?itemName=zakudriver.nyan-mode)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
@@ -143,8 +143,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.19
-[version-badge]: https://img.shields.io/badge/Versión-0.7.19-blue.svg
+[version]: v0.7.20
+[version-badge]: https://img.shields.io/badge/Versión-0.7.20-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

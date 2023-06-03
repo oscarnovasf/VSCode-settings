@@ -50,6 +50,7 @@
 
         /* PHP */
         "php.validate.executablePath": "/usr/bin/php",
+        "phpserver.phpPath": "/usr/bin/php",
 
         /* phpcbf */
         "phpcbf.executablePath": "/usr/bin/phpcbf",
@@ -80,6 +81,7 @@
 
         /* PHP */
         "php.validate.executablePath": "/opt/homebrew/bin/php",
+        "phpserver.phpPath": "/opt/homebrew/bin/php",
 
         /* phpcbf */
         "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
@@ -99,6 +101,7 @@
       "nodes": {
         /* PHP */
         "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
+        "phpserver.phpPath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
 
         /* PHP Mess Detector */
         "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
@@ -238,6 +241,7 @@
     "*.env.development": "env",
     "*.env.docker": "env",
     "*.env.production": "env",
+    "*.env.example": "env",
     "*.html.twig": "twig",
     "*.inc": "php",
     "*.install": "php",
@@ -320,6 +324,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.localHistory.maxFileEntries": 25,
   "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
 
   /* ***************************************************************************
@@ -599,6 +604,10 @@
 
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
+
+  /* Nyan mode */
+  "nyanMode.nyanDisplayPercent": true,
+  "nyanMode.nyanColor": "#fff",
 
   /* phpcbf */
   "phpcbf.enable": true,

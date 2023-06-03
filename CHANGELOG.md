@@ -1,6 +1,18 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.20] - 2023-06-03
+> Revisión
+### Añadidos
+* Configuración para que el archivo .env.example sea tratado como una archivo de
+  variables de entorno.
+* Extensión "Auto Rename Tag".
+* Extensión opcional "Nyan-mode".
+
+### Cambios
+* Muevo la sidebar a la derecha por comodidad.
+
+---
 ## [v0.7.19] - 2023-04-17
 > Revisión
 ### Añadidos
