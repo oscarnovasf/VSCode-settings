@@ -1,6 +1,22 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.21] - 2023-07-05
+> Revisión
+### Añadidos
+* Nuevas configuraciones para v1.79.0.
+* Módulo px to rem & rpx & vw (cssrem).
+* Tema "Copilot Theme" por defecto.
+* Ajustes para "json.schemas".
+
+### Eliminados
+* Extensión CSS Peek porque no se mantiene.
+
+### Corrección de errores
+* Corrección en la asociación de archivos twig.html.
+* Eliminación de documentación errónea.
+
+---
 ## [v0.7.20] - 2023-06-03
 > Revisión
 ### Añadidos

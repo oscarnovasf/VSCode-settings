@@ -17,6 +17,7 @@
     "bierner.markdown-preview-github-styles",
     "bmewburn.vscode-intelephense-client",
     "chrisdias.vscode-opennewinstance",
+    "cipchk.cssrem",
     "cnshenj.vscode-task-manager",
     "codezombiech.gitignore",
     "DEVSENSE.composer-php-vscode",
@@ -46,7 +47,6 @@
     "onlyutkarsh.git-config-user-profiles",
     "persoderlind.vscode-phpcbf",
     "pkief.material-icon-theme",
-    "pranaygp.vscode-css-peek",
     "rangav.vscode-thunder-client",
     "recca0120.vscode-phpunit",
     "ritwickdey.liveserver",
@@ -72,6 +72,7 @@
    *   trabajar con ellas en el archivo settings.json.
    ****************************************************************************/
   "unwantedRecommendations": [
+    "BenjaminBenais.copilot-theme",
     "brapifra.phpserver",
     "dotjoshjohnson.xml",
     "github.vscode-pull-request-github",
@@ -79,12 +80,11 @@
     "hediet.vscode-drawio",
     "janisdd.vscode-edit-csv",
     "jixabon.lando-ui",
-    "Maarti.jenkins-doc",
+    "maarti.jenkins-doc",
     "mechatroner.rainbow-csv",
     "mrmlnc.vscode-apache",
     "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-containers",
-    "mtxr.sqltools",
     "nickdemayo.vscode-json-editor",
     "oliversturm.fix-json",
     "timonwong.shellcheck",

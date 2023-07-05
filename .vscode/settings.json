@@ -188,6 +188,11 @@
     "${workspaceFolder}": "/app",
   },
 
+  /* px to rem & rpx & vw (cssrem) */
+  "cssrem.addMark": true,
+  "cssrem.remHover": true,
+  "cssrem.rootFontSize": 16,
+
   /* ***************************************************************************
    * 3.- CONFIGURACIÓN GENERAL DEL EDITOR
    * **************************************************************************/
@@ -227,7 +232,7 @@
   },
 
   "explorer.compactFolders": false,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 1,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.autoRevealExclude": {
@@ -242,7 +247,6 @@
     "*.env.docker": "env",
     "*.env.production": "env",
     "*.env.example": "env",
-    "*.html.twig": "twig",
     "*.inc": "php",
     "*.install": "php",
     "*.module": "php",
@@ -266,6 +270,20 @@
     "debug.log": true
   },
   "files.insertFinalNewline": true,
+  "files.readonlyInclude": {
+    "**/node_modules/**": true,
+    "vendor/**": true,
+    "core/**": true,
+    "modules/contrib/**": true,
+    "themes/contrib/**": true,
+
+    "web/core/**": true,
+    "web/modules/contrib/**": true,
+    "web/themes/contrib/**": true,
+
+    "package-lock.json": true,
+    "composer.lock": true
+  },
   "files.restoreUndoStack": false,
   "files.trimTrailingWhitespace": true,
 
@@ -286,7 +304,8 @@
     {
       "fileMatch": [
         "composer.json",
-        "composer.*.json"
+        "composer.custom.json",
+        "composer.patches.json"
       ],
       "url": "https://raw.githubusercontent.com/composer/composer/master/res/composer-schema.json"
     },
@@ -316,7 +335,7 @@
 
   "window.commandCenter": true,
 
-  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.colorTheme": "Copilot Theme",
   "workbench.editorLargeFileConfirmation": 1024,
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,

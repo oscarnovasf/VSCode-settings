@@ -28,7 +28,6 @@ Archivos de configuración para VSCode
   * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
   * [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
   * [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
-  * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   * [Drupal Smart Snippets](https://marketplace.visualstudio.com/items?itemName=andrewdavidblum.drupal-smart-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
@@ -57,6 +56,7 @@ Archivos de configuración para VSCode
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
   * [platform-settings](https://marketplace.visualstudio.com/items?itemName=runarsf.platform-settings)
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+  * [px to rem & rpx & vw (cssrem)](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
   * [Replace Rules](https://marketplace.visualstudio.com/items?itemName=bhughes339.replacerules)
   * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
@@ -73,6 +73,7 @@ Archivos de configuración para VSCode
 
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
+  * [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme)
   * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
@@ -84,11 +85,9 @@ Archivos de configuración para VSCode
   * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
   * [nyan-mode](https://marketplace.visualstudio.com/items?itemName=zakudriver.nyan-mode)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
-  * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
-  * [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -143,8 +142,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.20
-[version-badge]: https://img.shields.io/badge/Versión-0.7.20-blue.svg
+[version]: v0.7.21
+[version-badge]: https://img.shields.io/badge/Versión-0.7.21-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
