@@ -1,6 +1,30 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.22] - 2023-07-19
+> Revisión
+### Añadidos
+* Ajustes para formatear PHP.
+* Extensión Git Graph.
+* Extensión GitFlow Actions Sidebar.
+* Extensión opcional GitHub Copilot.
+* Extensión Smart Clicks.
+
+### Cambios
+* Modificaciones en Activitusbar para eliminar atajos que ya no uso y añadir
+  otros que si necesito.
+
+### Eliminados
+* Extensión Git History, sustituido por Git Graph.
+* Extensión Commit Message Editor, ya no lo uso.
+* Extensión Replace Rules, ya no lo uso.
+
+### Corrección de errores
+* Elimino del Live Sass Compiler los directorios de módulos contrib y la
+  carpeta vendor.
+* Ajustes de formato en el archivo settings.json.
+
+---
 ## [v0.7.21] - 2023-07-05
 > Revisión
 ### Añadidos

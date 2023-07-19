@@ -36,7 +36,8 @@ Archivos de configuración para VSCode
   * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
   * [Git Commits](https://marketplace.visualstudio.com/items?itemName=exelord.git-commits)
   * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
-  * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  * [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
@@ -58,9 +59,9 @@ Archivos de configuración para VSCode
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [px to rem & rpx & vw (cssrem)](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-  * [Replace Rules](https://marketplace.visualstudio.com/items?itemName=bhughes339.replacerules)
   * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
+  * [Smart Clicks](https://marketplace.visualstudio.com/items?itemName=antfu.smart-clicks)
   * [SSH FS](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
@@ -78,6 +79,7 @@ Archivos de configuración para VSCode
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
   * [Fix Json](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
+  * [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
@@ -142,8 +144,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.21
-[version-badge]: https://img.shields.io/badge/Versión-0.7.21-blue.svg
+[version]: v0.7.22
+[version-badge]: https://img.shields.io/badge/Versión-0.7.22-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

@@ -9,11 +9,11 @@
    ****************************************************************************/
 
   "recommendations": [
-    "adam-bender.commit-message-editor",
     "alefragnani.bookmarks",
     "alefragnani.project-manager",
     "andrewdavidblum.drupal-smart-snippets",
-    "bhughes339.replacerules",
+    "antfu.smart-clicks",
+    "ardisaurus.gitflow-actions-sidebar",
     "bierner.markdown-preview-github-styles",
     "bmewburn.vscode-intelephense-client",
     "chrisdias.vscode-opennewinstance",
@@ -38,6 +38,7 @@
     "marcostazi.vs-code-drupal",
     "mblode.twig-language-2",
     "mehedidracula.php-namespace-resolver",
+    "mhutchie.git-graph",
     "mrorz.language-gettext",
     "ms-ceintl.vscode-language-pack-es",
     "ms-vscode-remote.remote-ssh",
@@ -75,6 +76,7 @@
     "BenjaminBenais.copilot-theme",
     "brapifra.phpserver",
     "dotjoshjohnson.xml",
+    "GitHub.copilot",
     "github.vscode-pull-request-github",
     "gitlab.gitlab-workflow",
     "hediet.vscode-drawio",
