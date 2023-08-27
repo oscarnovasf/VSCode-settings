@@ -460,6 +460,7 @@
   "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) - ${commit.summary}",
 
   /* GitFlow Actions Sidebar */
+  "gitflow-actions.default.production": "main",
   "gitflow-actions.deleteBranchOnFinish": false,
   "gitflow-actions.deleteRemoteBranches": false,
 
@@ -506,6 +507,10 @@
     "Scripts"
   ],
 
+  /* Rest Client API */
+  "rest-client.enableTelemetry": false,
+  "rest-client.previewOption": "full",
+
   /* ShellCheck */
   "shellcheck.enable": true,
   "shellcheck.ignorePatterns": {
@@ -524,10 +529,6 @@
 
   /* Task Manager */
   "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib|web/libraries|web/modules/contrib|web/themes/contrib",
-
-  /* Thunder Client */
-  "thunder-client.saveToWorkspace": true,
-  "thunder-client.workspaceRelativePath": "docs",
 
   /* TO-DO TREE */
   "todo-tree.general.tags": [

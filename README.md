@@ -59,13 +59,13 @@ Archivos de configuración para VSCode
   * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   * [px to rem & rpx & vw (cssrem)](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+  * [REST Client Api](https://marketplace.visualstudio.com/items?itemName=donebd.rest-client-api)
   * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [Smart Clicks](https://marketplace.visualstudio.com/items?itemName=antfu.smart-clicks)
   * [SSH FS](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
   * [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
   * [Task Manager](https://marketplace.visualstudio.com/items?itemName=cnshenj.vscode-task-manager)
-  * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * [Twig braces helper](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
@@ -144,8 +144,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.22
-[version-badge]: https://img.shields.io/badge/Versión-0.7.22-blue.svg
+[version]: v0.7.23
+[version-badge]: https://img.shields.io/badge/Versión-0.7.23-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

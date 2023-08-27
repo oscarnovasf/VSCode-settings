@@ -1,6 +1,20 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.23] - 2023-08-27
+> Revisión
+### Añadidos
+* Extensión REST Client Api para sustituir a Thunder Client.
+
+### Cambios
+* Establecida rama "main" como principal al usar gitflow.
+* En la configuración de SFTP eliminamos el watcher porque estaba dando
+  problemas.
+
+### Eliminados
+* Extensión Thunder Client porque ahora es de pago.
+
+---
 ## [v0.7.22] - 2023-07-19
 > Revisión
 ### Añadidos
