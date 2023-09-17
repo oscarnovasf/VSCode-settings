@@ -1,6 +1,15 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.24] - 2023-09-17
+> Revisión
+### Añadidos
+* Mejora en la documentación de las extensiones.
+
+### Eliminados
+* Tareas en tasks.json que no uso.
+
+---
 ## [v0.7.23] - 2023-08-27
 > Revisión
 ### Añadidos

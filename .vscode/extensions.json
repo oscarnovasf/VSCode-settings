@@ -71,25 +71,30 @@
    *   aunque no las considero imprescindibles para trabajar con Drupal.
    * - Estas extensiones están, en su mayoría, con su configuración ideal para
    *   trabajar con ellas en el archivo settings.json.
+   * - Están situadas en bloques y ordenados según la relevancia que yo le doy.
    ****************************************************************************/
   "unwantedRecommendations": [
-    "BenjaminBenais.copilot-theme",
-    "brapifra.phpserver",
-    "dotjoshjohnson.xml",
+
     "GitHub.copilot",
-    "github.vscode-pull-request-github",
-    "gitlab.gitlab-workflow",
-    "hediet.vscode-drawio",
-    "janisdd.vscode-edit-csv",
-    "jixabon.lando-ui",
-    "maarti.jenkins-doc",
-    "mechatroner.rainbow-csv",
-    "mrmlnc.vscode-apache",
+    "BenjaminBenais.copilot-theme",
+
+    "timonwong.shellcheck",
+
     "ms-azuretools.vscode-docker",
-    "ms-vscode-remote.remote-containers",
+    "jixabon.lando-ui",
+    "brapifra.phpserver",
+    "hediet.vscode-drawio",
+    "mechatroner.rainbow-csv",
+    "janisdd.vscode-edit-csv",
     "nickdemayo.vscode-json-editor",
     "oliversturm.fix-json",
-    "timonwong.shellcheck",
+    "dotjoshjohnson.xml",
+    "mrmlnc.vscode-apache",
+
+    "ms-vscode-remote.remote-containers",
+    "maarti.jenkins-doc",
+    "gitlab.gitlab-workflow",
+    "github.vscode-pull-request-github",
     "wakatime.vscode-wakatime",
     "zakudriver.nyan-mode"
   ]

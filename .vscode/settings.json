@@ -35,37 +35,8 @@
 
   /* Gracias a platform-settings diferenciamos configuraciones según SO */
   "platformSettings.platforms": {
-    "linux": {
-      "nodes": {
-        /* Code Runner */
-        "code-runner.executorMap":{
-          "javascript": "node",
-          "php": "/usr/bin/php",
-          "shellscript": "bash",
-          "sass": "sass --style expanded",
-          "scss": "scss --style expanded",
-          "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-          "html": "/usr/bin/google-chrome-stable"
-        },
 
-        /* PHP */
-        "php.validate.executablePath": "/usr/bin/php",
-        "phpserver.phpPath": "/usr/bin/php",
-
-        /* phpcbf */
-        "phpcbf.executablePath": "/usr/bin/phpcbf",
-
-        /* phpcs */
-        "phpcs.executablePath": "/usr/bin/phpcs",
-
-        /* PHP Mess Detector */
-        "phpmd.command": "/usr/bin/phpmd",
-
-        /* ShellCheck */
-        "shellcheck.executablePath": "/usr/bin/shellcheck"
-      }
-    },
-
+    /* MACOS */
     "darwin": {
       "nodes": {
         /* Code Runner */
@@ -93,10 +64,15 @@
         "phpmd.command": "/opt/homebrew/bin/phpmd",
 
         /* ShellCheck */
-        "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck"
+        "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
+
+        /* Sólo si se tiene instalado oh-my-zsh */
+        "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+        "terminal.integrated.fontSize": 13
       }
     },
 
+    /* WINDOWS */
     "win32": {
       "nodes": {
         /* PHP */
@@ -205,7 +181,7 @@
 
   "debug.terminal.clearBeforeReusing": true,
 
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
 
   "editor.autoIndent": "full",
   "editor.bracketPairColorization.enabled": true,
@@ -327,10 +303,6 @@
     "[oh-my-zsh] Would you like to update? [Y/n]": "Y\r"
   },
 
-  /* Sólo si se tiene instalado oh-my-zsh */
-  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
-
-  "terminal.integrated.fontSize": 13,
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
