@@ -316,6 +316,25 @@
     "description": "Drupal 8|9: FormApi Radios"
   },
 
+  "drupal_form_reset": {
+    "scope": "php",
+    "prefix": "form_reset",
+    "body": [
+      "$$form['${1:actions}']['${2:reset}'] = [",
+      "\t'#type' => 'html_tag',",
+      "\t'#tag' => 'input',",
+      "\t'#attributes' => [",
+      "\t\t'type' => 'reset',",
+      "\t\t'value' => $$this->t('${3:Reset}'),",
+      "\t\t'class' => [",
+      "\t\t\t'${4:btn-primary}',",
+      "\t\t],",
+      "\t],",
+      "];$0",
+    ],
+    "description": "Drupal 8|9: FormApi Submit"
+  },
+
   "drupal_form_select": {
     "scope": "php",
     "prefix": "form_select",
@@ -346,7 +365,7 @@
       "\t'#value' => $$this->t('${3:title}'),",
       "\t'#attributes' => [",
       "\t\t'class' => [",
-      "\t\t\t'btn-primary',",
+      "\t\t\t'${4:btn-primary}',",
       "\t\t],",
       "\t],",
       "];$0",

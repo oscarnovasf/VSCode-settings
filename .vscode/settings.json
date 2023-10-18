@@ -313,6 +313,7 @@
   "workbench.editorLargeFileConfirmation": 1024,
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.localHistory.maxFileEntries": 25,

@@ -1,6 +1,13 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.25] - 2023-10-18
+> Revisión
+### Añadidos
+* Configuraciones nuevas para la versión 1.83.
+* Snippet nuevo para formulario (reset).
+
+---
 ## [v0.7.24] - 2023-09-17
 > Revisión
 ### Añadidos
