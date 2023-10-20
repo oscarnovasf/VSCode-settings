@@ -500,6 +500,15 @@
     "js-block": true
   },
 
+  /* SVG Preview */
+  "svgPreview.style": {
+    "html": {
+      "background-position": "0 0, 13px 13px",
+      "background-size": "26px 26px",
+      "background-image": "linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414), linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414)"
+    }
+  },
+
   /* Task Manager */
   "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib|web/libraries|web/modules/contrib|web/themes/contrib",
 

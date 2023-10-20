@@ -90,6 +90,7 @@ Archivos de configuración para VSCode
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
+  * [SVG Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -144,8 +145,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.7.25
-[version-badge]: https://img.shields.io/badge/Versión-0.7.25-blue.svg
+[version]: v0.7.26
+[version-badge]: https://img.shields.io/badge/Versión-0.7.26-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

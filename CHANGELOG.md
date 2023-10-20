@@ -1,6 +1,12 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.7.26] - 2023-10-20
+> Revisión
+### Añadidos
+* Extensión opcional SVG Preview.
+
+---
 ## [v0.7.25] - 2023-10-18
 > Revisión
 ### Añadidos
