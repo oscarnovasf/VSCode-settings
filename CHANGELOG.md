@@ -1,6 +1,16 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.0] - 2023-11-13
+> Revisión
+### Añadidos
+* Nuevo snippet para librería con inyección de dependencias.
+* Nuevas excepciones en el archivo sftp.json.
+
+### Cambios
+* Se agrega inyección de dependencias al snippet de Controlador.
+
+---
 ## [v0.7.26] - 2023-10-20
 > Revisión
 ### Añadidos
