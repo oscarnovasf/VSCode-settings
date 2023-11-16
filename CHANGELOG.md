@@ -1,6 +1,15 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.1] - 2023-11-16
+> Revisión
+### Añadidos
+* Snippet para generar el campo "range" en los formularios.
+
+### Corrección de errores
+* Problema de visualización con el snippet añadido en la versión anterior.
+
+---
 ## [v0.8.0] - 2023-11-13
 > Revisión
 ### Añadidos

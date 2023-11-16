@@ -7,7 +7,7 @@
       "\t'#type' => 'actions',",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Action"
+    "description": "Drupal 8|9|10: FormApi Action"
   },
 
   "drupal_form_attached": {
@@ -16,7 +16,7 @@
     "body": [
       "$$form['#attached']['library'][] = '${WORKSPACE_NAME}/${1:library_name}';$0",
     ],
-    "description": "Drupal 8|9: FormApi Attached"
+    "description": "Drupal 8|9|10: FormApi Attached"
   },
 
   "drupal_form_cache": {
@@ -25,7 +25,7 @@
     "body": [
       "$$form['#cache']['max-age'] = ${1:0};$0",
     ],
-    "description": "Drupal 8|9: FormApi Caché"
+    "description": "Drupal 8|9|10: FormApi Caché"
   },
 
   "drupal_form_checkbox": {
@@ -40,7 +40,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Checkbox"
+    "description": "Drupal 8|9|10: FormApi Checkbox"
   },
 
   "drupal_form_checkboxes": {
@@ -56,7 +56,7 @@
       "\t'#options' => [${6:array}],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Checkboxes"
+    "description": "Drupal 8|9|10: FormApi Checkboxes"
   },
 
   "drupal_form_container": {
@@ -72,7 +72,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Container"
+    "description": "Drupal 8|9|10: FormApi Container"
   },
 
   "drupal_form_date": {
@@ -88,7 +88,7 @@
       "\t'#access' => ${6|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Date"
+    "description": "Drupal 8|9|10: FormApi Date"
   },
 
   "drupal_form_date_time": {
@@ -103,7 +103,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi DateTime"
+    "description": "Drupal 8|9|10: FormApi DateTime"
   },
 
   "drupal_form_details": {
@@ -118,7 +118,7 @@
       "\t'#group' => '${5:group_name}',",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Details"
+    "description": "Drupal 8|9|10: FormApi Details"
   },
 
   "drupal_form_email": {
@@ -133,7 +133,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Email"
+    "description": "Drupal 8|9|10: FormApi Email"
   },
 
   "drupal_form_entity_autocomplete": {
@@ -153,7 +153,7 @@
       "\t'#access' => ${7|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Entity Autocomplete"
+    "description": "Drupal 8|9|10: FormApi Entity Autocomplete"
   },
 
   "drupal_form_fieldset": {
@@ -167,7 +167,7 @@
       "\t'#collapsed' => ${4|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi FieldSet"
+    "description": "Drupal 8|9|10: FormApi FieldSet"
   },
 
   "drupal_form_hidden": {
@@ -182,7 +182,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Hidden"
+    "description": "Drupal 8|9|10: FormApi Hidden"
   },
 
   "drupal_form_html_tag": {
@@ -198,7 +198,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi HTML_TAG"
+    "description": "Drupal 8|9|10: FormApi HTML_TAG"
   },
 
   "drupal_form_link": {
@@ -212,7 +212,7 @@
       "\t'#attributes' => '[${4:attributes}],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Tabs"
+    "description": "Drupal 8|9|10: FormApi Tabs"
   },
 
   "drupal_form_managed_file": {
@@ -234,7 +234,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Managed File"
+    "description": "Drupal 8|9|10: FormApi Managed File"
   },
 
   "drupal_form_markup": {
@@ -245,7 +245,7 @@
       "\t'#markup' => '${2:prefix}',",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Markup"
+    "description": "Drupal 8|9|10: FormApi Markup"
   },
 
   "drupal_form_multi_value": {
@@ -260,7 +260,7 @@
       "$0",
       "];",
     ],
-    "description": "Drupal 8|9: Custom FormApi MultiValue"
+    "description": "Drupal 8|9|10: Custom FormApi MultiValue"
   },
 
   "drupal_form_number": {
@@ -282,7 +282,7 @@
       "\t'#access' => ${9|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Number"
+    "description": "Drupal 8|9|10: FormApi Number"
   },
 
   "drupal_form_password": {
@@ -297,7 +297,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Password"
+    "description": "Drupal 8|9|10: FormApi Password"
   },
 
   "drupal_form_radios": {
@@ -313,7 +313,25 @@
       "\t'#options' => [${6:array}],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Radios"
+    "description": "Drupal 8|9|10: FormApi Radios"
+  },
+
+  "drupal_form_range": {
+    "scope": "php",
+    "prefix": "form_range",
+    "body": [
+      "$$form['${1:element_name}'] = [",
+      "\t'#type' => 'range',",
+      "\t'#title' => $$this->t('${2:title}'),",
+      "\t'#default_value' => '${3:default}',",
+      "\t'#step' => ${4:1},",
+      "\t'#min' => ${5:1},",
+      "\t'#max' => ${6:100},",
+      "\t'#required' => ${7|TRUE,FALSE|},",
+      "\t'#access' => ${8|TRUE,FALSE|},",
+      "];$0",
+    ],
+    "description": "Drupal 8|9|10: FormApi Range"
   },
 
   "drupal_form_reset": {
@@ -332,7 +350,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Submit"
+    "description": "Drupal 8|9|10: FormApi Submit"
   },
 
   "drupal_form_select": {
@@ -353,7 +371,7 @@
       "\t'#multiple' => ${10|FALSE,TRUE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Select"
+    "description": "Drupal 8|9|10: FormApi Select"
   },
 
   "drupal_form_submit": {
@@ -370,7 +388,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Submit"
+    "description": "Drupal 8|9|10: FormApi Submit"
   },
 
   "drupal_form_table": {
@@ -389,7 +407,7 @@
       "\t'#sticky' => ${3|FALSE,TRUE|},",
       "];",
     ],
-    "description": "Drupal 8|9: FormApi Table"
+    "description": "Drupal 8|9|10: FormApi Table"
   },
 
   "drupal_form_tabs": {
@@ -400,7 +418,7 @@
       "\t'#type' => ${2|'vertical_tabs','horizontal_tabs'|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Tabs"
+    "description": "Drupal 8|9|10: FormApi Tabs"
   },
 
   "drupal_form_tel": {
@@ -415,7 +433,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Telephone"
+    "description": "Drupal 8|9|10: FormApi Telephone"
   },
 
   "drupal_form_textarea": {
@@ -432,7 +450,7 @@
       "\t'#access' => ${7|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi Textarea"
+    "description": "Drupal 8|9|10: FormApi Textarea"
   },
 
   "drupal_form_textfield": {
@@ -447,7 +465,7 @@
       "\t'#access' => ${5|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi TextField"
+    "description": "Drupal 8|9|10: FormApi TextField"
   },
 
   "drupal_form_textformat": {
@@ -473,7 +491,7 @@
       "\t'#access' => ${8|TRUE,FALSE|},",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi TextFormat"
+    "description": "Drupal 8|9|10: FormApi TextFormat"
   },
 
   "drupal_form_view": {
@@ -490,7 +508,7 @@
       "\t],",
       "];$0",
     ],
-    "description": "Drupal 8|9: FormApi View"
+    "description": "Drupal 8|9|10: FormApi View"
   }
 
 }
