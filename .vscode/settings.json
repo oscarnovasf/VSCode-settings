@@ -186,7 +186,7 @@
   "editor.autoIndent": "full",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false
+    "source.fixAll.eslint": "never"
   },
   "editor.colorDecorators": false,
   "editor.cursorBlinking": "expand",
@@ -483,6 +483,46 @@
   /* Rest Client API */
   "rest-client.enableTelemetry": false,
   "rest-client.previewOption": "full",
+
+  /* Run Terminal Command */
+  "runTerminalCommand.commands": [
+    {
+      "command": "iniciar-proyecto module",
+      "name": "Generar módulo",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_rest_api",
+      "name": "Generar módulo (API)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_bas",
+      "name": "Generar módulo (básico)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_import",
+      "name": "Generar módulo (importador)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto drupal",
+      "name": "Generar proyecto (Drupal)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto script",
+      "name": "Generar proyecto (Script)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    }
+  ],
 
   /* ShellCheck */
   "shellcheck.enable": true,

@@ -52,6 +52,7 @@ Archivos de configuración para VSCode
   * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
   * [PHP Mess Detector](https://marketplace.visualstudio.com/items?itemName=ecodes.vscode-phpmd)
   * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+  * [PHPStan](https://marketplace.visualstudio.com/items?itemName=calsmurf2904.vscode-phpstan)
   * [PHPUnit Test Explorer](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit)
   * [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf)
   * [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
@@ -60,6 +61,7 @@ Archivos de configuración para VSCode
   * [px to rem & rpx & vw (cssrem)](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
   * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
   * [REST Client Api](https://marketplace.visualstudio.com/items?itemName=donebd.rest-client-api)
+  * [Run Terminal Command](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.terminal-commands)
   * [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
   * [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
   * [Smart Clicks](https://marketplace.visualstudio.com/items?itemName=antfu.smart-clicks)
@@ -145,8 +147,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.1
-[version-badge]: https://img.shields.io/badge/Versión-0.8.1-blue.svg
+[version]: v0.8.2
+[version-badge]: https://img.shields.io/badge/Versión-0.8.2-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

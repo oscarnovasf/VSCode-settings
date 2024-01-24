@@ -9,6 +9,7 @@
    ****************************************************************************/
 
   "recommendations": [
+    "adrianwilczynski.terminal-commands",
     "alefragnani.bookmarks",
     "alefragnani.project-manager",
     "andrewdavidblum.drupal-smart-snippets",
@@ -16,6 +17,7 @@
     "ardisaurus.gitflow-actions-sidebar",
     "bierner.markdown-preview-github-styles",
     "bmewburn.vscode-intelephense-client",
+    "calsmurf2904.vscode-phpstan",
     "chrisdias.vscode-opennewinstance",
     "cipchk.cssrem",
     "cnshenj.vscode-task-manager",

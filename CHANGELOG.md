@@ -1,6 +1,27 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.2] - 2024-01-24
+> Revisión
+### Añadidos
+- Extensión para usar PHPStan.
+- Configuración para PHPStan.
+- Tarea para añadir la descarga de phpstan.neon con la documentación.
+- Pequeños ajustes en gitignore.
+- Extensión "Run Terminal Command" y configuración para usar [mi script de
+  instalación](https://github.com/oscarnovasf/iniciar-proyecto)
+- Modificaciones en launch.json para debug en phpunit.
+
+### Corrección de errores
+* Problema de visualización con el snippet añadido en la versión v0.8.0.
+
+---
+## [v0.8.1] - 2023-11-16
+> Revisión
+### Corrección de errores
+* Problema de visualización con el snippet añadido en la versión v0.8.0.
+
+---
 ## [v0.8.1] - 2023-11-16
 > Revisión
 ### Añadidos

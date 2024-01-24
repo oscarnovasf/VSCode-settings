@@ -57,6 +57,7 @@ phpminiadmin.php
 
 # Variables de entorno para el proyecto actual.
 .env
+env.properties
 
 # Archivos generados por Composer.
 /drush/contrib/

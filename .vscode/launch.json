@@ -17,6 +17,18 @@
       "pathMappings": {
         "/app/": "${workspaceFolder}/",
       }
+    },
+    {
+      "name": "PhpUnit dummy",
+      "type": "php",
+      "request": "launch",
+      "port": 9001,
+    }
+  ],
+  "compounds": [
+    {
+        "name": "PhpUnit",
+        "configurations": ["XDebug [LANDO]", "PhpUnit dummy"]
     }
   ]
 }
