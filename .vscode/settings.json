@@ -112,6 +112,8 @@
   /* Project Manager */
   "projectManager.sortList": "Name",
 
+
+  "scm.experimental.showHistoryGraph": true,
   "security.workspace.trust.untrustedFiles": "open",
 
   /* Telemetría */

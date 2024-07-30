@@ -13,8 +13,7 @@
 
 # Archivos del SO.
 .DS_Store
-thumbs.db
-Thumbs.db
+[Tt]humbs.db
 ._*
 
 # Archivos de desarrollo.

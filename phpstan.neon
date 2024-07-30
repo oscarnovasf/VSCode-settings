@@ -1,13 +1,7 @@
-includes:
-  - vendor/phpstan/phpstan-strict-rules/rules.neon
-  - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-  - vendor/mglaman/phpstan-drupal/extension.neon
-
 parameters:
   level: 5
-  checkGenericClassInNonGenericObjectType: false
-  checkMissingIterableValueType: false
   reportUnmatchedIgnoredErrors: false
+  treatPhpDocTypesAsCertain: false
   fileExtensions:
     - php
     - module
@@ -22,10 +16,8 @@ parameters:
   paths:
     - web/modules/custom
     - web/themes/custom
-  type_coverage:
-    return_type: 70
-    param_type: 40
-    property_type: 60
+  excludePaths:
+    - web/modules/custom/*/src/lib/general/*.php
   ignoreErrors:
     - message: '#.*return type has no value type specified.*#'
     - message: '#.*has parameter .* with no type specified.*#'

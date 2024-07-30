@@ -8,6 +8,10 @@
       "namespace Drupal\\\\${1:${WORKSPACE_NAME}}\\Plugin\\Block;",
       "",
       "use Drupal\\Core\\Block\\BlockBase;",
+      "use Drupal\\Core\\Form\\FormBuilderInterface;",
+      "use Drupal\\Core\\Plugin\\ContainerFactoryPluginInterface;",
+      "",
+      "use Symfony\\Component\\DependencyInjection\\ContainerInterface;",
       "",
       "/**",
       " * ${2:Block description.}",
@@ -18,18 +22,52 @@
       " *   category = @Translation(\"${5:category}\")",
       " * )",
       " */",
-      "class ${6:${TM_FILENAME_BASE}} extends BlockBase {",
+      "class ${6:${TM_FILENAME_BASE}} extends BlockBase implements ContainerFactoryPluginInterface {",
+      "",
+      "\t/**",
+      "\t * Constructor.",
+      "\t *",
+      "\t * @param array \\$configuration",
+      "\t *   Un array de configuración que contiene información sobre la instancia del plugin.",
+      "\t * @param array \\$plugin_id",
+      "\t *   El plugin_id para la instancia del plugin.",
+      "\t * @param array \\$plugin_definition",
+      "\t *   La definición de implementación del plugin.",
+      "\t * @param \\Drupal\\Core\\Form\\FormBuilderInterface \\$formBuilder",
+      "\t *   El form builder.",
+      "\t */",
+      "\tpublic function __construct(",
+      "\t  array \\$configuration,",
+      "\t  \\$plugin_id,",
+      "\t  \\$plugin_definition,",
+      "\t  protected FormBuilderInterface \\$formBuilder) {",
+      "\t) {",
+      "\t\tparent::__construct(\\$configuration, \\$plugin_id, \\$plugin_definition);",
+      "\t}",
+      "",
+      "\t/**",
+      "\t * {@inheritdoc}",
+      "\t */",
+      "\tpublic function create(",
+      "\t  ContainerInterface \\$container,",
+      "\t  array \\$configuration,",
+      "\t  \\$plugin_id,",
+      "\t  \\$plugin_definition) {",
+      "\t) {",
+      "\t\treturn new static(",
+      "\t\t  \\$configuration, ",
+      "\t\t  \\$plugin_id,",
+      "\t\t  \\$plugin_definition,",
+      "\t\t  \\$container->get('form_builder')",
+      "\t\t);",
+      "\t}",
       "",
       "\t/**",
       "\t * {@inheritdoc}",
       "\t */",
       "\tpublic function build() {",
-      "\t\t/* Variable de retorno */",
-      "\t\t\\$retorno = [];",
-      "",
-      "\t\t$0",
-      "",
-      "\t\treturn \\$retorno;",
+      "\t\t\\$form = \\$this->formBuilder->getForm('$0');",
+      "\t\treturn \\$form;",
       "\t}",
       "",
       "\t/**",
@@ -41,7 +79,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: Block Class"
+    "description": "Drupal: Block Class"
   },
 
   "drupal_generate_controller": {
@@ -96,7 +134,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: controller Class"
+    "description": "Drupal: controller Class"
   },
 
   "drupal_generate_form_base": {
@@ -155,7 +193,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: FormBase Class"
+    "description": "Drupal: FormBase Class"
   },
 
   "drupal_generate_form_config": {
@@ -225,7 +263,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: FormConfig Class"
+    "description": "Drupal: FormConfig Class"
   },
 
   "drupal_generate_lib": {
@@ -248,7 +286,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: Lib Class"
+    "description": "Drupal: Lib Class"
   },
 
   "drupal_generate_lib_injection": {
@@ -288,7 +326,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: Lib Class (Injection)"
+    "description": "Drupal: Lib Class (Injection)"
   },
 
   "drupal_generate_trait": {
@@ -307,7 +345,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: Trait Class"
+    "description": "Drupal: Trait Class"
   },
 
   "drupal_generate_webform_handler": {
@@ -347,7 +385,7 @@
       "",
       "}",
     ],
-    "description": "Drupal 8|9: WebformHandler Class"
+    "description": "Drupal: WebformHandler Class"
   }
 
 }

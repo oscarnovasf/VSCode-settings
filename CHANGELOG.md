@@ -1,6 +1,15 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.3] - 2024-07-30
+> Revisión
+### Añadidos
+- Ajustes para versión v.1.91 => Ver histórico de commits.
+
+### Cambios
+- Mejora en snippet de Bloque para inyección de dependencias.
+
+---
 ## [v0.8.2] - 2024-01-24
 > Revisión
 ### Añadidos
