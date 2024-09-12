@@ -98,7 +98,6 @@
     "maarti.jenkins-doc",
     "gitlab.gitlab-workflow",
     "github.vscode-pull-request-github",
-    "wakatime.vscode-wakatime",
-    "zakudriver.nyan-mode"
+    "wakatime.vscode-wakatime"
   ]
 }

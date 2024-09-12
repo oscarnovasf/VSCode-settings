@@ -112,8 +112,53 @@
   /* Project Manager */
   "projectManager.sortList": "Name",
 
+  /* Run Terminal Command */
+  "runTerminalCommand.commands": [
+    {
+      "command": "iniciar-proyecto module",
+      "name": "Generar módulo",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_rest_api",
+      "name": "Generar módulo (API)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_bas",
+      "name": "Generar módulo (Básico)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto module_import",
+      "name": "Generar módulo (Importador)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto drupal",
+      "name": "Generar proyecto (Drupal)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto script",
+      "name": "Generar proyecto (Script)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto current",
+      "name": "Generar proyecto (Código Actual)",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    }
+  ],
 
-  "scm.experimental.showHistoryGraph": true,
+  "scm.showHistoryGraph": false,
   "security.workspace.trust.untrustedFiles": "open",
 
   /* Telemetría */
@@ -338,6 +383,7 @@
    * https://microsoft.github.io/vscode-codicons/dist/codicon.html
    */
   "activitusbar.views": [
+    /* Zona VSCode */
     {
       "name": "command.workbench.action.reloadWindow",
       "codicon": "refresh",
@@ -348,11 +394,16 @@
       "codicon": "extensions-view-icon",
       "tooltip": "Extensiones"
     },
+    {
+      "name": "settings",
+      "codicon": "settings-gear",
+    },
 
     {
       "codicon": "kebab-vertical"
     },
 
+    /* Zona Extensiones instaladas */
     {
       "name": "command.workbench.view.extension.bookmarks",
       "codicon": "bookmark",
@@ -365,23 +416,41 @@
     },
 
     {
+      "name": "command.git-graph.view",
+      "codicon": "git-merge",
+      "tooltip": "Git Graph"
+    },
+
+    {
       "codicon": "kebab-vertical"
     },
 
+    /* Zona de Terminales */
+    {
+      "name": "command.workbench.action.createTerminalEditor",
+      "codicon": "terminal",
+      "tooltip": "Abrir Terminal en Pestaña"
+    },
+    {
+      "name": "command.workbench.action.terminal.toggleTerminal",
+      "codicon": "issue-reopened",
+      "tooltip": "Abrir Terminal"
+    },
+
+    {
+      "codicon": "kebab-vertical"
+    },
+
+    /* Zona de Tareas */
     {
       "name": "task.hidden_actualizar_tasks_json",
       "codicon": "tasklist",
       "tooltip": "Actualizar Tasks.json"
-    },
-    {
-      "name": "command.workbench.action.createTerminalEditor",
-      "codicon": "terminal",
-      "tooltip": "Abrir Terminal"
     }
   ],
 
   /* AutoHide */
-  "autoHide.autoHidePanel": false,
+  "autoHide.autoHidePanel": true,
   "autoHide.autoHideSideBar": true,
   "autoHide.hideOnOpen": false,
   "autoHide.panelDelay": 0,
@@ -434,6 +503,13 @@
   "gitblame.inlineMessageEnabled": true,
   "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) - ${commit.summary}",
 
+  /* GitHub Copilot */
+  "github.copilot.chat.experimental.codeGeneration.instructions": [
+    {
+      "file": ".vscode/copilot-instructions.md"
+    }
+  ],
+
   /* GitFlow Actions Sidebar */
   "gitflow-actions.default.production": "main",
   "gitflow-actions.deleteBranchOnFinish": false,
@@ -441,10 +517,6 @@
 
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
-
-  /* Nyan mode */
-  "nyanMode.nyanDisplayPercent": true,
-  "nyanMode.nyanColor": "#fff",
 
   /* phpcbf */
   "phpcbf.enable": true,
@@ -485,46 +557,6 @@
   /* Rest Client API */
   "rest-client.enableTelemetry": false,
   "rest-client.previewOption": "full",
-
-  /* Run Terminal Command */
-  "runTerminalCommand.commands": [
-    {
-      "command": "iniciar-proyecto module",
-      "name": "Generar módulo",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto module_rest_api",
-      "name": "Generar módulo (API)",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto module_bas",
-      "name": "Generar módulo (básico)",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto module_import",
-      "name": "Generar módulo (importador)",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto drupal",
-      "name": "Generar proyecto (Drupal)",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto script",
-      "name": "Generar proyecto (Script)",
-      "auto": true,
-      "group": "Iniciar proyecto"
-    }
-  ],
 
   /* ShellCheck */
   "shellcheck.enable": true,

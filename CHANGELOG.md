@@ -1,6 +1,27 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.4] - 2024-09-12
+> Revisión
+### Añadidos
+- Configuración adicional para iniciar un proyecto en blanco.
+- Nuevos botones en ActibitusBar.
+- "declare(strict_types=1);" en los snippets de clases.
+
+### Corrección de errores
+- Error en snippet de Controller.
+
+### Eliminados
+- Extensión Nyan-mode.
+
+### Cambios
+- La configuración para usar el script iniciar-proyecto.sh se ha cambiado a la
+  sección de CONFIGURACIÓN DE USUARIO. Tiene mucho más sentido que esté ahí
+  ahora que el script permite generar un proyecto a partir del código actual.
+- Ajustes para versión v.1.92 => Ver histórico de commits.
+- Ajustes para versión v.1.93 => Archivo de instrucciones para copilot.
+
+---
 ## [v0.8.3] - 2024-07-30
 > Revisión
 ### Añadidos
