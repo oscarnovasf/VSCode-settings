@@ -214,6 +214,20 @@
     },
 
     {
+      "label": "hidden: Actualizar copilot-instructions.md",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-instructions.md -o .vscode/copilot-instructions.md",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "close": true,
+        "clear": true
+      },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
+    },
+
+    {
       "label": "- Actualizar configuraciones",
       "type": "shell",
       "isBackground": true,
@@ -225,9 +239,24 @@
         "hidden: Actualizar extensions.json",
         "hidden: Actualizar launch.json",
         "hidden: Actualizar settings.json",
-        "Actualizar tasks.json",
-        "hidden: Actualizar .editorconfig"
+        "hidden: Actualizar .editorconfig",
+        "hidden: Actualizar copilot-instructions.md",
+        "Actualizar tasks.json"
       ],
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
+    },
+
+    {
+      "label": "- Descargar sftp.json ",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/sftp.json -o .vscode/sftp.json",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "close": true,
+        "clear": true
+      },
       "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
     },
 

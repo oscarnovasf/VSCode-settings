@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.5] - 2024-10-10
+> Revisión
+### Añadidos
+- Descarga de sftp.json.
+- Descarga de copilot-instructions.md.
+
+### Cambios
+- Ajustes en snippets de clases. Inyección de dependencias en form base.
+  Revisión general de como se inyectan las dependencias.
+
+---
 ## [v0.8.4] - 2024-09-12
 > Revisión
 ### Añadidos
