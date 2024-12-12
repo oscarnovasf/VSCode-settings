@@ -1,6 +1,24 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.6] - 2024-12-12
+> Revisión
+### Añadidos
+- Configuración para ver iconos en lugar de etiquetas en el panel inferior de la
+  consola (config. añadida en versión 1.95).
+- Ajustes configuración CSpell y Copilot.
+- Extensión para usar DeepL.
+- Configuración para Git Blame que ahora viene incluido en VSCode
+  (config. añadida en versión 1.96).
+
+### Corrección de errores
+- Error en snippet de Block.
+
+### Eliminados
+- Extensión Git-Blame (ya no es necesaria a partir de la versión v1.96).
+- Ahora desde tasks ya no se descarga el archivo phpdox.xml.
+
+---
 ## [v0.8.5] - 2024-10-10
 > Revisión
 ### Añadidos

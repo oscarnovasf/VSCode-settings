@@ -33,7 +33,6 @@ Archivos de configuración para VSCode
   * [empty-indent](https://marketplace.visualstudio.com/items?itemName=DmitryDorofeev.empty-indent)
   * [ENV](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
-  * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
   * [Git Commits](https://marketplace.visualstudio.com/items?itemName=exelord.git-commits)
   * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
   * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
@@ -92,6 +91,7 @@ Archivos de configuración para VSCode
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
   * [SVG Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
+  * [Translate with DeepL](https://marketplace.visualstudio.com/items?itemName=soerenuhrbach.vscode-deepl)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -146,8 +146,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.5
-[version-badge]: https://img.shields.io/badge/Versión-0.8.5-blue.svg
+[version]: v0.8.6
+[version-badge]: https://img.shields.io/badge/Versión-0.8.6-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

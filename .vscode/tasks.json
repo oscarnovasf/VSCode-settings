@@ -307,20 +307,6 @@
     },
 
     {
-      "label": "hidden: Actualizar phpdox.xml",
-      "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpdox.xml -o phpdox.xml && grep -l module_template phpdox.xml|xargs sed -i -e \"s/module_template/${workspaceFolderBasename}/g\"",
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated",
-        "group": "documentacion",
-        "close": true,
-        "clear": true
-      },
-      "icon": { "id": "files", "color": "terminal.ansiBlue"}
-    },
-
-    {
       "label": "- Actualizar documentación",
       "type": "shell",
       "osx": {
@@ -332,7 +318,6 @@
       },
       "dependsOn": [
         "hidden: Actualizar phpcs.xml",
-        "hidden: Actualizar phpdox.xml",
         "hidden: Actualizar phpmd.xml",
         "hidden: Actualizar phpstan.neon"
       ],

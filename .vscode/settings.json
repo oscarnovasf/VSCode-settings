@@ -313,6 +313,8 @@
   "files.trimTrailingWhitespace": true,
 
   "git.autofetch": true,
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo} - ${authorDate})",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreRebaseWarning": true,
@@ -364,6 +366,7 @@
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.localHistory.maxFileEntries": 25,
+  "workbench.panel.showLabels": false,
   "workbench.settings.editor": "json",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
@@ -465,11 +468,22 @@
 
   /* Code Spell Checker => El resto de configuraciónes => cspell.json */
   "cSpell.enabled": true,
+  "cSpell.enabledFileTypes": {
+    "json": false,
+    "jsonc": false,
+  },
   "cSpell.language": "en,es",
+
 
   /* Color Highlight */
   "color-highlight.markerType": "background",
   "color-highlight.markRuler": false,
+
+  /* DeepL */
+  "deepl.formality": "default",
+  "deepl.tagHandling": "off",
+  "deepl.splitSentences": "1",
+  "deepl.translationMode": "Replace",
 
   /* Draw.io */
   "hediet.vscode-drawio.theme": "Kennedy",
@@ -499,21 +513,14 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
 
-  /* Git Blame*/
-  "gitblame.inlineMessageEnabled": true,
-  "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) - ${commit.summary}",
-
-  /* GitHub Copilot */
-  "github.copilot.chat.experimental.codeGeneration.instructions": [
-    {
-      "file": ".vscode/copilot-instructions.md"
-    }
-  ],
-
   /* GitFlow Actions Sidebar */
   "gitflow-actions.default.production": "main",
   "gitflow-actions.deleteBranchOnFinish": false,
   "gitflow-actions.deleteRemoteBranches": false,
+
+  /* GitHub Copilot */
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.terminalChatLocation": "quickChat",
 
   /* Json Editor */
   "vscode-json-editor.theme": "dark",
@@ -688,6 +695,11 @@
 
   "[yaml]": {
     "files.insertFinalNewline": false
-  }
+  },
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": ".vscode/copilot-instructions.md"
+    }
+  ]
 
 }

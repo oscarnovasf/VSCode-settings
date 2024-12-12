@@ -61,7 +61,6 @@
     "streetsidesoftware.code-spell-checker-spanish",
     "streetsidesoftware.code-spell-checker",
     "thekalinga.bootstrap4-vscode",
-    "waderyan.gitblame",
     "xdebug.php-debug",
     "zepich.twig-braces-helper"
   ],
@@ -91,6 +90,7 @@
     "nickdemayo.vscode-json-editor",
     "oliversturm.fix-json",
     "SimonSiefke.svg-preview",
+    "soerenuhrbach.vscode-deepl",
     "dotjoshjohnson.xml",
     "mrmlnc.vscode-apache",
 
