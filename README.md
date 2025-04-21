@@ -8,7 +8,8 @@ Archivos de configuración para VSCode
 [![Licencia][license-badge]][license]
 [![Código de conducta][conduct-badge]][conduct]
 [![wakatime](https://wakatime.com/badge/github/oscarnovasf/VSCode-settings.svg)](https://wakatime.com/badge/github/oscarnovasf/VSCode-settings)
-[![Donate][donate-badge]][donate-url]
+
+[![Donate][donate-badge]][donate-url] <img src="https://img.shields.io/liberapay/patrons/ONovasDev.svg?logo=liberapay">
 
 ## Instalación
 
@@ -35,7 +36,7 @@ Archivos de configuración para VSCode
   * [getText](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
   * [Git Commits](https://marketplace.visualstudio.com/items?itemName=exelord.git-commits)
   * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
-  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  * [Git Graph v3](https://marketplace.visualstudio.com/items/?itemName=Gxl.git-graph-3)
   * [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
@@ -84,13 +85,11 @@ Archivos de configuración para VSCode
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
-  * [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
   * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
   * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
-  * [SVG Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
   * [Translate with DeepL](https://marketplace.visualstudio.com/items?itemName=soerenuhrbach.vscode-deepl)
   * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
   * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
@@ -146,8 +145,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.6
-[version-badge]: https://img.shields.io/badge/Versión-0.8.6-blue.svg
+[version]: v0.8.7
+[version-badge]: https://img.shields.io/badge/Versión-0.7.6-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

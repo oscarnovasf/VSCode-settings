@@ -1,6 +1,33 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.7] - 2025-04-21
+> Revisión
+### Añadidos
+- Configuración para copiar automáticamente en el terminal.
+- Configuraciones adicionales para Copilot.
+- FUNDING.yml
+
+### Cambios
+- Vuelvo a mostrar la carpeta .github en el explorador de archivos.
+- Modificación phpmd.xml para adaptarlo a como lo uso con GrumPHP.
+- Modificación phpstan.neon para adaptarlo a como lo uso con GrumPHP.
+- Cambio de extensión de Git Graph para una con mejor mantenimiento.
+- Refactor total del prompt inicial de Copilot.
+
+### Corrección de errores
+- Snippet de formulario, se cambia la inyección de dependencias para inyectar
+  el servicio Entity Type Manager en lugar de Current user, ya que este último
+  ya viene por defecto.
+
+### Eliminados
+- Ya no está disponible el archivo phpdox.xml.
+- La extensión SVG Preview ya no es necesaria en VSCode (1.97).
+- Limpieza de otras extensiones obsoletas que formaban parte de
+  "unwantedRecommendations"
+- Se han quitado todas las task de descarga de librerías.
+
+---
 ## [v0.8.6] - 2024-12-12
 > Revisión
 ### Añadidos

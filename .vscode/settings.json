@@ -27,6 +27,10 @@
    *   configuraciones anteriores específicas para algunos lenguajes. Se puede
    *   proceder con ellas como en los dos casos anteriores.
    *
+   * - CONFIGURACIÓN EXPERIMENTAL: Configuraciones experimentales que controlan
+   *   nuevas características que se está desarrollando activamente y que pueden
+   *   ser inestables; están sujetas a cambios o eliminaciones.
+   *
    * **************************************************************************/
 
   /* ***************************************************************************
@@ -55,10 +59,10 @@
         "phpserver.phpPath": "/opt/homebrew/bin/php",
 
         /* phpcbf */
-        "phpcbf.executablePath": "/Users/onovas/.composer/vendor/bin/phpcbf",
+        "phpcbf.executablePath": "~/.composer/vendor/bin/phpcbf",
 
         /* phpcs */
-        "phpcs.executablePath": "/Users/onovas/.composer/vendor/bin/phpcs",
+        "phpcs.executablePath": "~/.composer/vendor/bin/phpcs",
 
         /* PHP Mess Detector */
         "phpmd.command": "/opt/homebrew/bin/phpmd",
@@ -158,7 +162,6 @@
     }
   ],
 
-  "scm.showHistoryGraph": false,
   "security.workspace.trust.untrustedFiles": "open",
 
   /* Telemetría */
@@ -224,6 +227,9 @@
 
   "breadcrumbs.enabled": true,
 
+  "chat.agent.enabled": true,
+  "chat.commandCenter.enabled": false,
+
   "css.validate": true,
 
   "debug.terminal.clearBeforeReusing": true,
@@ -249,6 +255,7 @@
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "editor.unicodeHighlight.includeComments": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.wordWrapColumn": 80,
   "editor.wordWrap": "off",
 
@@ -268,10 +275,11 @@
   "extensions.ignoreRecommendations": false,
 
   "files.associations": {
-    "*.env.development": "env",
-    "*.env.docker": "env",
-    "*.env.production": "env",
-    "*.env.example": "env",
+    ".env": "env",
+    ".env.*": "env",
+    "env": "env",
+    "env.*": "env",
+
     "*.inc": "php",
     "*.install": "php",
     "*.module": "php",
@@ -287,8 +295,6 @@
   "files.encoding": "utf8",
   "files.eol": "\n",
   "files.exclude": {
-    ".github/": true,
-    ".tmp-doc/": true,
     "node_modules/": true,
     "package-lock.json": true,
     "composer.lock": true,
@@ -321,6 +327,7 @@
   "git.mergeEditor": true,
   "git.postCommitCommand": "push",
   "git.showPushSuccessNotification": false,
+  "git.useCommitInputAsStashMessage": true,
 
   "html.completion.attributeDefaultValue": "doublequotes",
   "html.format.enable": true,
@@ -352,6 +359,7 @@
     "[oh-my-zsh] Would you like to update? [Y/n]": "Y\r"
   },
 
+  "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
@@ -466,14 +474,13 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.runInTerminal": true,
 
-  /* Code Spell Checker => El resto de configuraciónes => cspell.json */
+  /* Code Spell Checker => El resto de configuraciones => cspell.json */
   "cSpell.enabled": true,
   "cSpell.enabledFileTypes": {
     "json": false,
     "jsonc": false,
   },
   "cSpell.language": "en,es",
-
 
   /* Color Highlight */
   "color-highlight.markerType": "background",
@@ -486,7 +493,7 @@
   "deepl.translationMode": "Replace",
 
   /* Draw.io */
-  "hediet.vscode-drawio.theme": "Kennedy",
+  "hediet.vscode-drawio.theme": "kennedy",
 
   /* Editor Macros */
   "editormacros": {
@@ -519,17 +526,13 @@
   "gitflow-actions.deleteRemoteBranches": false,
 
   /* GitHub Copilot */
-  "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.chat.terminalChatLocation": "quickChat",
-
-  /* Json Editor */
-  "vscode-json-editor.theme": "dark",
 
   /* phpcbf */
   "phpcbf.enable": true,
   "phpcbf.documentFormattingProvider": true,
   "phpcbf.onsave": false,
-  "phpcbf.standard": "Drupal",
+  "phpcbf.standard": "${workspaceFolder}/phpcs.xml",
 
   /* PHP Code Sniffer */
   "phpcs.enable": true,
@@ -579,15 +582,6 @@
     "html-element": true,
     "html-tag-pair": false,
     "js-block": true
-  },
-
-  /* SVG Preview */
-  "svgPreview.style": {
-    "html": {
-      "background-position": "0 0, 13px 13px",
-      "background-size": "26px 26px",
-      "background-image": "linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414), linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414)"
-    }
   },
 
   /* Task Manager */
@@ -696,6 +690,13 @@
   "[yaml]": {
     "files.insertFinalNewline": false
   },
+
+  /* ***************************************************************************
+   * 6.- CONFIGURACIÓN EXPERIMENTAL:
+   * **************************************************************************/
+
+  "chat.promptFiles": true,
+
   "github.copilot.chat.codeGeneration.instructions": [
     {
       "file": ".vscode/copilot-instructions.md"
