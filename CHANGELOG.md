@@ -1,6 +1,18 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.8] - 2025-05-02
+> Revisión
+### Añadidos
+- Configuración para GrumPHP.
+
+### Cambios
+- Ajustes en fichero sftp.json para hacerlo compatible con "iniciar-proyecto".
+- Ajustes en ficheros de documentación.
+- Ajustes en .gitignore.
+- Ajustes en documentación.
+
+---
 ## [v0.8.7] - 2025-04-21
 > Revisión
 ### Añadidos

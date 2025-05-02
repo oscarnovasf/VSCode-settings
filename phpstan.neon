@@ -9,11 +9,13 @@ parameters:
     - theme
     - install
     - profile
+  scanDirectories:
+    - web/modules/contrib
+    - web/themes/contrib
+    - web/core
   paths:
     - web/modules/custom
     - web/themes/custom
-  excludePaths:
-    - web/modules/custom/*/src/lib/general/*.php
   ignoreErrors:
     - message: '#.*return type has no value type specified.*#'
     - message: '#.*has parameter .* with no type specified.*#'

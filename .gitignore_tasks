@@ -17,17 +17,14 @@
 ._*
 
 # Archivos de desarrollo.
+/bower_components/
 /node_modules/
 .sass-cache
-
-# Archivos de documentación (phpdox).
-/.tmp-doc/
-/documentation/
 
 # Archivos de PHPUnit.
 /docs/simpletest/
 
-# Archivos de envio al cliente.
+# Archivos de envío al cliente.
 *_pass.txt
 *.zip
 

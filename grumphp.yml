@@ -1,0 +1,72 @@
+grumphp:
+  hide_circumvention_tip: true
+  process_timeout: 170
+  stop_on_failure: true
+  ignore_unstaged_changes: false
+  fixer:
+    enabled: false
+  ascii: ~
+  git_hook_variables:
+    EXEC_GRUMPHP_COMMAND: 'lando php'
+
+  tasks:
+    git_blacklist:
+      keywords:
+        - "\\bdie("
+        - "\\bvar_dump("
+        - "\\bdd("
+        - "\\bkint("
+        - "\\bdpm("
+        - "\\bksm("
+        - "\\bdebug("
+      whitelist_patterns:
+        - /^web\/modules\/custom\/(.*)/
+        - /^web\/themes\/custom\/(.*)/
+      triggered_by: [php, module, theme, inc, twig]
+      regexp_type: G
+      match_word: false
+      ignore_patterns: ['#/tests#']
+
+    git_commit_message:
+      allow_empty_message: false
+      enforce_capitalized_subject: false
+      enforce_no_subject_punctuations: true
+      enforce_no_subject_trailing_period: true
+      enforce_single_lined_subject: true
+      max_body_width: 72
+      max_subject_width: 60
+      matchers: ['/^(feat|fix|refactor|style|test|docs|chore)(\([a-z0-9_-]+\))?: [a-zA-Z0-9 _()#\-áéíóúÁÉÍÓÚñÑàèòÀÈÒ]+$|^Merge branch .+$|^Revert \\"[^\\"]+\\"$/']
+      case_insensitive: false
+      multiline: true
+      skip_on_merge_commit: true
+
+    phpcs:
+      standard: ./phpcs.xml
+      triggered_by:
+        - php
+        - inc
+        - module
+        - install
+        - profile
+        - theme
+
+    phpmd:
+      ruleset: [./phpmd.xml]
+      whitelist_patterns:
+        - /^web\/modules\/custom\/(.*)/
+        - /^web\/themes\/custom\/(.*)/
+      exclude:
+        - .github
+        - .gitlab
+        - .lando
+        - .vscode
+        - bower_components
+        - node_modules
+        - vendor
+      report_format: text
+
+    phpstan:
+      configuration: ./phpstan.neon
+      triggered_by: [php, module, theme, inc, install]
+      memory_limit: '-1'
+      use_grumphp_paths: false

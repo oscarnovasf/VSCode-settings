@@ -265,6 +265,20 @@
      **************************************************************************/
 
     {
+      "label": "hidden: Actualizar grumphp.yml",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/grumphp.yml -o grumphp.yml",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "documentacion",
+        "close": true,
+        "clear": true
+      },
+      "icon": { "id": "files", "color": "terminal.ansiBlue"}
+    },
+
+    {
       "label": "hidden: Actualizar phpcs.xml",
       "type": "shell",
       "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/phpcs.xml -o phpcs.xml",
@@ -317,6 +331,7 @@
         "reveal": "never",
       },
       "dependsOn": [
+        "hidden: Actualizar grumphp.yml",
         "hidden: Actualizar phpcs.xml",
         "hidden: Actualizar phpmd.xml",
         "hidden: Actualizar phpstan.neon"

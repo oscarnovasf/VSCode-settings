@@ -110,8 +110,7 @@ Archivos de configuración para VSCode
   * Copiar el archivo ***phpcs.xml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***phpmd.xml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivo ***.editorconfig*** en la carpeta raíz de tu proyecto.
-  * Copiar el archivo ***phpdox.xml*** en la carpeta raíz de tu proyecto.
-    > * Crear una carpeta ***.tmp-doc*** en la raíz de tu proyecto.
+  * Copiar el archivo ***grumphp.yml*** en la carpeta raíz de tu proyecto.
   * Copiar el archivos ***.gitignore_tasks*** y renombrarlo por ***.gitignore***
     en la raíz de tu proyecto.
     > * Eliminar los comentarios del archivo ***.gitignore*** y añadir lo que
@@ -121,13 +120,18 @@ Archivos de configuración para VSCode
     ***wakatime-project_tasks*** y renombrarlo por ***.wakatime-project***,
     luego editarlo y modificar su contenido por el nombre de tu proyecto.
 
+* ### Instalación automática
+
+Todos estos archivos se incorporan a las diferentes instalaciones generadas con
+el script [iniciar-proyecto](https://github.com/oscarnovasf/iniciar-proyecto).
+
 * ### Instalación de PHPCs
 
   >Para instalar PHPCs puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/usar-la-guia-de-estilo-de-drupal-con-phpcs-y-visual-code)
 
-* ### Instalación de PHPDOX y PHPMD
+* ### Instalación de PHPMD
 
-  >Para instalar PHPDOX y PHPMD puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/generando-documentacion-tecnica)
+  >Para instalar PHPMD puedes seguir las instrucciones [aquí](https://oscarnovas.com/blog/generando-documentacion-tecnica)
 
 ## Autor(es)
 - Óscar Novás - [OscarNovas.com][mi-web]
@@ -145,8 +149,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.7
-[version-badge]: https://img.shields.io/badge/Versión-0.7.6-blue.svg
+[version]: v0.8.8
+[version-badge]: https://img.shields.io/badge/Versión-0.8.8-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
