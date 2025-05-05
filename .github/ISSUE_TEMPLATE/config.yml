@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Seguridad
-    url: https://oscarnovas.com/soporte
-    about: Si has encontrado algún fallo de seguridad indícalo aquí.
   - name: Comunidad
     url: https://discord.gg/DUDsdVZY
     about: Únete a nuestro Discord para preguntas y discusiones generales.
