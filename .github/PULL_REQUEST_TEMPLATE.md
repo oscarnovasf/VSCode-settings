@@ -1,4 +1,4 @@
-*¿Ha leído las [Directrices de contribución]?(CONTRIBUTING.md)?*
+*¿Ha leído las [Directrices de contribución](.github/CONTRIBUTING.md)?*
 
 Issue #
 
