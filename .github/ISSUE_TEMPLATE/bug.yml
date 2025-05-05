@@ -10,7 +10,7 @@ body:
     id: terms
     attributes:
       label: Directrices
-      description: Al enviar este bug, acepta seguir nuestras [Directrices para contribuir](.github/CONTRIBUTING.md).
+      description: Al enviar este bug, acepta seguir nuestras [Directrices para contribuir](https://github.com/oscarnovasf/VSCode-settings/blob/master/.github/CONTRIBUTING.md).
       options:
         - label: Acepto seguir las Directrices de contribución de este proyecto.
           required: true
