@@ -1,0 +1,48 @@
+name: Solicitud de funciones
+description: Sugiera una idea para este proyecto
+title: "[Feature]: "
+labels: ["feature request", "enhancement", "feature"]
+body:
+  - type: markdown
+    attributes:
+      value: Gracias por dedicar su tiempo a rellenar este formulario.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Directrices
+      description: Al enviar este bug, acepta seguir nuestras [Directrices para contribuir].(CONTRIBUTING.md).
+      options:
+        - label: Acepto seguir las Directrices de contribución de este proyecto.
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Describa de forma clara y concisa lo que le gustaría cambiar, añadir o aplicar.
+      placeholder: Cuéntenos su idea.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: ¿Su solicitud está relacionada con un problema?
+      placeholder: ¿Qué problema resolverá?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solución propuesta
+      description: ¿Cómo debe resolverse?
+      placeholder: ¿Cómo cree que debería aplicarse?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: ¿Existen otros enfoques posibles?
+      placeholder: ¿Se le ocurre alguna otra opción?
+    validations:
+      required: true

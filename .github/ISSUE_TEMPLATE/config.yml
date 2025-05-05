@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Soporte general
+    url: https://oscarnovas.com/soporte
+    about: Si tienes dudas generales, usa este enlace.
+  - name: Comunidad
+    url: https://discord.gg/DUDsdVZY
+    about: Para preguntas y discusiones generales.

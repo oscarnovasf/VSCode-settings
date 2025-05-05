@@ -1,0 +1,83 @@
+name: Bug report
+description: Informar de un problema encontrado
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Gracias por tomarte el tiempo de completar este informe de errores.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Directrices
+      description: Al enviar este bug, acepta seguir nuestras [Directrices para contribuir](CONTRIBUTING.md).
+      options:
+        - label: Acepto seguir las Directrices de contribución de este proyecto.
+          required: true
+  - type: input
+    id: project
+    attributes:
+      label: Versión del proyecto
+      description: ¿Qué versiones del proyecto se ven afectadas?
+      placeholder: "1.0, 2.2, develop"
+    validations:
+      required: true
+  - type: input
+    id: existing-issues
+    attributes:
+      label: Problemas existentes
+      description: ¿Existen problemas similares?
+      placeholder: "#42"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué ha pasado?
+      description: Describa el fallo de forma clara y concisa.
+      placeholder: Cuéntanos lo que pasó.
+    validations:
+      required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Pasos para reproducir
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Comportamiento esperado
+      description: ¿Qué debería haber pasado?
+      placeholder: ¿Qué esperabas que pasara?
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Archivos adjuntos
+      description: Incluya fragmentos de código, trazas de pila...
+      placeholder: Pegue aquí fragmentos de código, trazas de pila...
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Capturas de pantalla o vídeos
+      description: Añade capturas de pantalla, gifs o vídeos para ayudar a explicar tu problema.
+      placeholder: Sube aquí capturas de pantalla, gifs y vídeos
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Información adicional
+      description: Añade aquí cualquier otra información útil sobre el problema.
+      placeholder: ¿Hay alguna otra información útil que pueda compartir?
+    validations:
+      required: false
