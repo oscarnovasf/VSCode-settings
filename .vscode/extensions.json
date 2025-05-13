@@ -15,7 +15,7 @@
     "andrewdavidblum.drupal-smart-snippets",
     "antfu.smart-clicks",
     "ardisaurus.gitflow-actions-sidebar",
-    "bierner.markdown-preview-github-styles",
+    "bierner.github-markdown-preview",
     "bmewburn.vscode-intelephense-client",
     "calsmurf2904.vscode-phpstan",
     "chrisdias.vscode-opennewinstance",
@@ -81,7 +81,7 @@
 
     "timonwong.shellcheck",
 
-    "ms-azuretools.vscode-docker",
+    "ms-azuretools.vscode-containers",
     "jixabon.lando-ui",
     "brapifra.phpserver",
     "hediet.vscode-drawio",

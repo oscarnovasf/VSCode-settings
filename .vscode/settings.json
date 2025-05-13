@@ -701,6 +701,11 @@
     {
       "file": ".vscode/copilot-instructions.md"
     }
+  ],
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".vscode/copilot-commit-instructions.md"
+    }
   ]
 
 }

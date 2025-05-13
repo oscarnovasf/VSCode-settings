@@ -1,6 +1,20 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.9] - 2025-05-13
+> Revisión
+### Añadidos
+  - Archivo de instrucciones para generar commits.
+  - Tarea para descargar este archivo.
+
+### Cambios
+  - Se ha modificado la extensión para visualizar Markdowns por una más
+    completa.
+
+### Corrección de errores
+  - El README.md hacía referencia a extensiones que ya no están.
+
+---
 ## [v0.8.8] - 2025-05-02
 > Revisión
 ### Añadidos

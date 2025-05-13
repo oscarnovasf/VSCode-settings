@@ -228,6 +228,20 @@
     },
 
     {
+      "label": "hidden: Actualizar copilot-commit-instructions.md",
+      "type": "shell",
+      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-commit-instructions.md -o .vscode/copilot-commit-instructions.md",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "settings",
+        "close": true,
+        "clear": true
+      },
+      "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}
+    },
+
+    {
       "label": "- Actualizar configuraciones",
       "type": "shell",
       "isBackground": true,
@@ -241,6 +255,7 @@
         "hidden: Actualizar settings.json",
         "hidden: Actualizar .editorconfig",
         "hidden: Actualizar copilot-instructions.md",
+        "hidden: Actualizar copilot-commit-instructions.md",
         "Actualizar tasks.json"
       ],
       "icon": { "id": "settings-gear", "color": "terminal.ansiBlue"}

@@ -1,4 +1,4 @@
-*¿Ha leído las [Directrices de contribución](.github/CONTRIBUTING.md)?*
+*¿Ha leído las [Directrices de contribución](https://github.com/oscarnovasf/VSCode-settings/blob/master/.github/CONTRIBUTING.md)?*
 
 Issue #
 

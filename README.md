@@ -27,7 +27,6 @@ Archivos de configuración para VSCode
   * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * [Spanish - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-spanish)
   * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-  * [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
   * [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
   * [Drupal Smart Snippets](https://marketplace.visualstudio.com/items?itemName=andrewdavidblum.drupal-smart-snippets)
   * [Drupal Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-drupal)
@@ -38,13 +37,13 @@ Archivos de configuración para VSCode
   * [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles)
   * [Git Graph v3](https://marketplace.visualstudio.com/items/?itemName=Gxl.git-graph-3)
   * [Gitflow Actions Sidebar](https://marketplace.visualstudio.com/items?itemName=ardisaurus.gitflow-actions-sidebar)
+  * [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
   * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
   * [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-  * [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
   * [Open Folder Context Menus for VS Code](https://marketplace.visualstudio.com/items?itemName=chrisdias.vscode-opennewinstance)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
@@ -77,7 +76,7 @@ Archivos de configuración para VSCode
   También se incluyen estas extensiones opcionales:
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
   * [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme)
-  * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+  * [Container Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
   * [Fix Json](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
@@ -149,8 +148,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.8
-[version-badge]: https://img.shields.io/badge/Versión-0.8.8-blue.svg
+[version]: v0.8.9
+[version-badge]: https://img.shields.io/badge/Versión-0.8.9-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
