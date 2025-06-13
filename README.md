@@ -148,8 +148,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.9
-[version-badge]: https://img.shields.io/badge/Versión-0.8.9-blue.svg
+[version]: v0.8.10
+[version-badge]: https://img.shields.io/badge/Versión-0.8.10-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

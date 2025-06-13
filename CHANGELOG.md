@@ -1,6 +1,14 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.10] - 2025-06-13
+> Revisión
+### Cambios
+  - Ajustes en settings.php con los directorios por defecto de ciertas
+    herramientas de PHP.
+  - Ajustes en configuración para plugin "todo-tree".
+
+---
 ## [v0.8.9] - 2025-05-13
 > Revisión
 ### Añadidos

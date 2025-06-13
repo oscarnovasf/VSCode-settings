@@ -58,12 +58,6 @@
         "php.validate.executablePath": "/opt/homebrew/bin/php",
         "phpserver.phpPath": "/opt/homebrew/bin/php",
 
-        /* phpcbf */
-        "phpcbf.executablePath": "~/.composer/vendor/bin/phpcbf",
-
-        /* phpcs */
-        "phpcs.executablePath": "~/.composer/vendor/bin/phpcs",
-
         /* PHP Mess Detector */
         "phpmd.command": "/opt/homebrew/bin/phpmd",
 
@@ -588,45 +582,70 @@
   "taskManager.exclude": "hidden:|hidden_|vendor|web/core|web/themes/contrib|web/libraries|web/modules/contrib|web/themes/contrib",
 
   /* TO-DO TREE */
-  "todo-tree.general.tags": [
-    "TODO",
-    "FIXME",
-    "CHANGES",
-    "INFO"
-  ],
   "todo-tree.filtering.excludeGlobs":[
-    "**/.tmp-doc",
+    "**/.github/**",
     "**/.vscode/**",
-    "**/documentation/**",
     "**/node_modules/**",
-    "**/vendor/**"
+    "**/vendor/**",
+    "*.md",
   ],
-  "todo-tree.highlights.enabled": true,
+  "todo-tree.general.tags": [
+    "CHANGE",
+    "@change",
+
+    "FIX",
+    "@fix",
+    "@deprecated",
+
+    "INFO",
+    "@info",
+
+    "TODO",
+    "@todo",
+  ],
+  "todo-tree.general.tagGroups": {
+    "CHANGE": [
+      "CHANGE",
+      "@change",
+    ],
+    "FIX": [
+      "FIX",
+      "@fix",
+      "@deprecated"
+    ],
+    "INFO": [
+      "INFO",
+      "@info"
+    ],
+    "TODO": [
+      "TODO",
+      "@todo"
+    ]
+  },
   "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "icon": "check",
-      "type": "line",
-      "foreground": "#008000",
-      "iconColour": "#008000"
-    },
-    "FIXME": {
-      "icon": "alert",
-      "type": "line",
-      "foreground": "#FF0000",
-      "iconColour": "#FF0000"
-    },
-    "CHANGES": {
+    "CHANGE": {
       "icon": "info",
-      "type": "line",
       "foreground": "#FFA500",
       "iconColour": "#FFA500"
     },
+    "FIX": {
+      "icon": "alert",
+      "foreground": "#FF0000",
+      "iconColour": "#FF0000"
+    },
     "INFO": {
       "icon": "info",
-      "type": "line",
       "foreground": "#FFFF00",
       "iconColour": "#FFFF00"
+    },
+    "TODO": {
+      "icon": "check",
+      "foreground": "#008000",
+      "iconColour": "#008000"
     }
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "line"
   },
   "todo-tree.regex.regex": "((//|#|;)[ ]*($TAGS)[^\\n]*)|(/\\*(\\*?\\s*)*($TAGS)(.|\\n|\\r)*?\\*/)|(<!--\\s*($TAGS)(.|\\n|\\r)*?-->)",
 
