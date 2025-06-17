@@ -522,10 +522,6 @@
   /* GitHub Copilot */
   "github.copilot.chat.terminalChatLocation": "quickChat",
 
-  /* Notes */
-  "notes.notesExtensions": "md,txt",
-  "notes.notesLocation": "${workspaceFolder}/docs/notes",
-
   /* phpcbf */
   "phpcbf.enable": true,
   "phpcbf.documentFormattingProvider": true,

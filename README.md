@@ -44,7 +44,6 @@ Archivos de configuración para VSCode
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-  * [Notes](https://marketplace.visualstudio.com/items?itemName=dionmunk.vscode-notes)
   * [Open Folder Context Menus for VS Code](https://marketplace.visualstudio.com/items?itemName=chrisdias.vscode-opennewinstance)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)

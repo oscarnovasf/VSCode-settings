@@ -4,7 +4,7 @@
 ## [v0.8.11] - 2025-06-17
 > Revisión
 ### Cambios
-  - Se ha cambiado la extensión UNotes por Notes ya que la primera ha dejado de
+  - Se ha eliminado la extensión UNotes ya que ha dejado de
     estar disponible además de no funcionar muy bien.
 
 ---
