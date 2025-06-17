@@ -522,6 +522,10 @@
   /* GitHub Copilot */
   "github.copilot.chat.terminalChatLocation": "quickChat",
 
+  /* Notes */
+  "notes.notesExtensions": "md,txt",
+  "notes.notesLocation": "${workspaceFolder}/docs/notes",
+
   /* phpcbf */
   "phpcbf.enable": true,
   "phpcbf.documentFormattingProvider": true,
@@ -648,9 +652,6 @@
     "type": "line"
   },
   "todo-tree.regex.regex": "((//|#|;)[ ]*($TAGS)[^\\n]*)|(/\\*(\\*?\\s*)*($TAGS)(.|\\n|\\r)*?\\*/)|(<!--\\s*($TAGS)(.|\\n|\\r)*?-->)",
-
-  /* UNotes */
-  "unotes.rootPath": "${workspaceFolder}/docs/notes",
 
   /* ***************************************************************************
    * 5.- CONFIGURACIÓN ESPECÍFICA PARA ALGUNOS LENGUAJES:

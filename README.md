@@ -44,6 +44,7 @@ Archivos de configuración para VSCode
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  * [Notes](https://marketplace.visualstudio.com/items?itemName=dionmunk.vscode-notes)
   * [Open Folder Context Menus for VS Code](https://marketplace.visualstudio.com/items?itemName=chrisdias.vscode-opennewinstance)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
   * [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
@@ -70,7 +71,6 @@ Archivos de configuración para VSCode
   * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * [Twig braces helper](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
   * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
-  * [UNOTES - Markdown Notes WYSIWYG](https://marketplace.visualstudio.com/items?itemName=ryanmcalister.Unotes)
   * [VsCode Editor Macros](https://marketplace.visualstudio.com/items?itemName=jpsnee.vscode-editor-macros)
 
   También se incluyen estas extensiones opcionales:
@@ -148,8 +148,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.10
-[version-badge]: https://img.shields.io/badge/Versión-0.8.10-blue.svg
+[version]: v0.8.11
+[version-badge]: https://img.shields.io/badge/Versión-0.8.11-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

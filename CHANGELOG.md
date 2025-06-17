@@ -1,6 +1,13 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.11] - 2025-06-17
+> Revisión
+### Cambios
+  - Se ha cambiado la extensión UNotes por Notes ya que la primera ha dejado de
+    estar disponible además de no funcionar muy bien.
+
+---
 ## [v0.8.10] - 2025-06-13
 > Revisión
 ### Cambios
