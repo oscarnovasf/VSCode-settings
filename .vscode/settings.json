@@ -160,6 +160,7 @@
 
   /* Telemetría */
   "telemetry.telemetryLevel": "off",
+  "docker.lsp.telemetry": "off",
 
   /* Ventanas de VSCode */
   "window.dialogStyle": "custom",
@@ -237,12 +238,14 @@
   },
   "editor.colorDecorators": false,
   "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.detectIndentation": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.guides.bracketPairs": true,
   "editor.insertSpaces": true,
+  "editor.fontLigatures": true,
   "editor.linkedEditing": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [80],
@@ -358,17 +361,20 @@
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
 
-  "window.commandCenter": true,
+  "window.commandCenter": false,
 
   "workbench.colorTheme": "Copilot Theme",
   "workbench.editorLargeFileConfirmation": 1024,
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
   "workbench.localHistory.maxFileEntries": 25,
   "workbench.panel.showLabels": false,
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.settings.editor": "json",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
@@ -425,6 +431,11 @@
       "codicon": "git-merge",
       "tooltip": "Git Graph"
     },
+    {
+      "name": "command.envMasker.toggleMasking",
+      "codicon": "symbol-variable",
+      "tooltip": "Mostrar/Ocultar variables de entorno"
+    },
 
     {
       "codicon": "kebab-vertical"
@@ -471,6 +482,7 @@
   /* Code Spell Checker => El resto de configuraciones => cspell.json */
   "cSpell.enabled": true,
   "cSpell.enabledFileTypes": {
+    "env": false,
     "json": false,
     "jsonc": false,
   },
@@ -513,6 +525,17 @@
   "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
   "emptyIndent.highlightIndent": false,
   "emptyIndent.removeIndent": true,
+
+  /* Env mask */
+  "env-mask.eb_autoHideDelay": 1000,
+  "env-mask.eb_enabledFilePatterns": [
+    ".env",
+    ".env.local",
+    ".env.development",
+    ".env.production",
+    ".env.test",
+    "env.properties"
+  ],
 
   /* GitFlow Actions Sidebar */
   "gitflow-actions.default.production": "main",
@@ -713,11 +736,6 @@
 
   "chat.promptFiles": true,
 
-  "github.copilot.chat.codeGeneration.instructions": [
-    {
-      "file": ".vscode/copilot-instructions.md"
-    }
-  ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
       "file": ".vscode/copilot-commit-instructions.md"

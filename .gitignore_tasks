@@ -2,10 +2,13 @@
 /.idea/
 /.vscode/**
 !/.vscode/tasks.json
+!/.vscode/copilot-instructions.md
+!/.vscode/copilot-commit-instructions.md
 .editorconfig
 *.un~
 
 # Logs.
+/logs/
 /web/error_log
 /error_log
 *.log
@@ -16,6 +19,9 @@
 [Tt]humbs.db
 ._*
 
+# Backups y archivos temporales.
+/backups/
+
 # Archivos de desarrollo.
 /bower_components/
 /node_modules/
@@ -23,10 +29,6 @@
 
 # Archivos de PHPUnit.
 /docs/simpletest/
-
-# Archivos de envío al cliente.
-*_pass.txt
-*.zip
 
 # Paquetes
 *.7z
@@ -38,6 +40,7 @@
 *.rar
 *.tar
 *.tgz
+*.zip
 
 # Varios.
 .wakatime-project
@@ -53,6 +56,7 @@ phpminiadmin.php
 
 # Variables de entorno para el proyecto actual.
 .env
+env
 env.properties
 
 # Archivos generados por Composer.

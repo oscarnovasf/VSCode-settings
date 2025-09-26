@@ -1,6 +1,22 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.12] - 2025-09-27
+> Revisión
+### Añadidos
+  - Extensión Fluent Icons
+  - Extensión Env mask y configuración en "Activitus Bar"
+  - Extensión Markdown Footnotes
+  - Extensión Markdown Execute
+  - Extensión Ansible Vault (No Python)
+
+### Cambios
+  - No usar CSpell en archivos de variables de entorno.
+  - Ajustes visuales.
+  - Permito en .gitignore las configuraciones de copilot.
+  - Ampliación y cambio profundo en `copilot-instructions.md`.
+
+---
 ## [v0.8.11] - 2025-06-17
 > Revisión
 ### Cambios
