@@ -88,8 +88,6 @@ Archivos de configuración para VSCode
   * [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
   * [Jenkins Doc](https://marketplace.visualstudio.com/items?itemName=Maarti.jenkins-doc)
-  * [Lando UI](https://marketplace.visualstudio.com/items?itemName=jixabon.lando-ui)
-  * [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
   * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   * [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
   * [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
@@ -152,8 +150,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.12
-[version-badge]: https://img.shields.io/badge/Versión-0.8.12-blue.svg
+[version]: v0.8.13
+[version-badge]: https://img.shields.io/badge/Versión-0.8.13-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

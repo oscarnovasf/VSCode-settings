@@ -56,7 +56,6 @@
 
         /* PHP */
         "php.validate.executablePath": "/opt/homebrew/bin/php",
-        "phpserver.phpPath": "/opt/homebrew/bin/php",
 
         /* PHP Mess Detector */
         "phpmd.command": "/opt/homebrew/bin/phpmd",
@@ -75,7 +74,6 @@
       "nodes": {
         /* PHP */
         "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-        "phpserver.phpPath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
 
         /* PHP Mess Detector */
         "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
@@ -560,13 +558,14 @@
   "php-docblocker.returnVoid" : false,
   "php-docblocker.useShortNames": true,
 
+  /* PHP Intelephense */
+  "intelephense.diagnostics.undefinedVariables": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+
   /* PHP Mess Detector */
   "phpmd.enabled": true,
   "phpmd.rules": "${workspaceFolder}/phpmd.xml",
   "phpmd.verbose": false,
-
-  /* PHP Server */
-  "phpserver.port": 8888,
 
   /* Platform-Settings */
   "platformSettings.autoLoad": true,
@@ -715,7 +714,8 @@
   },
 
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.tabSize": 4,
   },
 
   "[shellscript]": {

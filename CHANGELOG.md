@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.13] - 2025-11-11
+> Revisión
+### Añadidos
+  - Ajustes para Intelephense: quitar error de variables con parámetros de
+    clase.
+
+### Eliminados
+  - Configuración para PHPServer.
+  - Extensión opcional "Lando UI".
+
+---
 ## [v0.8.12] - 2025-09-27
 > Revisión
 ### Añadidos
