@@ -206,10 +206,10 @@
     "prefix": "form_link",
     "body": [
       "$$form['${1:element_name}'] = [",
-      "\t'#type' => 'link,",
+      "\t'#type' => 'link',",
       "\t'#title' => $$this->t('${2:title}'),",
       "\t'#url' => Url::fromRoute('${3:route_name}'),",
-      "\t'#attributes' => '[${4:attributes}],",
+      "\t'#attributes' => [${4:attributes}],",
       "];$0",
     ],
     "description": "Drupal 8|9|10: FormApi Tabs"
@@ -502,7 +502,7 @@
       "\t'#type' => 'view',",
       "\t'#name' => '$$view_name',",
       "\t'#display_id' => '$$display_id',",
-      "\t'#arguments' => [,",
+      "\t'#arguments' => [",
       "\t\t'arg_1' => '${2:arg_1}',",
       "\t\t'arg_2' => '${3:arg_2}',",
       "\t],",

@@ -112,43 +112,49 @@
   "runTerminalCommand.commands": [
     {
       "command": "iniciar-proyecto module",
-      "name": "Generar módulo",
+      "name": "Módulo: Full",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto module_rest_api",
-      "name": "Generar módulo (API)",
+      "name": "Módulo: API Rest",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto module_bas",
-      "name": "Generar módulo (Básico)",
+      "name": "Módulo: Básico",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto module_import",
-      "name": "Generar módulo (Importador)",
+      "name": "Módulo: Importador",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto drupal",
-      "name": "Generar proyecto (Drupal)",
+      "name": "Composer: Drupal",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto script",
-      "name": "Generar proyecto (Script)",
+      "name": "Script",
       "auto": true,
       "group": "Iniciar proyecto"
     },
     {
       "command": "iniciar-proyecto current",
-      "name": "Generar proyecto (Código Actual)",
+      "name": "Código Actual",
+      "auto": true,
+      "group": "Iniciar proyecto"
+    },
+    {
+      "command": "iniciar-proyecto lando",
+      "name": "Lando",
       "auto": true,
       "group": "Iniciar proyecto"
     }
@@ -327,6 +333,8 @@
   "html.completion.attributeDefaultValue": "doublequotes",
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
+
+  "inlineChat.enableV2": true,
 
   "json.maxItemsComputed": 50000,
   "json.schemas": [

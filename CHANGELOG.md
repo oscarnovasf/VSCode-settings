@@ -1,6 +1,21 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.14] - 2026-01-23
+> Revisión
+### Añadidos
+  - Nuevos ajustes para la versión 1.106.0
+  - Extensión "Markdown GitHub Alerts"
+
+### Cambios
+  - Nombre de los comandos a ejecutar en terminal y nuevos comandos
+    (extensión "Run Terminal Command")
+
+### Corrección de errores
+  - Snippet de formulario base tenía mal la inyección de dependencias.
+  - Algunos snippets estaban mal formados.
+
+---
 ## [v0.8.13] - 2025-11-11
 > Revisión
 ### Añadidos

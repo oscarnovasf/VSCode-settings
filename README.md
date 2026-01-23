@@ -48,6 +48,7 @@ Archivos de configuración para VSCode
   * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   * [Markdown Execute](https://marketplace.visualstudio.com/items?itemName=hanskre.markdown-execute)
   * [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes)
+  * [Markdown GitHub Alerts](https://marketplace.visualstudio.com/items?itemName=saeris.markdown-github-alerts)
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   * [Open Folder Context Menus for VS Code](https://marketplace.visualstudio.com/items?itemName=chrisdias.vscode-opennewinstance)
   * [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
@@ -150,8 +151,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.13
-[version-badge]: https://img.shields.io/badge/Versión-0.8.13-blue.svg
+[version]: v0.8.14
+[version-badge]: https://img.shields.io/badge/Versión-0.8.14-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"
