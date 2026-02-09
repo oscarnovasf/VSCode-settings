@@ -28,7 +28,7 @@
 .sass-cache
 
 # Archivos de PHPUnit.
-/docs/simpletest/
+**/simpletest/
 
 # Paquetes
 *.7z
@@ -48,7 +48,6 @@
 
 # PHPMiniAdmin
 phpminiadmin.php
-/web/phpminiadmin.php
 
 ################################################################################
 # Configuración para proyectos Drupal con Composer.
@@ -76,7 +75,6 @@ env.properties
 
 # Directorio de Archivos de Drupal.
 /web/sites/*/files/
-/web/sites/simpletest
 /private_files/
 
 # Archivos de texto.

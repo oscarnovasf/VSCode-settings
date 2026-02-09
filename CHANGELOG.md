@@ -1,6 +1,16 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.8.15] - 2026-02-
+> Revisión
+### Añadidos
+  - Configuración para DDEV.
+  - Extensión opcional "DDEV Manager"
+
+### Eliminados
+  - Configuración para Lando.
+
+---
 ## [v0.8.14] - 2026-01-23
 > Revisión
 ### Añadidos

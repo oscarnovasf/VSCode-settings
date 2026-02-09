@@ -82,6 +82,7 @@ Archivos de configuración para VSCode
   * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
   * [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme)
   * [Container Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
+  * [DDEV Manager](https://marketplace.visualstudio.com/items?itemName=biati.ddev-manager)
   * [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
   * [Fix Json](https://marketplace.visualstudio.com/items?itemName=oliversturm.fix-json)
@@ -151,8 +152,8 @@ momento.
 
 [mi-web]: https://oscarnovas.com "for developers"
 
-[version]: v0.8.14
-[version-badge]: https://img.shields.io/badge/Versión-0.8.14-blue.svg
+[version]: v0.8.15
+[version-badge]: https://img.shields.io/badge/Versión-0.8.15-blue.svg
 
 [license]: LICENSE.md
 [license-badge]: https://img.shields.io/badge/Licencia-GPLv3+-green.svg "Leer la licencia"

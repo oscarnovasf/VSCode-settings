@@ -354,6 +354,42 @@
       "icon": { "id": "files", "color": "terminal.ansiBlue"}
     },
 
+    /* *************************************************************************
+     * TAREAS PARA DDEV.
+     **************************************************************************/
+
+    {
+      "label": "- DDEV: Xdebug ON",
+      "type": "shell",
+      "command": "ddev xdebug on",
+      "presentation": {
+        "reveal": "silent",
+        "close": true
+      }
+    },
+    {
+      "label": "- DDEV: Xdebug OFF",
+      "type": "shell",
+      "command": "ddev xdebug off",
+      "presentation": {
+        "reveal": "silent",
+        "close": true
+      }
+    },
+    {
+      "label": "- DDEV: Instalar oscarnovasf/ddev-commands",
+      "type": "shell",
+      "command": "ddev add-on get oscarnovasf/ddev-commands",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "ddev",
+        "close": true,
+        "clear": true
+      },
+      "icon": { "id": "plug", "color": "terminal.ansiBlue"}
+    },
+
   ],
 
   /* ***************************************************************************

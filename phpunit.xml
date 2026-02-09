@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.6/phpunit.xsd"
+         bootstrap="./web/core/tests/bootstrap.php"
+         colors="true"
+         executionOrder="depends,defects"
+         cacheResult="false"
+         failOnRisky="true"
+         failOnWarning="true"
+         verbose="false"
+         printerClass="\Drupal\Tests\Listeners\HtmlOutputPrinter">
+  <php>
+    <ini name="error_reporting" value="32767"/>
+    <ini name="memory_limit" value="-1"/>
+
+    <!-- PHPUnit: Descomentar y asignar valores si no se usan variables de entorno -->
+    <!--
+    <env name="SIMPLETEST_BASE_URL" value=""/>
+    <env name="SIMPLETEST_DB" value=""/>
+    -->
+
+    <env name="BROWSERTEST_OUTPUT_DIRECTORY" value=""/>
+    <env name="BROWSERTEST_OUTPUT_BASE_URL" value=""/>
+
+    <env name="MINK_DRIVER_CLASS" value=''/>
+    <env name="MINK_DRIVER_ARGS" value=''/>
+    <env name="MINK_DRIVER_ARGS_WEBDRIVER" value=''/>
+
+  </php>
+
+  <testsuites>
+
+    <testsuite name="unit">
+      <directory>./web/modules/custom/**/tests/src/Unit</directory>
+    </testsuite>
+
+    <testsuite name="kernel">
+      <directory>./web/modules/custom/**/tests/src/Kernel</directory>
+    </testsuite>
+
+    <testsuite name="functional">
+      <directory>./web/modules/custom/**/tests/src/Functional</directory>
+    </testsuite>
+
+  </testsuites>
+
+  <!-- Settings for coverage reports. -->
+  <coverage includeUncoveredFiles="true"
+            processUncoveredFiles="true"
+            pathCoverage="false"
+            ignoreDeprecatedCodeUnits="true"
+            disableCodeCoverageIgnore="false">
+    <include>
+      <directory>./includes</directory>
+      <directory>./lib</directory>
+      <directory>./modules</directory>
+      <directory>../modules</directory>
+      <directory>../sites</directory>
+    </include>
+
+    <exclude>
+      <directory>./modules/*/src/Tests</directory>
+      <directory>./modules/*/tests</directory>
+      <directory>../modules/*/src/Tests</directory>
+      <directory>../modules/*/tests</directory>
+      <directory>../modules/*/*/src/Tests</directory>
+      <directory>../modules/*/*/tests</directory>
+      <directory suffix=".api.php">./lib/**</directory>
+      <directory suffix=".api.php">./modules/**</directory>
+      <directory suffix=".api.php">../modules/**</directory>
+    </exclude>
+
+    <report>
+      <html outputDirectory="docs/coverage-report" />
+    </report>
+  </coverage>
+</phpunit>

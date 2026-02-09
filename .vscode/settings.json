@@ -151,12 +151,6 @@
       "name": "Código Actual",
       "auto": true,
       "group": "Iniciar proyecto"
-    },
-    {
-      "command": "iniciar-proyecto lando",
-      "name": "Lando",
-      "auto": true,
-      "group": "Iniciar proyecto"
     }
   ],
 
@@ -203,16 +197,16 @@
   "npm.packageManager": "npm",
 
   /* PHPUnit Test Explorer */
-  "phpunit.command": "lando ssh -c",
+  "phpunit.command": "ddev exec",
   "phpunit.clearOutputOnRun": true,
   "phpunit.php": "php",
-  "phpunit.phpunit": "/app/vendor/bin/phpunit",
+  "phpunit.phpunit": "/var/www/html/vendor/bin/phpunit",
   "phpunit.args": [
     "-c",
     "phpunit.xml"
   ],
   "phpunit.paths": {
-    "${workspaceFolder}": "/app"
+    "${workspaceFolder}": "/var/www/html"
   },
 
   /* px to rem & rpx & vw (cssrem) */
@@ -363,6 +357,7 @@
   },
 
   "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": true,
@@ -741,8 +736,6 @@
   /* ***************************************************************************
    * 6.- CONFIGURACIÓN EXPERIMENTAL:
    * **************************************************************************/
-
-  "chat.promptFiles": true,
 
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {

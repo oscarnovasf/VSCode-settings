@@ -15,6 +15,7 @@ body: explicación adicional en español (opcional)
 - chore: para tareas de mantenimiento.
 
 ## Reglas:
+- Identifica el prefijo a usar, utilizando el más apropiado.
 - El prefijo (<tipo>) debe estar en inglés.
 - El resto del mensaje debe estar en español.
 - Usa minúsculas en el tipo y la descripción.
@@ -22,24 +23,43 @@ body: explicación adicional en español (opcional)
 - Sé claro y conciso.
 - El encabezado completo (tipo, alcance y descripción) no debe superar los 72 caracteres.
 - El body es opcional, pero si se incluye debe ir separado del encabezado por una línea en blanco.
-- El body puede ocupar varias líneas, cada línea no debe superar los 72 caracteres.
+- El body puede ocupar varias líneas.
 - El body debe explicar el motivo del cambio o detalles relevantes, en español.
 - En el body usa listas para explicar los cambios al estilo de esta propia lista.
-- No repitas la información del encabezado en el body.
+- No repitas la información del encabezado en el body; si el encabezado es claro no es necesario un body.
 
 ## Ejemplos:
+
+Este mensaje no sería válido, repite conceptos en el encabezado y el body;
+el body no aporta ningún valor real y no está usando listas:
+
+```
 feat: añade soporte para múltiples idiomas
 
 Se ha implementado la detección automática del idioma del usuario.
 Esto permite personalizar la experiencia según la preferencia regional.
+```
 
----
+Sería más apropiado:
+
+```
+feat: añade soporte para múltiples idiomas
+```
+
+Este mensaje sería válido:
+
+```
 fix: corrige error en la validación del formulario
 
 - El campo email ahora valida correctamente los dominios con tildes.
 - El campo nombre ahora valida que empiece por mayúscula.
+```
 
---
+Este mensaje también sería válido:
+
+```
 docs: actualiza la documentación de instalación
 
 - Añadidos pasos para la configuración en entornos Docker.
+- Ajustes en README.md para documentar el proceso de instalación.
+```

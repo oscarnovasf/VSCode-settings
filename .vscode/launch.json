@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "XDebug [LANDO]",
+      "name": "XDebug [DDEV]",
       "type": "php",
       "request": "launch",
       "port": 9003,
@@ -15,8 +15,10 @@
         "show_hidden": 1
       },
       "pathMappings": {
-        "/app/": "${workspaceFolder}/",
-      }
+        "/var/www/html": "${workspaceFolder}/",
+      },
+      "preLaunchTask": "- DDEV: Xdebug ON",
+      "postDebugTask": "- DDEV: Xdebug OFF"
     },
     {
       "name": "PhpUnit dummy",
@@ -28,7 +30,7 @@
   "compounds": [
     {
         "name": "PhpUnit",
-        "configurations": ["XDebug [LANDO]", "PhpUnit dummy"]
+        "configurations": ["XDebug [DDEV]", "PhpUnit dummy"]
     }
   ]
 }
