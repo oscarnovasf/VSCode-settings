@@ -7,6 +7,10 @@
 .editorconfig
 *.un~
 
+# Archivos de diferentes IAs
+.claude/
+CLAUDE.*.md
+
 # Logs.
 /logs/
 /web/error_log
@@ -23,11 +27,11 @@
 /backups/
 
 # Archivos de desarrollo.
-/bower_components/
-/node_modules/
-.sass-cache
+bower_components/
+node_modules/
+.sass-cache/
 
-# Archivos de PHPUnit.
+# Generados por sistemas de pruebas.
 **/simpletest/
 
 # Paquetes
@@ -71,6 +75,7 @@ env.properties
 /web/themes/contrib/
 /web/themes/custom/*/node_modules
 /web/profiles/contrib/
+/web/recipes/contrib/
 /web/libraries/
 
 # Directorio de Archivos de Drupal.

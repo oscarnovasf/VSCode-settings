@@ -37,70 +37,22 @@
    * 1.- CONFIGURACIÓN DE USUARIO:
    * **************************************************************************/
 
-  /* Gracias a platform-settings diferenciamos configuraciones según SO */
-  "platformSettings.platforms": {
-
-    /* MACOS */
-    "darwin": {
-      "nodes": {
-        /* Code Runner */
-        "code-runner.executorMap":{
-          "javascript": "node",
-          "php": "/opt/homebrew/bin/php",
-          "shellscript": "bash",
-          "sass": "sass --style expanded",
-          "scss": "scss --style expanded",
-          "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-          "html": "/Applications/Google Chrome.app"
-        },
-
-        /* PHP */
-        "php.validate.executablePath": "/opt/homebrew/bin/php",
-
-        /* PHP Mess Detector */
-        "phpmd.command": "/opt/homebrew/bin/phpmd",
-
-        /* ShellCheck */
-        "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
-
-        /* Sólo si se tiene instalado oh-my-zsh */
-        "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
-        "terminal.integrated.fontSize": 13
-      }
-    },
-
-    /* WINDOWS */
-    "win32": {
-      "nodes": {
-        /* PHP */
-        "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.14-nts-Win32-vc15-x64\\php.exe",
-
-        /* PHP Mess Detector */
-        "phpmd.command": "%appdata%\\Composer\\vendor\\bin\\phpmd.bat",
-
-        /* Modificaciones en el terminal */
-        "terminal.external.windowsExec": "${env:programfiles}\\Git\\bin\\bash.exe",
-        "terminal.integrated.automationProfile.windows": {
-          "path": "${env:programfiles}\\Git\\bin\\bash.exe"
-        },
-        "terminal.integrated.defaultProfile.windows": "GitBash",
-        "terminal.integrated.profiles.windows": {
-          "Commander (Laragon)": {
-            "path": "C:\\laragon\\bin\\cmder\\Cmder.bat",
-            "args": ["${workspaceFolder}"]
-          },
-          "GitBash": {
-            "path": "${env:programfiles}\\Git\\bin\\bash.exe",
-            "args": ["-l"]
-          },
-          "CMD": {
-            "path": "${env:windir}\\system32\\cmd.exe",
-            "args": ["${workspaceFolder}"]
-          }
-        }
-      }
-    }
+  /* Code Runner */
+  "code-runner.executorMap":{
+    "javascript": "node",
+    "php": "/opt/homebrew/bin/php",
+    "shellscript": "bash",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "html": "/Applications/Google Chrome.app"
   },
+
+  /* PHP */
+  "php.validate.executablePath": "/opt/homebrew/bin/php",
+
+  /* PHP Code Sniffer */
+  "phpcs.executablePath": "~/.composer/vendor/bin/phpcs",
 
   /* PHPUnit Test Explorer */
   "phpunit.showAfterExecution": "always",
@@ -156,14 +108,21 @@
 
   "security.workspace.trust.untrustedFiles": "open",
 
+  /* ShellCheck */
+  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
+
+  /* Sólo si se tiene instalado oh-my-zsh */
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "terminal.integrated.fontSize": 13,
+
   /* Telemetría */
   "telemetry.telemetryLevel": "off",
-  "docker.lsp.telemetry": "off",
 
   /* Ventanas de VSCode */
   "window.dialogStyle": "custom",
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
+  "window.titleBarStyle": "custom",
 
   /* ***************************************************************************
    * 2.- CONFIGURACIÓN DEL PROYECTO:
@@ -221,7 +180,7 @@
   "breadcrumbs.enabled": true,
 
   "chat.agent.enabled": true,
-  "chat.commandCenter.enabled": false,
+  "chat.viewSessions.orientation": "stacked",
 
   "css.validate": true,
 
@@ -258,6 +217,7 @@
     "twig": "html"
   },
 
+  "explorer.confirmPasteNative": false,
   "explorer.compactFolders": false,
   "explorer.openEditors.visible": 1,
   "explorer.confirmDragAndDrop": false,
@@ -320,15 +280,12 @@
   "git.enableSmartCommit": true,
   "git.ignoreRebaseWarning": true,
   "git.mergeEditor": true,
-  "git.postCommitCommand": "push",
   "git.showPushSuccessNotification": false,
   "git.useCommitInputAsStashMessage": true,
 
   "html.completion.attributeDefaultValue": "doublequotes",
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
-
-  "inlineChat.enableV2": true,
 
   "json.maxItemsComputed": 50000,
   "json.schemas": [
@@ -375,7 +332,6 @@
   "workbench.layoutControl.enabled": false,
   "workbench.localHistory.maxFileEntries": 25,
   "workbench.panel.showLabels": false,
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.settings.editor": "json",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
@@ -417,11 +373,6 @@
 
     /* Zona Extensiones instaladas */
     {
-      "name": "command.workbench.view.extension.bookmarks",
-      "codicon": "bookmark",
-      "tooltip": "Bookmarks"
-    },
-    {
       "name": "command.workbench.view.extension.todo-tree-container",
       "codicon": "checklist",
       "tooltip": "TODOs"
@@ -450,7 +401,7 @@
     },
     {
       "name": "command.workbench.action.terminal.toggleTerminal",
-      "codicon": "issue-reopened",
+      "codicon": "debug-console",
       "tooltip": "Abrir Terminal"
     },
 
@@ -473,8 +424,11 @@
   "autoHide.panelDelay": 0,
   "autoHide.sideBarDelay": 10,
 
-  /* Bookmarks */
-  "bookmarks.saveBookmarksInProject": true,
+  /* Claude Code */
+  "claudeCode.initialPermissionMode": "bypassPermissions",
+  "claudeCode.preferredLocation": "sidebar",
+  "claudeCode.selectedModel": "sonnet",
+  "claudeCode.useTerminal": true,
 
   /* Code Runner */
   "code-runner.clearPreviousOutput": true,
@@ -493,31 +447,17 @@
   "color-highlight.markerType": "background",
   "color-highlight.markRuler": false,
 
+  /* DDEV Manager */
+  "ddevManager.showProjectsList": "Current Workspace",
+
+  /* DDEV PHPMD */
+  "ddev-phpmd.configPath": "phpmd.xml",
+
   /* DeepL */
   "deepl.formality": "default",
   "deepl.tagHandling": "off",
   "deepl.splitSentences": "1",
   "deepl.translationMode": "Replace",
-
-  /* Draw.io */
-  "hediet.vscode-drawio.theme": "kennedy",
-
-  /* Editor Macros */
-  "editormacros": {
-    /* Keybindings.json (Windows) => ctrl+shift+d */
-    /* Keybindings.json (MAC) => ctrl+shift+d */
-    "commentDown": {
-      "type": "command",
-      "args": {
-          "commands": [
-            "editor.action.copyLinesDownAction",
-            "cursorUp",
-            "editor.action.addCommentLine",
-            "cursorDown"
-          ]
-      }
-    }
-  },
 
   /* Empty Indent */
   "emptyIndent.exclude": [
@@ -546,12 +486,6 @@
   /* GitHub Copilot */
   "github.copilot.chat.terminalChatLocation": "quickChat",
 
-  /* phpcbf */
-  "phpcbf.enable": true,
-  "phpcbf.documentFormattingProvider": true,
-  "phpcbf.onsave": false,
-  "phpcbf.standard": "${workspaceFolder}/phpcs.xml",
-
   /* PHP Code Sniffer */
   "phpcs.enable": true,
   "phpcs.standard": "Drupal,DrupalPractice",
@@ -565,13 +499,8 @@
   "intelephense.diagnostics.undefinedVariables": false,
   "intelephense.diagnostics.undefinedMethods": false,
 
-  /* PHP Mess Detector */
-  "phpmd.enabled": true,
-  "phpmd.rules": "${workspaceFolder}/phpmd.xml",
-  "phpmd.verbose": false,
-
-  /* Platform-Settings */
-  "platformSettings.autoLoad": true,
+  /* PHP Namespace Resolver */
+  "phpNamespaceResolver.sortOnSave": true,
 
   /* Project Manager */
   "projectManager.groupList": true,
@@ -686,11 +615,23 @@
     "files.insertFinalNewline": false
   },
 
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+  },
+
   "[env]": {
     "files.insertFinalNewline": false
   },
 
   "[json]": {
+    "editor.defaultFormatter": "oliversturm.fix-json",
     "editor.quickSuggestions": {
       "strings": true
     },
@@ -721,6 +662,10 @@
     "editor.tabSize": 4,
   },
 
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+
   "[shellscript]": {
     "files.insertFinalNewline": false
   },
@@ -736,6 +681,9 @@
   /* ***************************************************************************
    * 6.- CONFIGURACIÓN EXPERIMENTAL:
    * **************************************************************************/
+
+  "chat.mcp.autostart": "newAndOutdated",
+  "inlineChat.enableV2": true,
 
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {

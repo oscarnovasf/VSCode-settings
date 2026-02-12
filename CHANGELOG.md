@@ -1,7 +1,43 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
-## [v0.8.15] - 2026-02-
+## [v0.9.0] - 2026-02-12
+> Revisión mayor
+### Añadidos
+  - Extensión "Markdown Checkboxes"
+  - Configuración para Claude Code
+  - Configuración para DDEV PHPMD
+  - Configuración específica para archivos Docker Compose
+  - Configuración de formateo por defecto para JSON y SCSS
+  - Exclusiones en sftp.json para archivos de Claude Code
+
+### Cambios
+  - Eliminada la extensión "platform-settings" y su configuración completa.
+    Las configuraciones ahora están directamente en el nivel principal (solo
+    macOS)
+  - Icono del terminal en Activitus Bar cambiado a "debug-console"
+  - Configuración `inlineChat.enableV2` movida a la sección experimental
+  - Simplificación del archivo sftp.json
+
+### Eliminados
+  - Extensión "Auto Rename Tag"
+  - Extensión "BookMarks" y su configuración
+  - Extensión "Bootstrap 4 snippets"
+  - Extensión "Editor Macros" y su configuración
+  - Extensión "Fluent Icons"
+  - Extensión "Open Folder Context Menus"
+  - Extensión "PHP Mess Detector" y su configuración
+  - Extensión "PHPStan"
+  - Extensión "phpcbf" y su configuración
+  - Extensión "platform-settings" y toda su configuración
+  - Extensión "Remote - SSH"
+  - Extensiones opcionales: Apache Conf, Draw.io Integration, Edit CSV,
+    GitHub Pull Requests and Issues, GitLab Workflow, Jenkins Doc,
+    Remote - Containers
+  - Exclusión de `.gitkeep` en sftp.json
+
+---
+## [v0.8.15] - 2026-02-09
 > Revisión
 ### Añadidos
   - Configuración para DDEV.
