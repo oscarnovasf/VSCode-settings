@@ -343,7 +343,8 @@
       },
       "isBackground": true,
       "presentation": {
-        "reveal": "never",
+        "reveal": "silent",
+        "close": true
       },
       "dependsOn": [
         "hidden: Actualizar grumphp.yml",
