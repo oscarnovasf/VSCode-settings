@@ -17,8 +17,8 @@
       "pathMappings": {
         "/var/www/html": "${workspaceFolder}/",
       },
-      "preLaunchTask": "- DDEV: Xdebug ON",
-      "postDebugTask": "- DDEV: Xdebug OFF"
+      "preLaunchTask": "hidden: ddev xdebug on",
+      "postDebugTask": "hidden: ddev xdebug off"
     },
     {
       "name": "PhpUnit dummy",

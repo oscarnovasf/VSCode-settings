@@ -52,7 +52,7 @@
   "php.validate.executablePath": "/opt/homebrew/bin/php",
 
   /* PHP Code Sniffer */
-  "phpcs.executablePath": "~/.composer/vendor/bin/phpcs",
+  // "phpcs.executablePath": "${env:HOME}/.composer/vendor/bin/phpcs",
 
   /* PHPUnit Test Explorer */
   "phpunit.showAfterExecution": "always",
@@ -157,7 +157,6 @@
 
   /* PHPUnit Test Explorer */
   "phpunit.command": "ddev exec",
-  "phpunit.clearOutputOnRun": true,
   "phpunit.php": "php",
   "phpunit.phpunit": "/var/www/html/vendor/bin/phpunit",
   "phpunit.args": [
@@ -425,9 +424,9 @@
   "autoHide.sideBarDelay": 10,
 
   /* Claude Code */
-  "claudeCode.initialPermissionMode": "bypassPermissions",
+  "claudeCode.initialPermissionMode": "plan",
   "claudeCode.preferredLocation": "sidebar",
-  "claudeCode.selectedModel": "sonnet",
+  "claudeCode.useCtrlEnterToSend": true,
   "claudeCode.useTerminal": true,
 
   /* Code Runner */
@@ -682,8 +681,17 @@
    * 6.- CONFIGURACIÓN EXPERIMENTAL:
    * **************************************************************************/
 
+  "chat.agent.thinking.phrases": {
+    "mode": "replace",
+    "phrases": [
+      "Borrando todo el código...",
+      "Transfiriendo saldo bancario...",
+      "Bloqueando acceso al disco duro..."
+    ]
+  },
   "chat.mcp.autostart": "newAndOutdated",
   "inlineChat.enableV2": true,
+  "inlineChat.renderMode": "hover",
 
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {

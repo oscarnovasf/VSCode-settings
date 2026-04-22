@@ -1,6 +1,17 @@
 # Histórico de cambios
 >Todos los cambios notables de este proyecto se documentarán en este archivo.
 
+## [v0.9.1] - 2026-04-22
+> Revisión
+### Añadidos
+  - Exclusiones en .gitignore de varios archivos.
+  - Ajustes en configuraciones.
+  - Watcher en `sftp.json` para subida y borrado automático.
+
+### Cambios
+  - Pequeñas modificaciones en tasks.json.
+
+---
 ## [v0.9.0] - 2026-02-12
 > Revisión mayor
 ### Añadidos

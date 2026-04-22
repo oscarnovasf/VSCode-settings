@@ -1,15 +1,13 @@
 # Archivos de diferentes IDEs.
 /.idea/
 /.vscode/**
-!/.vscode/tasks.json
-!/.vscode/copilot-instructions.md
-!/.vscode/copilot-commit-instructions.md
 .editorconfig
 *.un~
 
 # Archivos de diferentes IAs
 .claude/
 CLAUDE.*.md
+AGENTS.md
 
 # Logs.
 /logs/
@@ -33,6 +31,10 @@ node_modules/
 
 # Generados por sistemas de pruebas.
 **/simpletest/
+.playwright-cli/
+.playwright-mcp/
+/tests/playwright/_report/
+/tests/playwright/_results/
 
 # Paquetes
 *.7z

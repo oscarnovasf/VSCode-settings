@@ -11,7 +11,7 @@
     {
       "label": "hidden: Actualizar snippets (Clases)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_clases.code-snippets -o .vscode/drupal_clases.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_clases.code-snippets -o .vscode/drupal_clases.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -25,7 +25,7 @@
     {
       "label": "hidden: Actualizar snippets (Formularios)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_form.code-snippets -o .vscode/drupal_form.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_form.code-snippets -o .vscode/drupal_form.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -39,7 +39,7 @@
     {
       "label": "hidden: Actualizar snippets (JavaScript)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_js.code-snippets -o .vscode/drupal_js.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_js.code-snippets -o .vscode/drupal_js.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -53,7 +53,7 @@
     {
       "label": "hidden: Actualizar snippets (Routing)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_routing.code-snippets -o .vscode/drupal_routing.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_routing.code-snippets -o .vscode/drupal_routing.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -67,7 +67,7 @@
     {
       "label": "hidden: Actualizar snippets (Uses)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_uses.code-snippets -o .vscode/drupal_uses.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/drupal_uses.code-snippets -o .vscode/drupal_uses.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -81,7 +81,7 @@
     {
       "label": "hidden: Actualizar snippets (Utils)",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/utils.code-snippets -o .vscode/utils.code-snippets",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/utils.code-snippets -o .vscode/utils.code-snippets",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -117,7 +117,7 @@
     {
       "label": "hidden: Actualizar cspell.json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/cspell.json -o .vscode/cspell.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/cspell.json -o .vscode/cspell.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -131,7 +131,7 @@
     {
       "label": "hidden: Actualizar extensions.json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/extensions.json -o .vscode/extensions.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/extensions.json -o .vscode/extensions.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -145,7 +145,7 @@
     {
       "label": "hidden: Actualizar launch.json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/launch.json -o .vscode/launch.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/launch.json -o .vscode/launch.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -159,7 +159,7 @@
     {
       "label": "hidden: Actualizar settings.json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/settings.json -o .vscode/settings.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/settings.json -o .vscode/settings.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -173,7 +173,7 @@
     {
       "label": "Actualizar tasks.json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -188,7 +188,7 @@
     {
       "label": "hidden_actualizar_tasks_json",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/tasks.json -o .vscode/tasks.json",
       "presentation": {
         "reveal": "silent",
         "panel": "dedicated",
@@ -216,7 +216,7 @@
     {
       "label": "hidden: Actualizar copilot-instructions.md",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-instructions.md -o .vscode/copilot-instructions.md",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-instructions.md -o .vscode/copilot-instructions.md",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -230,7 +230,7 @@
     {
       "label": "hidden: Actualizar copilot-commit-instructions.md",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-commit-instructions.md -o .vscode/copilot-commit-instructions.md",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/copilot-commit-instructions.md -o .vscode/copilot-commit-instructions.md",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -264,7 +264,7 @@
     {
       "label": "- Descargar sftp.json ",
       "type": "shell",
-      "command": "curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/sftp.json -o .vscode/sftp.json",
+      "command": "mkdir -p .vscode && curl https://raw.githubusercontent.com/oscarnovasf/VSCode-settings/master/.vscode/sftp.json -o .vscode/sftp.json",
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -360,7 +360,7 @@
      **************************************************************************/
 
     {
-      "label": "- DDEV: Xdebug ON",
+      "label": "hidden: ddev xdebug on",
       "type": "shell",
       "command": "ddev xdebug on",
       "presentation": {
@@ -369,7 +369,7 @@
       }
     },
     {
-      "label": "- DDEV: Xdebug OFF",
+      "label": "hidden: ddev xdebug off",
       "type": "shell",
       "command": "ddev xdebug off",
       "presentation": {

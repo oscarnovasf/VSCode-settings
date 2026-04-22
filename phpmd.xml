@@ -13,33 +13,40 @@
   </description>
 
   <!-- Clean Code Rules -->
-  <rule ref="rulesets/cleancode.xml/MissingImport" />
+  <rule ref="rulesets/cleancode.xml">
+    <exclude name="StaticAccess" />
+    <exclude name="ElseExpression" />
+    <exclude name="BooleanArgumentFlag" />
+  </rule>
 
   <!-- Code Size Rules -->
+  <rule ref="rulesets/codesize.xml">
+    <exclude name="TooManyFields" />
+    <exclude name="TooManyMethods" />
+    <exclude name="TooManyPublicMethods" />
+    <exclude name="ExcessivePublicCount" />
+  </rule>
   <rule ref="rulesets/codesize.xml/CyclomaticComplexity">
     <properties>
       <property name="reportLevel" value="10"/>
     </properties>
   </rule>
-  <rule ref="rulesets/codesize.xml/ExcessiveClassComplexity" />
-  <rule ref="rulesets/codesize.xml/ExcessiveClassLength" />
   <rule ref="rulesets/codesize.xml/ExcessiveMethodLength">
     <properties>
       <property name="minimum" value="150"/>
       <property name="ignore-whitespace" value="true"/>
     </properties>
   </rule>
-  <rule ref="rulesets/codesize.xml/ExcessiveParameterList" />
-  <rule ref="rulesets/codesize.xml/NPathComplexity" />
 
   <!-- Controversial Rules -->
-  <rule ref="rulesets/controversial.xml/Superglobals" />
   <rule ref="rulesets/controversial.xml/CamelCaseClassName" />
 
   <!-- Design Rules -->
-  <rule ref="rulesets/design.xml/EvalExpression" />
-  <rule ref="rulesets/design.xml/ExitExpression" />
-  <rule ref="rulesets/design.xml/GotoStatement" />
+  <rule ref="rulesets/design.xml">
+    <exclude name="CouplingBetweenObjects" />
+    <exclude name="DevelopmentCodeFragment" />
+    <exclude name="NumberOfChildren" />
+  </rule>
 
   <!-- Unused Code Rules -->
   <rule ref="rulesets/unusedcode.xml">
@@ -53,6 +60,8 @@
     <exclude name="LongClassName" />
     <exclude name="ShortMethodName" />
     <exclude name="BooleanGetMethodName" />
+    <exclude name="CamelCaseParameterName" />
+    <exclude name="CamelCaseVariableName" />
   </rule>
 
   <!-- EXCLUSIONES DE FICHEROS Y DIRECTORIOS -->
@@ -61,5 +70,10 @@
   <exclude-pattern>*vendor/*</exclude-pattern>
   <exclude-pattern>*node_modules/*</exclude-pattern>
   <exclude-pattern>*.vscode/*</exclude-pattern>
+  <exclude-pattern>*web/core/*</exclude-pattern>
+  <exclude-pattern>*web/sites/default/files/*</exclude-pattern>
+  <exclude-pattern>*tests/*</exclude-pattern>
+  <exclude-pattern>*Test.php</exclude-pattern>
+  <exclude-pattern>*TestBase.php</exclude-pattern>
 
 </ruleset>
