@@ -10,7 +10,8 @@
   <exclude-pattern>*/.github/*</exclude-pattern>
   <exclude-pattern>*/.gitlab/*</exclude-pattern>
 
-  <exclude-pattern>*/.lando/*</exclude-pattern>
+  <exclude-pattern>*/.agents/*</exclude-pattern>
+  <exclude-pattern>*/.ddev/*</exclude-pattern>
   <exclude-pattern>*/.vscode/*</exclude-pattern>
 
   <exclude-pattern>*/config/*</exclude-pattern>
